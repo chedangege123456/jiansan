@@ -1,0 +1,836 @@
+函数	函数名	描述	参数（红色的参数是必须设置的）
+	读条保护	判断自身是否读条如果读条就直接跳出脚本	
+	是否敌对	判断玩家跟目标是否是敌对关系就直接跳出脚本	
+	bufftimeT	获取目标BUFF剩余时间	参数1（整数型 int  nBuffID）
+	bufftimeR	获取自身BUFF剩余时间	参数1（整数型 int  nBuffID）
+	buffisme_r	获取自身属于自己的BUFF剩余时间	参数1（整数型 int  nBuffID）
+	buffisme_t	获取目标属于自己的BUFF剩余时间	参数1（整数型 int  nBuffID）
+	m读条OK	判断是否完整的读完条（只支持多段读条技能）	
+	自身BUFF剩余时间	同上	同上
+	目标BUFF剩余时间	获取目标BUFF剩余时间	同上
+	技能CD	判断技能CD但是不包含技能的GCD	参数1 (整数型 技能ID  或者 字符串型 技能名称)  
+	技能GCD	判断技能GCD	参数1 (整数型 技能ID  或者 字符串型 技能名称)  
+	技能CD_S	这个会计算GCD ,在GCD会返回0	
+	Skillenergy(nSkillID)	  	参数 1  技能ID
+	获得充能时间(技能ID, 层数 )	计算当前层数充能多久,注意：如果技能层数不等于参数2，返回值是0	参数 1  技能ID
+			参数 2  层数
+	是否面向目标	.	无
+	读条	判断是否读条	
+	武器CJ	判断藏剑的武器	无
+	获得技能UI对象	得到一个技能UI的对象	参数1 (整数型) 技能UIID
+	t心法	获取目标心法ID	无
+	进战	判断是否进战	无
+	心法	获取玩家自身心法ID	无
+	脱战瞬间	脱战的瞬间（目前只有明教需要这函数）	无
+	TTIsMe	目标的目标是否是我	无
+	防止嘲讽	防止嘲讽	无
+	跳	跳跃	无
+	SkillAfter	技能释放后的时间（技能未使用的时候返回的数值非常大）	参数1 (整数型) 技能ID
+	UICALL	通过快捷栏图标获得相关数据	参数1 (整数型) 技能UIID
+			参数2 (整数型) 获取数据类型
+	GetBuffS	获得BUFF层数	参数1 (字符串型) "目标"或者"自身'
+			参数1 (整数型) BUFFID
+	ISNPC	判断目标是不是NPC 	无
+	m读条技能	判断自身指定技能是否读条	参数1 (整数型) 技能ID
+	Newtime	获得当前系统时间	无
+	停止读条	打断自身的读条	无
+	读条技能	判断目标指定技能是否读条	无
+	手动技能	将选定的技能添加到手动技能栏里	参数1 (整数型) 技能ID
+			参数1 (字符串型) 技能名
+	设置脚本名	引导插件识别脚本	参数1 (字符串型)
+	目标ID	获得目标的人物ID	
+	获得自身ID	获得自身的人物ID	无
+	选择目标	选择指定ID的目标，并且改变面向，面对指定目标	参数1 （整数型）人物ID
+	选择目标2	选择指定ID的目标，但是这个函数不会改变面向，一般用来写治疗职业	参数1 （整数型）人物ID
+	上次的技能	自身上次使用的技能	无
+	目标轻功时间	目标在轻功或者冲刺状态的剩余时间	无
+	随机打断	此函数一般配合打断函数来使用，可以让打断读条模拟人为操作	无
+	KeyDown	判断是否按下一个快捷	参数1  （整数型）快捷值
+	自身轻功时间	自身在轻功或者冲刺状态的剩余时间	无
+	向前跳	会自动跳	
+	立定跳	会自动跳	无
+	打印所属玩家的NPC建模ID	打印出指定玩家ID的所属该玩家的NPC建模ID，	参数1 (整数型 玩家ID  )  
+	屏蔽键盘	屏蔽键盘	参数1 (整数型 Time )  
+	IsJJC()	是否在竞技场 	无
+	PrintfBuff()	 --打印自身BUFFID
+	
+	PrintfTBuff	打印目标BUFFID	
+	系统消息（szStirng）	输出游戏系统消息	
+	 取消BUFF(ID)
+		
+	GetMapID（）	得到当前地图ID	
+	GetArenaMapName()	得到当前地图名称	
+	t高低差()	跟目标的高低差别	
+	技能CD时间(nSkillID)	得到技能CD剩余时间单位秒，浮点数	
+	SeeIn(nSkillID)	技能攻击范围内	
+	平面距离()	跟目标平面距离计算	
+	目标名字()		
+	自身名字()		
+	宠物_名字()		
+	宠物_距离()		
+	使用物品("物品名")		
+	物品CD时间("物品名")		
+	宠物_目标()		
+	宠物_CD(nSkillID)		
+	宠物_释放(nID)		
+	离手风车	判断自身8尺范围内是否有敌对离手风车	无
+	目标降升速度()		
+	自身降升速度()		
+	自身撑伞()		
+	目标撑伞()		
+	jx3pcall(Jx3CallName,...)	调用剑3Call	参数1 字符串 Jx3CallName， {...}  字符串    
+	插件路径()		
+	获得坐标（ dwBase）		
+	获得目标坐标（）		参数1 玩家对象 __int64 类型
+	Newtime() 	 ----当前插件经过的时间
+	
+	ErrorRet()	 -----抛出异常，停止脚本循环，一般用来结算脚本
+	
+	MessageRed(szString)	红字输出	
+	MessageYellow(szString)	黄字输出	
+	与目标的面向角度()
+		
+	是否玩家()	 判断目标是否是玩家	
+	是否NPC()	判断目标是否是NPC	
+	创建玩家对象(nID)	玩家对象见腾讯文档	
+	CloseSelec（n）	关闭打开选择目标	参数1  1=等于关闭选择目标,0打开选择目标
+	读条面向保护(技能ID)	如名	
+	打断读条	如果目标在读条就打断	参数1 (整数型 技能ID  或者 字符串型 技能名称)  
+NPC(气场类型)table	DisR	该NPC与自身的最小距离	参数1 (整数型 )  
+	DisT	该NPC与目标的最小距离	参数1 (整数型 )  
+	Num	数量	参数1 (整数型 )  
+			
+			
+调试函数	调试信息		参数不限制，类型不限
+			
+	dbg	同上，会把参数转化字符串类型输出	
+  灯一时间()	
+灯二时间（）	
+ 灯三时间()	
+灯数量()	
+IsHull(坐标对象)	判断坐标对象是否在魂阵内
+摆放灯1(角度,距离,微调距离,微调角度)	
+摆放灯2(灯一灯二距离,微调角度,角度调整系数,距离调整系数,高度)	
+拖灯（）	自动移灯
+释放纵横三才(nID,xx, yy,zz)	
+摆放灯3 (微调角度,距离)	
+目标在局内()	
+自身在局内() 	
+连局内敌对人数()	
+打断连局内指定心法(nID,nDis,szString )	
+得到局内敌对心法对象(szXInFan,bDT)	
+得到局外敌对对象(szXInFan,nDis,bDT)	
+放灯(角度,距离,坐标点1,坐标点2)	
+移灯(技能ID,角度,距离,坐标点1,坐标点2)	
+GetHullToTH()	得到目标到最低灯魂的高度，返回值 浮点数
+	
+设置连局适应台阶高度(nH)	
+	
+摆放灯3_S (微调角度,距离,人数,szString)	优化拖灯,计算量太大，所以调整为300毫秒计算一次。写手需要考虑这逻辑
+	
+	
+	
+拖灯S(微调角度,人数,szString,距离)	优化拖灯,计算量太大，所以调整为300毫秒计算一次。写手需要考虑这逻辑
+	
+	
+连局内敌对人数()	返回值是 敌对数量
+得到局内敌对技能时间（nSkillID）	返回值是技能时间,单位毫秒,跟SK一样
+得到局内敌对ID列表()	参数无
+最远的灯(nID)	参数1 玩家ID ,返回值有两个:灯的对象,距离
+IsTargetPushHinder(nDis,nA)	目标被推后是否有障碍  ，有障碍返回 ture 无障碍返回false
+		
+GetAngleXY(__int64 PLOjbect, __int64 PLOjbect2)	两个玩家对象之间的角度		
+GetTargetPushXYZ(nDis,nA)	得到目标被推后的坐标		
+GetAngleXY(__int64 PLOjbect, __int64 PLOjbect2)	Ojbect与Ojbect2的仰角
+		
+GetTowPointDis（p1,p2）	两个坐标对象计算距离		
+GetPoint( nPlayerX,nPlayerY,nPlayerZ)	X,Y,Z 转化为坐标对象		
+CreateNewPoint()	创建一个坐标对象		local p1= CreateNewPoint()
+local p2= CreateNewPoint()
+
+p1.x= me:GetX()
+p1.y= me:GetY()
+p1.z= me:GetZ()
+p2.x= t:GetX()
+p2.y= t:GetY()
+p2.z= t:GetZ()
+local xx, yy,zz = 计算坐标P(p1,p2 , 90,15,0)
+SkillXYZ(24378, xx, yy,zz)
+计算坐标P(P1,P2,nAngle,nDis,nH)	通过两个坐标对象之间的夹角距离得到新的坐标		local p1= CreateNewPoint()
+local p2= CreateNewPoint()
+
+p1.x= me:GetX()
+p1.y= me:GetY()
+p1.z= me:GetZ()
+p2.x= t:GetX()
+p2.y= t:GetY()
+p2.z= t:GetZ()
+local xx, yy,zz = 计算坐标P(p1,p2 , 90,15,0)
+SkillXYZ(24378, xx, yy,zz)
+计算坐标P(dwBase,dwBase2,nAngle,nDis,nH)	通过两个玩家基地址得到夹角距离的新的坐标		local xx, yy,zz = 计算坐标(me.dwBase,t.dwBase , 90,15,0)
+计算三点的夹角(p1,p2,p3)
+	通过三个坐标点，计算出夹角		
+计算三点的夹角2(p1,p2,p3)
+	通过三个坐标点，计算出夹角，返回值带负号		
+IsTriangle (P,A,B,C) 	判断坐标点是否在三角形内		
+ solve( a, b, c) 	计算三角形面积		
+函数	函数名	描述	参数（红色的参数是必须设置的）	参数说明	返回值
+全局函数	全局	此函数是监控全屏敌对玩家，对自身的集火，以及敌对玩家最少血线的ID跟距离，返回了4个变量。	无		返回4个值： 敌对最少的HP,敌对血量最少的ID,被集火,lesatHP_DIS。              
+这些已经定义好了全局，可以直接调用
+			无		
+	周围敌对玩家	
+获得周围敌对玩家相关数据，不同的参数，获取的数据不一样	参数1  整数 (指定范围)		
+			参数2 整数型（模式 2，3，4）	2表示监控周围敌对玩家读条，3：表示监控周围指定的心法，3的模式下，必须有3个参数 4 ：监控周围奶妈是否读条	返回值1 (整数型) 如何函数只有一个参数的时候。返回值表示指定范围人数，2的模式下是返回指定读条技能，3跟4的模式下返回指定ID心法
+			参数3 整数型，(2模式下就是技能ID, 3模式下就是 心法ID)	只有，2 跟 3模式下，才需要第三个参数。在2的模式是读条ID ,3的模式下是心法ID	返回值2  （整数型 ）返回对敌玩家ID 
+					返回值3 (整数型) 返回周围玩家距离
+	选择目标	选择指定ID的目标	参数 整数型 (人物ID)		
+	目标ID	获得目标的ID			
+	断疗	打断奶妈读条，集火DPS。根据目标血量来判断，如果奶妈读条，自动切换到奶妈打断读条，然后自动切回目标。目标是奶妈心法无效
+	参数1  整数 (技能ID)		
+			参数2  整数 （目标血量）		
+			参数2  整数 （自身与奶妈的距离）		
+	断疗2	打断奶妈读条，集火DPS。根据目标血量来判断，自动切换到奶妈控制或者封内，然后自动切回目标。目标是奶妈心法无效
+	参数1  整数 (技能ID)		
+			参数2  整数 （目标血量）		
+			参数2  整数 （自身与奶妈的距离）		
+	NoTargetJK（解控等级）
+	计算目标是否有解控		 if 目标.nState == 眩晕 and NoTargetJK(3)==true  then
+  return true 
+ end 
+ if 目标.nState == 倒地 and NoTargetJK(4)==true  then
+  return true
+ end 
+ if 目标.nState == 定身 and NoTargetJK(2)==true  then
+  return true
+ end 
+	
+	t被控制无解控	计算目标是否有解控 返回值是bool 类型		if t被控制无解控() then  dbg("目标无解控") end	
+	 NPC距离(nModeID,szRon)	NPC到自身距离。参数1 nModeID:NPC建模ID。参数2  szRon：与自身的关系。返回值，浮点数）
+			
+	 NPC距离T(nModeID,szRon) 	-NPC到目标的距离。参数1 nModeID:NPC建模ID。参数2  szRon：与自身的关系。返回值，浮点数）			
+	全局_状态	获得敌对玩家的状态，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）获得敌对玩家的人物状态，获取的失败 则返回0
+	全局_TTIsMe	判断敌对玩家的目标是否是自己，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）敌对当前目标是玩家的时候返回1，否则返回0
+	全局_读条技能	获得敌对玩家读条技能，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）获得敌对玩家的读条技能ID,未读条的时候返回0
+	全局_距离	获得敌对玩家跟自身的距离，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）返回敌对玩家跟自身的角度，未成功获取的时候返回0
+	全局_角度	获得敌对玩家跟自身的角度，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）
+	全局_高低差	获得敌对玩家跟自身的高低差，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）
+	全局_门派能量	获得敌对玩家的能量值，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）
+			参数2  字符型 （）	 注意：此参数未完整，因为很多门派是可以重复利用的	返回值 1  （整数型）返回敌对玩家能量，未成功获取的时候返回0
+	全局_门派心法	获得敌对玩家的心法，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）
+	全局_读条进度	获得敌对玩家读条的进度，可以全局应用	参数1  整数型 (人物ID)	 敌对玩家的人物ID	返回值 1  （整数型）
+	全局友方_状态	获得友方玩家的状态，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_TTIsMe	判断敌对玩家的目标是否是自己，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_读条技能	获得友方玩家读条技能，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_距离	获得友方玩家跟自身的距离，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_角度	获得友方玩家跟自身的角度，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_高低差	获得友方玩家跟自身的高低差，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_门派能量	获得友方玩家的能量值，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+			参数2  字符型 （相关参数有 "剑气"，"日灵"，禅那，月灵，满月，满日，刀魂，战意）	 注意：此参数未完整，因为很多门派是可以重复利用的	返回值 1  （整数型）
+	全局友方_门派心法	获得友方玩家的心法，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_读条进度	获得友方玩家读条的进度，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_被集火（nID）	获得友方被集火人数	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	 打断连局内指定心法(nID,nDis,szString )
+				
+	得到局内敌对心法对象(szXInFan,bDT)				
+	全局友方_BUFF	获得友方玩家的BUFF时间	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）  BUFF的时间，如果没有BUFF，返回-9999
+			参数2  整数型 (BUFFID)	友方玩家的BUFFID,BUFF的数量可以传递多个，不受限制	
+	全局友方_MP	获得友方玩家的蓝量百分比，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	全局友方_HP	获得友方玩家的血量百分比，可以全局应用	参数1  整数型 (人物ID)	 友方玩家的人物ID	返回值 1  （整数型）
+	敌对对自己释放的技能	判断敌对玩家在一定时间内（Time）对自己释放的技能	参数1  整数型 (技能ID)		返回值 1  （整数型）预判成功返回1，否则返回0
+			参数1  整数型 (Time)		
+			参数1  整数型 (距离)		
+	楚河汉界_断奶(nDis)
+		参数1  （整数型）距离		
+	队友目标心法(szString)
+	判断队友心法		示例: if  队友目标心法("云裳|离经|补天|相知") then
+ dbg("队友的目标是奶妈")
+end
+	
+	预判敌对技能	预判敌对的技能，此函数只能通过记录敌对释放的技能CD时间，来计算敌对的技能，并且，计算敌对玩家，是否能对自身释放技能	参数1  整数型 (技能ID)		返回值 1  （整数型）预判成功返回1，否则返回0
+			参数2  整数型 (Time)		
+			参数3  整数型 (距离)		
+			参数4  整数型 (心法)		
+			参数1  字符串 (能量) 相关参数有 "剑气"，"日灵"，禅那，月灵，满月，满日，刀魂，战意	 注意：此参数未完整，因为很多门派是可以重复利用的	
+	全局友方	获取指定范围内的友方最少血的玩家，有5个返回值相关函数	参数1  整数型 (距离)	自身多少尺范围内	返回值 1  （整数型）返回最少血线的友方玩家的HP
+					返回值 2  （整数型）返回最少血线的友方玩家的ID
+					返回值 3 （整数型）返回最少血线的友方玩家的状态
+					返回值 4 （整数型）返回最少血线的友方玩家的距离
+					返回值 5 （整数型）返回指定范围内友方玩家的数量
+控制	释放控制效果的技能，在目标非免空释放，并且会判断目标当前状态，来确认是否能释放
+	参数1 (整数型 技能ID  或者 字符串型 技能名称)  			
+		参数2 (字符串 控制等级)"击倒""眩晕""后仰""定身""锁足"等等			
+		参数3（整数型 时间（毫秒））			
+		参数4（0,1,2，3，4  ）			
+		参数5  （整数型 技能释放的最大距离）			
+		参数6  模式			
+控制R	跟控制函数完全一样，区别就是技能释放成功后不再跳出脚本循环而是继续执行脚本 成功返回1，否则0				
+打断	如果目标在读条就打断此函数跟攻击函数的参数基本一致。区别就是多了对目标是否读条的识别。	参数1 (整数型 技能ID  或者 字符串型 技能名称)  			
+		参数2（0,1,2  ）			
+		参数3  （整数型 技能释放的最大距离）			
+		参数4  （0，1）			
+楚河汉界_断奶(nDis)
+	如名	参数1  （整数型）距离			
+指定性群攻技能(nSkillID,nDis,nAoeDis ,nXF,szRelation,...)	指定性群攻技能在攻击到目标的情况下尽量多打几个人，可以针对某心法释放参考示例，调用此函数会自动选择目标，打完技能会切回来		示例：  指定性群攻技能(蟾啸,20,8,"云裳|离经|相知|补天")--- 优先封内奶妈		
+player:AoeSkill(nSkillID,nDis,nAoeDis,szRelation)
+	针对投掷范围攻击技能优化的，在打能打到目标的情况下经可能多攻击敌对目标，而且攻击距离变成了距离+攻击范围，投掷AOE技能强烈推荐此函数，奶妈也可以调用此函数，奶妈调用此函数时需要填写第4个参数，改为友方,此函数是player对象函数	参数1  整数型  (技能ID) 	示例：  t:AoeSkill(百足,20,百足范围,"敌对")
+示例2：  最低血线玩家 =  创建玩家对象(leastHPID)
+
+ if 最低血线玩家  and  最低血线玩家.nHP<60  then
+  最低血线玩家:AoeSkill(百足,20,百足范围,"敌对") --- 真对最低血线AOE
+ end 		
+		参数2  整数型 (技能投掷距离)			
+		参数3  整数型 （技能范围）			
+		参数4  字符串型 （敌对关系，可以是友方，所以奶妈投掷范围类技能也适用）			
+SkillXYZ(nID,x,y,z)	指定坐标投掷释放技能，可以有返回值				
+释放XYZ(nSkillID,dwBase)		参数1 技能ID			
+		参数2 __int64 类型  玩家对象	释放投掷类技能到玩家对象脚下 示例: 释放XYZ(生太极,t.dwBase)		
+释放XYZ_R(nSkillID,dwBase)	同上带返回值				
+skill	skill（技能ID,...）	释放技能函数，第一个函数必须为技能ID，用于代替IF,简化代码，	参数1  必须为技能ID int类型	无，只要释放成功就肯定自动跳出脚本执行跟释放（）一样	  skill(羽,me:Buff("落梅"),qx(天音知脉),敌对爆发(),"me")
+					 skill(梅花三弄_盾,t:NoBuff("落梅&9334"),t:HP("<90"))
+			如果参数是整数型,并且传递的值是0,跟-9999，此函数就自动退出，不执行技能释放。		 skill(宫_持续,qx(引芳),me:NoMeBuff("宫"),"me")
+
+			如果参数是bool类型,并且传递的值是false，此函数就自动退出，不执行技能释放。		
+			如果参数是字符串类型,技能释放模式类 "对自身释放|me|对目标释放|t|对自身投掷|methrow|蓄力"		
+			如果参数是字符串类型,技能锁定模式类型 "锁定|面向"		
+			如果参数是字符串类型,技能控制函数模式 "控制"		
+			如果参数是字符串类型,控制函数模式下的等级判断 "眩晕|定身|倒地|锁足|后仰"		
+千机变第二形态数据	得到自身机关第二形态数据，返回的是一个气场类型的表	无		返回值 （table型）一个气场类的表	
+千机变底座数据	得到千机变底座数据返回一个气场的表	无		（table型）一个气场类的表  	
+创建目标NPC数据	得到一个属于目标的指定建模ID的（气场，机关，离手风车，蝶池，莫问的圈）的NPC表	参数1 (整数型 建模ID  )  		（table型）一个气场类的表	
+创建NPC数据	得到一个属于自己的指定建模ID的（气场，机关，离手风车，蝶池，莫问的圈）的NPC表	参数1 (整数型 建模ID  )  		（table型）一个气场类的表	
+NPC距离(nModeID,szRon)	NPC到自身距离。参数1 nModeID:NPC建模ID。参数2  szRon：与自身的关系。返回值，浮点数）
+ local szName=szRon..nModeID
+				local nd振翅图南 = NPC距离(振翅图南M,"敌对")
+NPC距离T(nModeID,szRon)	NPC到目标距离。参数1 nModeID:NPC建模ID。参数2  szRon：与自身的关系。返回值，浮点数）
+ local szName=szRon..nModeID
+				local nd振翅图南 = NPC距离T(振翅图南M,"敌对")
+目标附近的离手风车	判断目标8尺范围内是否有敌对离手风车	无		返回值 (整数型) 0:表示没风车 ，1:表示附近有风车	
+打印所属玩家的NPC建模ID（nPlayerID）					
+附近的风车()	判断10尺内敌对玩家是否释放风车类技能	无	无	返回值 1  （整数型）如果是真值返回1，否则返回0	
+NPC范围敌对数量(nModeID,nDis)	nModeID 模版ID , nDis 距离			返回值   （整数型）  返回敌对人数	
+全局变量	m门派	表示自己的门派	
+	t门派	表示目标的门派	
+	t关系	与目标的敌对关系，-1是没有目标	
+	m战斗	是否战斗，1：战斗 0：不战斗	1，0
+	t爆发	目标爆发闪避BUFF剩余时间	毫秒
+	t闪避	目标闪避BUFF剩余时间	毫秒
+	t沉默	目标沉默BUFF剩余时间	毫秒
+	t封内	目标封内BUFF剩余时间	毫秒
+	t减疗	目标减疗BUFF剩余时间	毫秒
+	t免推	目标免推BUFF剩余时间	毫秒
+	t马御	目标马御BUFF剩余时间	毫秒
+	t减伤	目标减伤BUFF剩余时间	毫秒
+	t免伤	目标免伤BUFF剩余时间	毫秒
+	t免伤2	[[御]]跟[[冥泽]]跟BUFF剩余时间	毫秒
+	可控制减伤BUFF	目标可控制减伤BUFF	毫秒
+	不可控制减伤BUFF	目标不可控制减伤BUFF	毫秒
+	t盾立	目标盾立BUFF	毫秒
+	m沉默	目标沉默BUFF剩余时间	毫秒
+	m封内	目标封内BUFF剩余时间	毫秒
+	m减伤	目标减伤BUFF剩余时间	毫秒
+	m免伤	目标免伤BUFF剩余时间	毫秒
+	m封轻功	目标封轻功BUFF剩余时间	毫秒
+	t外功	目标是否是外功职业 （0表示内功，1表示外功）	1，0
+	t关系	与目标的敌对关系，-1是没有目标	
+	Distance	与目标的距离	整数型     单位 ： 尺
+	t控制	目标是否被控制   （1表示被控制，否则0 ）	1，0
+	m控制	自己是否被控制   （1表示被控制，否则0 ）	1，0
+	t远程	目标是否是远程职业 （0表示近战，1表示远程）	1，0
+	f眩晕	自身被眩晕BUFF剩余时间	毫秒
+	f定身	自身被定身BUFF剩余时间	毫秒
+	f锁足	自身被锁足BUFF剩余时间	毫秒
+	t眩晕	目标被眩晕BUFF剩余时间	毫秒
+	t定身	目标被定身BUFF剩余时间	毫秒
+	t锁足	目标被锁足BUFF剩余时间	毫秒
+	敌对最少的HP	敌对最少的HP	百分比
+	敌对血量最少的ID	敌对血量最少的ID	整数
+	lesatHP_DISHP	敌对血量最少的玩家与自身的距离	尺
+	被集火	集火玩家的人数	整数
+对象接口	玩家	已经定义好的对象接口	
+	目标		
+玩家变量
+	nHP	百分比血量	
+	nMP	百分比蓝量	
+	nNewMP	当前蓝量值	
+	nNewHP	当前血量值	
+	nState	玩家当前状态（击倒，眩晕，锁足，后仰，定身，打坐，不动 等等）	
+	剑气	藏剑的剑气值	
+	怒气	苍蝇的怒气值	
+	剑舞	七秀的剑舞值	
+	禅那	和尚的禅那值	
+	战意	天策战意	
+	星运		
+	姿态		
+	气点	纯阳的剑气	
+			
+			
+			
+			
+player			
+	me	自身player对象	
+	t	目标player对象	
+	tt	目标的目标player对象	
+tabplayer			
+	f_all 	队友 不包括自己	
+	f_all_me 	队友 不包括自己，包括自己	
+	d_all 	敌对血量最少的玩家与自身的距离	
+全局类型
+
+全局敌对ID遍历
+
+for k=1 , 全局_监控数(),1 do
+local nID = (全局_获得ID(k-1))
+end
+
+全局打断
+
+全局打断(技能ID,敌对技能ID,距离,心法,读条进度) --说明:打断敌对指定的读条技能 参数1 技能ID：打断技能ID；参数2 敌对技能ID:敌对读条技能ID；参数3 距离：自身跟敌对的距离范围；参数4 心法：敌对的心法；参数5 读条进度：敌对读条进度(1-100),如果此参数为空，默认70%读条进度打断;
+---调用实例
+全局打断(灵蛊,平沙落雁,20,莫问,50)
+
+敌对读条技能
+
+敌对读条技能(敌对技能,距离,心法,读条进度) --返回值是bool 类型 符合条件返回true,否则flase
+---调用实例
+if 敌对读条技能(追命剑,30,惊羽,70) == true then
+释放(贪魔体)
+end
+这个敌对读条技能是指【存在敌对目标】【释放了该技能】，还是指【存在某个敌对目标】对【玩家角色】【释放了该技能】？
+全局有人在读条某技能
+
+tt释放 --对目标的目标释放
+
+tt释放(技能ID,距离)
+
+释放D --选择一个指定的玩家释放技能，释放技能后，自动切回原目标
+
+释放D(技能ID,玩家ID,距离)
+
+队友目标心法(szString)
+
+if 队友目标心法("云裳|离经|补天|相知") then
+return
+end
+---调用实例
+
+NoTargetJK（解控等级）
+
+楚河汉界_断奶(nDis)
+
+范围技能建模类
+
+全局判断周围的
+
+建模类
+
+function NPC距离(nModeID,szRon) ----NPC到自身距离。参数1 nModeID:NPC建模ID。参数2 szRon：与自身的关系。返回值，浮点数）
+local szName=szRon..nModeID
+__NPC[szName] =__NPC[szName] or NPC:New(nil,nModeID,nil,szRon)
+if __NPC[szName] ~=nil and __NPC[szName].nNum ~=nil and __NPC[szName].nNum>=1 then
+return __NPC[szRon..nModeID].nDisMin
+end
+return 0
+end
+function NPC距离T(nModeID,szRon) ----NPC到目标的距离。参数1 nModeID:NPC建模ID。参数2 szRon：与自身的关系。返回值，浮点数）
+local szName=szRon..nModeID
+__NPC[szName] =__NPC[szName] or NPC:New(nil,nModeID,nil,szRon)
+if __NPC[szName] ~=nil and __NPC[szName].nNum ~=nil and __NPC[szName].nNum>=1 then
+local ret=__NPC[szRon..nModeID]:DisT()
+return ret
+end
+return 0
+end
+---调用实例
+local nd振翅图南 = NPC距离(振翅图南M,"敌对")
+local nf振翅图南 = NPC距离(振翅图南M,"友方")
+如果有多个这个的技能时。返回的距离是最近的吗
+返回最近的
+
+InView ----判断自身跟其他玩家之间是否有障碍
+
+InView(nID) -------参数 :玩家ID ;返回值 bool 类型；
+if InView(目标ID()) == ture then ------
+end
+
+状态类
+
+关于所属BUFF函数
+
+buffisme_t（ID）
+有3个返回值。第二个就是层数
+判断自身的就是buffisme_r
+
+宠物、机关类
+
+宠物_名字()== "碧蝶"
+宠物释放()
+
+宠物_距离 --宠物到指定玩家的距离
+
+宠物_距离(nID) --宠物到指定玩家的距离
+----调用实例
+宠物到自身的距离= 宠物_距离(自身ID())
+
+player类
+
+已经初始化了3个玩家对象
+me ---自身
+t ---目标
+tt -- 目标的目标
+----这类函数可以参考歌奶的脚本，有大量实例
+
+player:SkillCD(nSkillID) ---计算全局玩家技能CD时间
+
+-----调用实例
+if t:SkillCD(贪魔体) > 5000 then
+释放(爆发技能)
+end
+
+IsXinFa -- 判断玩家对象的心法
+
+player:IsXinFa(szString) -- 判断玩家对象的心法，参数 szString：字符串类型； 返回值bool 类型
+-----调用实例
+if t:IsXinFa("焚影|紫霞") then ---判断目标是否是焚影或者紫霞心法
+释放(爆发技能)
+end
+
+MeBuff -- 判断玩家是否有属于自身的BFF
+
+player:MeBuff(szString) szString：字符串类型,Buff名称或者ID； 返回值bool 类型;
+-----调用实例
+if t:MeBuff("宫|154") then ---
+释放(减伤技能)
+end
+if me:MeBuff("宫|154")==flase then ---
+释放(减伤技能,1)
+end
+
+NoMeBuff --判断玩家是否没有属于自身的BFF
+
+player:NoMeBuff(szString) -- szString：字符串类型,Buff名称或者ID； 返回值bool 类型;
+
+Buff --判断玩家对象身上是否存在此BUFF
+
+player:Buff(szString) --szString：字符串类型,Buff名称或者ID； 返回值bool 类型;
+-----调用实例
+if t:Buff("贪魔体|212") then
+end
+if tt:Buff("贪魔体|212") then --判断目标的目标是否存在贪魔体跟212Buff
+end
+
+NoBuff ---判断目标是否不存在Buff
+
+player:NoBuff(szString) --szString：字符串类型,Buff名称或者ID； 返回值bool 类型;
+-----调用实例
+if t:NoBuff("贪魔体|212") then
+end
+
+BuffTime --获得BUFF时间，如果是多个BUFF判断，返回的是最多时间的Buff
+
+player:BuffTime(szString) --szString：字符串类型,Buff名称或者ID； 返回值 整数型（buff时间，如果没有buff 则返回-9999）;
+if t:BuffTime("贪魔体|213") >3000 then
+end
+
+CmpBuffTime --比较Buff的时间
+
+player:CmpBuffTime(szName,szTime) --szString：字符串类型,Buff名称或者ID； 返回值 bool 类型
+if t:CmpBuffTime("贪魔体|214",">2000") == true then
+end
+skill(贪魔体,me:CmpBuffTime("贪魔体|214",">2000"))
+
+GetTargetID --得到玩家对象目标的ID
+
+player:GetTargetID () 返回值，整数型；
+-----调用实例
+目标ID = me:GetTargetID ()
+目标的目标ID=t:GetTargetID ()
+
+GetTargetRelation --得到玩家对象跟目标的敌我关系值
+
+player:GetTargetRelation() ---返回值:整数型
+if me: GetTargetRelation() == n队友 then --判断自身的目标跟自己是否是队友 n队友=68
+end
+if t: GetTargetRelation() == n敌对 then --判断目标跟目标的目标是否是敌对
+end
+
+IsRelation --比较玩家对象跟参数2玩家ID的敌我关系值
+
+player:IsRelation(szString,nID) 参数1 szString ：（比较字符串） ； 参数2 nID:玩家ID 返回值 :bool类型
+if tt:IsRelation("敌对",nID) == true then --判断目标的目标是否跟自己是敌对
+end
+
+GetAngleR --获得玩家对象跟自身的平面角度
+
+player:GetAngleR() --返回值，浮点数；
+
+GetPlayerTagertType --获得玩家对象目标的类型
+
+player:GetPlayerTagertType() 返回值:整数型 （3是NPC，4是玩家,1是没有目标）
+if me:GetPlayerTagertType() == 4 then ---判断自身的目标是否是玩家
+end
+if t:GetPlayerTagertType() == 4 then ---判断目标的目标是否是玩家
+end
+
+GetRelation(nID) --得到玩家对象跟指定ID的关系值
+
+player:GetTargetRelation ---参数 nID:玩家ID ; 返回值:整数型
+自己跟目标的目标关系 = me:GetRelation(tt.nID)
+目标跟目标的目标关系 = t:GetRelation(tt.nID)
+
+GetSkillUsesTime --获得玩家使用技能后的当前时间（时间是当前程序打开的经过时间）
+
+player:GetSkillUsesTime(nSkillID) --参数 nSkillID: 技能ID; 返回值 整数型 （时间是当前程序打开的经过时间）
+目标使用贪魔体的时间 = t:GetSkillUsesTime（贪魔体）--如果目标没有使用贪魔体，则返回0
+目标的目标使用贪魔体的时间 = tt:GetSkillUsesTime（贪魔体）--如果目标没有使用贪魔体，则返回0
+
+OnSkillTime --获得玩家使用技能后的经过时间
+
+player:OnSkillTime(nID) --参数 nID:技能ID ;返回值：整数型 (这个函数跟SkillAfter一样的算法)
+---调用实例
+me:OnSkillTime(nID) == Newtime() - me:GetSkillUsesTime(nID)
+me:OnSkillTime(nID) == SkillAfter(nID)
+
+GetIndex --获得玩家对象的内置ID
+
+player:GetIndex() --返回值: 整数型
+
+GetState --获得玩家的移动状态
+
+player:GetState() --返回值:整数型
+
+if t:GetState() == 倒地 then
+end
+
+Skill_CN 获得玩家技能的层数_全局类型
+
+DisT ---获得玩家对象跟玩家对象的目标的距离
+
+player:DisT()
+目标的距离 = me:DisT()
+目标到目标的目标的距离 = t:DisT()
+
+DisR ---获得玩家对象跟自身的距离
+
+目标的距离 = t:DisR()
+目标的目标到自身的距离tt:DisR()
+
+IsDis ---比较玩家对象到自身的距离
+
+palyer:IsDis(szString) 参数 szString ：（比较字符串） ；返回值 :bool
+if IsDis（"<30"）== true then
+end
+
+GetDis --获得玩家对象跟base对象 的距离
+
+player:GetDis(base1) 返回值:整数型
+
+HP --比较玩家对象的血线
+
+player:HP(szString) 参数 szString ：（比较字符串） ；返回值 :bool
+----调用shi'l
+if t:HP(">=30") == true then
+end
+skill(加血技能,me:HP("<30"))
+
+MP --比较玩家对象的MP
+
+player:MP(szString) 参数 szString ：（比较字符串） ；返回值 :bool
+
+InViewPlayer() ----判断玩家跟自身之间是否有障碍物
+
+player:InViewPlayer() 参数:无 ； 返回值 ：bool
+if t:InViewPlayer() then --判断目标跟自身之间是否有障碍物
+end
+
+TargetIsMe() --玩家的目标是我
+
+TargetCastSkillMe（nSkillID） ------------玩家释放能对我释放技能
+
+GetBuffLevel -- 得到BUFF等级
+
+player:GetBuffLevel(nID) 参数:nID ; 返回值: 整数型
+---调用实例
+if me:GetBuffLevel(15524) ==2 then
+调试信息("自身免控")
+end
+if t:GetBuffLevel(15524) ==2 then
+调试信息("目标免控")
+end
+
+MeBuffLevel -- 得到属于自身的BUFF等级
+
+player:MeBuffLevel(nID) 参数:nID ; 返回值: 整数型
+---调用实例
+if me:MeBuffLevel(15524) ==2 then
+调试信息("自身免控")
+end
+
+GetX() --得到玩家对象X坐标
+
+GetZ() --得到玩家对象Z坐标
+
+GetY() --得到玩家对象Y坐标
+
+TestHeight ---测试距离地面高度
+
+player:TestHeight(nHeight)
+---调用实例
+if me:TestHeight(10) and me:TestHeight(15) ==false then
+调试信息("自身距离地面高度10尺以上，15尺以下")
+end
+if t:TestHeight(10) and t:TestHeight(15) ==false then
+调试信息("目标距离地面高度10尺以上，15尺以下")
+end
+
+MovXYZ --得到玩家移动后坐标
+
+player:MovXYZ(nDis,nA,objPalyer) ------得到于相对目标角度位移后的坐标，第二个参数如果为空，角度就垂直于目标,无目标时返回值为nil ,如果存在第三个参数，就不是在跟目标角度，而是指定玩家
+
+NearbyXinFan ---目标附近心法数量
+
+player:NearbyXinFan(szXinFan,nDis,szRelation) ---获得目标附近心法数量
+示例 local n目标敌对附近奶妈_8 = t:NearbyXinFan("云裳|补天|相知|离经",5,"敌对")
+
+目标
+
+目标或自身基础信息
+
+玩家名字
+
+玩家姓名(nID) ---返回值是字符串类型，不能正确获取到姓名的时候返回字符串"nil"
+----调用实例
+if 玩家姓名(nID)=="郭伟伟" then
+释放(爆发技能)
+end
+
+自身读条什么技能
+
+m读条技能()
+
+系统信息类型
+
+红黄字输出
+
+MessageRed(szString) ----- 红字输出
+MessageYellow(szString) ----黄字输出
+
+ErrorRet() -----抛出异常，停止脚本循环，一般用来结算脚本
+
+Newtime() ----当前插件经过的时间
+
+开启手动(技能ID) --开启手动释放技能
+
+禁用手动(技能ID) --禁止手动释放技能
+
+PrintfBuff() --打印自身BUFFID
+
+PrintfTBuff --打印目标BUFFID
+
+技能名称 (nSkillID) --得到技能名称
+
+打印所属玩家的NPC建模ID --打印建模ID
+
+--调用实例
+打印所属玩家的NPC建模ID(自身ID())
+打印所属玩家的NPC建模ID(目标ID())
+
+动作类
+
+取消BUFF(ID)
+
+停止移动 ()
+
+角度方位函数类
+
+与目标的面向角度()
+
+float GetAngle(__int64 Ojbect, __int64 Ojbect2) --Ojbect与Ojbect2的仰角
+
+float GetAngleXY(__int64 PLOjbect, __int64 PLOjbect2) --两个玩家对象之间的角度
+
+GetTargetPushXYZ(nDis,nA) ------得到目标被推后的坐标 nDis 距离 nA 角度
+
+IsTargetPushHinder(nDis,nA) -----目标被推后是否有障碍 ，有障碍返回 ture 无障碍返回false
+
+GetTowPointDis（p1,p2）--两个玩家对象之间的角度 p1,p1都是坐标对象
+
+local p2 = me:GetPlayerPoint()
+local pt = t:GetPlayerPoint()
+local nPToPDis = GetTowPointDis(p1,p2)
+
+CreateNewPoint() --创建一个坐标对象
+
+local p1= CreateNewPoint()
+local p2= CreateNewPoint()
+p1.x= me:GetX()
+p1.y= me:GetY()
+p1.z= me:GetZ()
+p2.x= t:GetX()
+p2.y= t:GetY()
+p2.z= t:GetZ()
+local xx, yy,zz = 计算坐标P(p1,p2 , 90,15,0)
+SkillXYZ(24378, xx, yy,zz)
+
+计算坐标P(P1,P2,nAngle,nDis,nH) -- 通过两个坐标对象之间的夹角距离得到新的坐标
+
+计算坐标P(dwBase,dwBase2,nAngle,nDis,nH) --通过两个玩家基地址得到夹角距离的新的坐标
+
+local xx, yy,zz = 计算坐标(me.dwBase,t.dwBase , 90,15,0)
+
+GetXYDis(nX,nY,nX2,nY2) --得到平面坐标距离
+
+计算三点的夹角(p1,p2,p3) --通过三个坐标点，计算出夹角
+
+计算三点的夹角2(p1,p2,p3) --通过三个坐标点，计算出夹角，返回值带负号
+
+local nAlt= 计算三点的夹角2(M垂直点,距离目标最近点,tP) --得到目标到垂直点的角度
+
+tabplayer 类
+
+f_all 队友 不包括自己
+f_all_me 队友 不包括自己，包括自己
+d_all 敌对
+
+tabPlayer:InHullNum() ---判断连局内人数
+
+tabplayer:TeamHP(nHP) ---残血函数
+函数	函数名	描述	参数（红色的参数是必须设置的）	参数说明	返回值	示例
+					返回值   （整数型）  1表示该功能开启，0表示该功能关闭	
+UI相关功能	设置功能（功能名称,nID,描述）	此函数是门派设置的UI函数，返回值可以得到相关UI的ID	参数1  字符串型（"UI的名字"）	设置UI的名字		local 自动驱夜 = 设置功能("自动驱夜",30002,"去掉勾驱夜不破隐身不会自动释放，建议去掉勾")
+			参数2  整数型  (功能ID )			
+			参数3  字符串型（ 描述）			
+	设置快捷	获取门派设置上指定UI的快捷（此函数一般都要配合"设置门派"来使用）	参数1 字符串名 (快捷ID)			
+			参数2  字符串型（ 描述）	门派设置的UIID	返回值 1 (整数型)返回快捷值	
+	手动技能(szName,nSkillID)	设置手动技能开关， 勾选自动，不勾选手动				
+	KeyDown(nKey)	判断是否按下一个快捷	参数1  （整数型）快捷值		 返回值  （整数型）成功的时候返回1，失败返回0	
+						
+						
+函数	描述	参数（红色的参数是必须设置的）	参数说明	返回值	
+开启连招（nTime,nLDID）	设置连招时间跟ID,目前第二个参数不需要填写，开启连招后，下面的代码只是记录动作。ErrorRet结束后，会跳到执行代码函数去按照记录的顺序执行	参数 1 整数型  		无	
+		参数 2 整数型  连招ID			
+插入_选择目标（nID）	插入_选择目标，并记录当前目标，会在"执行连招"函数执行选择目标函数	参数 1 Lua函数名  			
+AddFud(funName,...)	  插入函数：用自己定义的函数必须用AddFud函数来插入,第一个参数为需要插入的函数名，后面的参数直接填写插入函数的参数，会在"执行连招"函数执行插入的函数	参数  ...   多个参数，此参数是对应"funName"函数的参数			
+选择敌对奶妈（）		无			
+还原目标()		无			
+Delay（nTime）					
+AddSkill	记录需要释放的技能，跟skill一样的参数		function 炸灯连招()		
+执行连招()	此函数会运行连招函数的插入动作				开启连招(999)
+结束连招()					插入_选择目标(非局内且无火离敌对对象.nID)
+					AddSkill(斗转星移)
+					还原目标()
+					Delay(200)
+					AddSkill(鬼星开穴,鬼星判断)---- 是连招的第二个技能有一个GCD的延迟，所以必须加一个回调函数来判断下当前状态
+					斗转炸灯=Newtime()
+					ErrorRet()
+			end 		
+					
+					
+			function 鬼星判断()		
+				if 目标.nState == 死亡 then  ---執行下一步连招	
+					return "下一步"
+				end 	
+				if  t盾立 > 0 then   ---目标盾连招停手	
+					return false
+				end 	
+				if 目标.nState == 死亡 then  ----直接结束连招	
+
