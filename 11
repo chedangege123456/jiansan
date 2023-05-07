@@ -1,0 +1,4651 @@
+--·流云势法
+行云势=32132 停云势=32133 决云势=32134 断云势=32135 凝云势一段=32174 凝云势二段=32175
+
+--·游风步
+驰风八步一段=32140 驰风八步二段=32141 灭影追风=32419 游风飘踪=32142
+
+--·破浪三式
+群体沧浪三叠=32601 单体沧浪三叠=32143 横云断浪=32144 孤锋破浪=32145 怒锋倾涛=32614 泽风同承=32665
+
+--·骤雨劲
+留客雨=32146 洗兵雨=32147 触石雨=32148
+
+--刀宗免控
+游风飘踪F=24172  凝云势F=23898 驰风八步F=24182 驰风八步2F=24184 识破免控F=24240 凝云结束免控F=24239
+
+--其他BUFF
+灭影追风F=24168--[[爆发]] 灭影追风2F=24553--[[爆发]] 灭影追风3F=24554--[[爆发]] 按虎式F=23897--[[被凝云势观察]] 识破F=24108 破绽_刀宗F=24056 洗兵雨F=23982--[[缴械]]  轻功二段可用F=23953  灭影追风血盾F=24238 势钧血盾F=24241 单手持刀F=24029 双手持刀F=24110
+影1F=24105 影2F=24106 影3F=24107 目标影子掉落CDF=24206 辞霈F=24223 灭影挨打血盾F=24233
+
+--奇穴
+滔天=32502 袭伐=32454 聚疏=32452 势钧=32610 遏云势=32465 击懈=32497 驭耀=32609 周流=32608 溃延=32464 泯息=32611
+
+--建模
+刀宗影子M=111366 明教冰柱M=112153
+
+--百战技能
+霞月长针=28135 空穴来风=28029 空穴来大风=28044 七荒黑牙=28487 一闪·无痕=28127 暗狼袭爪=28146 巨猿劈山=28303 麻沸散=30701 气血蚕食法=30804 火魅指=30644 一刀·柄锤=30599 九音陀罗曲·破镜=32014 尸鬼封烬=29121 枪法·炎罗=28105 踏月式·掠途=28956 渐影凝视=28768 黑煞落贪狼=28193 三阳穿心掌=29343
+
+脚本说明("*盾墙3减CD秘籍，斩刀2本技能效果，绝刀2会心1伤害怒气降低15点，劫刀2会心1伤害怒气降低5点，血怒3本回怒[注：吃鸡当中改2本回血]。\n\n*\n\n*吃鸡推荐奇穴：[权门][炼狱][怒涌][血魄][锋鸣][割裂][隐刀][吓魂][赤心][愤恨][仇非][扬旌沙场]。\n*已支持血刀、雷云、怒涌奇穴。\n\n*盾墙半自动，盾墙状态下盾飞半自动，无惧手动。所谓半自动是指自己可以看情况提前释放。\n\n*已更新吃鸡自动吃药等其他细节，支持仇非。")
+
+--新爹无方
+--[[寒性]] 站桩商陆缀寒=27551 移动商陆缀寒=29500 沾衣未妨=27578 --[[无GCD技能]]
+--[[温性]] 钩吻断肠=27554 奚毒射罔=27556
+--[[附带沉默爆发]] 且待时休=27582
+--[[无GCD技能]]单体银光照雪=28345 群体银光照雪=27528 凌然天风=27642 千枝绽蕊=27650 千枝伏藏=27649
+--·其他技能
+惊鸿掠水=27536 回风微澜=27537 含锋破月=27635 冲刺含锋破月=28486 飞叶满襟=27637  苍棘缚地=27652 紫叶沉疴=27667 逐云寒蕊=27674 绿野蔓生=27897 青圃着尘=28533 腐生予馈=28583 双生绿野蔓生=28429
+凌然天风_前 = 27643 凌然天风_后 = 27644 凌然天风_左 = 27645 凌然天风_右 =27646 凌然天风_上 =27782
+ 
+--BUFFID
+--新爹无方
+千枝伏藏F=20074 千枝绽蕊F=20075 树叶F=20766 逐云寒蕊不可选中F=20128 回风微澜标记F=20038 紫叶沉疴F=20188 荡襟吸收治疗F=20719 商陆缀寒移动读条F=20680 逆乱F=20052
+--·[[毒性不利效果]] 
+且待时休沉默F=20060 惊鸿掠水定身F=20040 沾衣未妨定身F=20659
+腐生予馈·寒F=20787 腐生予馈·温F=20789
+
+--·免控类BUFF
+逐云寒蕊免控F=21276 绿野蔓生F=20199 凌然天风F=20072 且待时休F=20666 藏丛F=20667--[[免打断、免缴械、免沉默、免推拉]] 渡若F=20698--[[免控免推拉--等同霸体]] 燕徊F=20883--[[免打断、免缴械、免沉默]] 当归F=21202
+
+--·隐藏BUFF
+惊鸿掠水二段可用F=20037 惊鸿掠水冲刺免控F=20036 奚毒射罔滞空F=20057 含锋破月换二段F=20071 凌然天风可跳F=20095
+
+--NPC建模
+沾衣未妨M=106869 苍棘缚地M=106107
+
+--少林新增BUFF
+心诤F=20780 无执F=20754
+	
+--少林新增技能
+心诤=29191
+
+--丐帮新增BUFF
+城复于隍霸体F=21745 城复于隍连击数F=21031
+
+--技能ID
+盾刀=13044 盾刀·二段=13059 盾刀·三段=13060 盾猛=13046 盾击=13047 盾压=13045 劫刀=13052 斩刀=13054 绝刀=13055 闪刀=13053 盾飞=13050 盾舞=13048 盾墙=13049 撼地=13424 盾毅=13068 血怒=13040 无惧=13042 盾壁=13070 盾立=13067 隐刀=13152 扬旌沙场=15152 收盾=13180 盾舞·强化=13459 盾回=13051 惊沙=13387 盾抛=13386 铁马冰河=22460 乱天狼=22320 骤雨寒江=22150 斩无常=22358 移动斩无常=22647 十方玄机=22417
+ 
+--BUFFID
+撼如雷F=362 撼如雷释放F=6363 力拔F=855 纵轻骑F=2756 青阳F=6131 突F=6361 破重围F=10245 小守如山F=6163 大守如山F=367 啸如虎F=203 御F=360  驰骋F=6121 渊爆发F=2779 疾如风爆发F=2761 天策流血F=3442 破楼兰F=8433 天策流血2F=12461
+酒中仙F =5994 有攸F =7118 龙战于野F =5988 龙头F =6381 亢龙有悔释放力F =6398 龙跃于渊DOTF =5984 龙啸九天F =6200 天策阵F=909 谒宫F=14099 女娲补天F=2315 决斗F=10212 飞竹F=14515 
+霸体F =5754 烟霞F =6379 烟雨行F =6459 笑醉狂F1 =5995 笑醉狂F2 =5996 亢龙有悔F2 =6367 龙跃于渊F2 =6015 轮回重生中F=15107 保护F=14996 血覆黄泉F=15518 凝战F=15933 日月吴钩F=15826 斩无常F=15735 乱天狼F=15749 单链F=15524  双链F=15565 骤雨寒江F=15557 免拉霸体F=16403 二业F=16348 嵬崖F=16448 崔嵬鬼步F=15621 兵戈F=16070 天堑F=15845 链接F=15518 护盾F=15019 妙法F=14273  浮空F=12481 浮空2F=12483 月斜F=17015 怒涌F=20746
+伏虎F=6345
+亢龙有悔F3 =6385 恶狗拦路F=6074 醉逍遥F=6434
+泉凝月F =6143   虎跑F =1802  云栖松F=2065   风吹荷F =5668  凤鸣F =2701  定波砥澜免控F=13742  倒地F =994  南风吐月F= 9934  镇山河F=377  云景F =12324  定波砥澜反击F=13744  雷霆震怒F=682   盾立F=8303  夜雨F=2704  莺鸣F=1728  流影F=11201  逸尘步虚F=13778  冰天F=12566  音韵F=9855 青霄飞羽F=9509
+ 商阳指F=666  钟林毓秀F=714  兰摧玉折F=711  碎玉F=9704  冥泽F=6182  怖畏暗刑F=4053  霞流F=12321 虎跑自动释放F=1666  舍身F=1242 狮子吼舍身F=9830 渊1F=2778  泉凝月盾F=5735 弹跳F=208 不工F=1856  捍卫1F=8716 捍卫2F=8459
+笑醉狂1F=5595  笑醉狂2F=5596 宽野F=10258  疾电叱羽F=13771 定波砥澜F=13742  惊鸿游龙F=3214  御风而行F=6299 两生F=6174 醉逍遥F=6434 鹊踏枝F=677 见龙F=12771  吠日F=6821 疏狂F=11456 激雷F=6363 破绽=12421 风和F=6362 毫针F=9724
+乘龙戏水F=12530  免推星楼F=11808 减速生太极F=560 雪絮金屏F=10816 松烟竹雾F=10814 骑御F=244 蛊影F=6247 追命无声F=3276 十律守心·猊焰F= 8474
+
+无惧F=8247 血怒F=8449 盾飞F=8391 狂绝F=8451 缓深F=8738 怒炎F=8276 虚弱F=8248 流血F=8249 隐F=13927 盾墙F=8265 盾壁F=8279 盾毅F=8483 盾击F=8487 血怒释放F=8244 愤恨血怒释放F=8385
+千险F=8293  碎江天F=11001
+--定义减速BUFFID
+	业力F=6191 缠足F=555 缠足2F= 6374 不善F=12444 生太极F=560 商阳指减速F=584 景行减速F=12540 惊涛减速F=1720 穿F=549 穿2F=3463 毒蒺藜F=3226 鸿爪留泥F=10861 暴雨梨花针F=6078 千丝F=2297 千丝2F=11262 抱残式F=563 业海罪缚F=4054
+	卷云F=8398 难行F=8492 伏尘F=11168 击鼎F=11245 禁缚F=9170
+
+--奇穴
+绝返=13090 分野=13087 炼狱=13089 叱威=13278 步临=13111 残烈=13414 怒炎=13133 割裂=13132 雷云=13397 隐刀=13152 血刀=13153 吓魂=21282 千险=13172 北漠=13109 从容=13366 劫生=18978 血魄=21281 断马摧城=25213
+
+--定义UIID
+盾立U=6340 隐刀U=6355 血怒U=6351 盾击U=6339 盾飞U=6344
+
+--隐刀STate
+隐刀1=24577
+隐刀2=24593
+隐刀3=24585
+隐刀4=24603
+隐刀5=24579
+
+--吃鸡物品STate
+金疮药U=4281
+定安散U=3459
+
+
+
+--蓬莱风车
+振翅图南M=62273
+
+f1= tabplayer:New(nil,nil,20,"队友","682|10174|10212") --表示20尺内，可以奶的队友	
+
+function  小轻功拾取武器()
+    if m封轻功>0 then
+	    return
+	end
+	if bufftimeR(23982) <1000 then  
+		return
+	end 
+	if 周围敌对玩家_35尺>5 then
+	    return
+	end
+	local  x= GetDoodadX(9810)
+	local  y = GetDoodadY(9810) 
+
+	if x > 0  and y > 0  then 
+		小轻功跳坐标(x,y)
+	end 
+end
+
+function 小轻功跳坐标(x,y)
+		local nA =	GetAngleXY2(me:GetX(),me:GetY(),x,y)
+		local nDis =    GetXYDis(me:GetX(),me:GetY(),x,y) 
+		if 技能CD(驰风八步一段)==1 and 技能GCD(驰风八步一段)==1   then
+			SetFace(nA+128)
+			释放(驰风八步一段)
+		end 
+
+		if 技能CD(迎风回浪)==1 and 技能GCD(迎风回浪)==1 and nDis < 15 then
+			SetFace(nA+128)
+			释放(迎风回浪)
+		end  
+		
+		if 技能CD(瑶台枕鹤)==1 and 技能GCD(瑶台枕鹤)==1 and nDis < 15  then
+			SetFace(nA+64)
+			释放(瑶台枕鹤)
+		end 
+		if 技能CD(凌霄揽胜)==1 and 技能GCD(凌霄揽胜)==1 and nDis < 15  then
+			SetFace(nA-64)
+			释放(凌霄揽胜)
+		end 
+
+end 
+
+function tabplayer:NoBuff(szName)
+--	ojbPlayer=player:new(nil,nil)
+--	ojbPlayer:GetData(0)
+for i , var in pairs(self.tPlayer) do
+if var ~=nil and var:NoBuff(szName) and var.nID ~=0 and (nHP==nil or nHP>var.nHP ) then
+ojbPlayer=var 
+nHP=var.nHP 
+--	调试信息(var.nID,var.nHP )
+end 
+end 
+
+return ojbPlayer,nHP
+end 
+
+function  给队友舍身(技能,szString,距离)
+  local 需要还原目标 =0
+  local 原目标=目标ID()
+  local  oj队友,队友HP= f1:NoBuff(szString)
+
+    if oj队友 ~=nil and SkillAfter(技能)>4000  and oj队友:DisR()<距离 and 技能CD(技能)==1 and 玩家.nState~=轻功 and 队友HP<=60  then
+        if  oj队友.nID ~= 目标ID()  and  oj队友.nID  ~=0  then
+            开启连招(1770)
+            插入_选择目标( oj队友.nID)
+            Delay(250)
+            AddSkill(技能)
+			Delay(300)
+            还原目标()
+            ErrorRet() 
+         end 
+    end 
+end
+
+	function 周围风车()
+       n周围风车 ,n周围风车人物ID =周围敌对玩家(9,2)
+	if n周围风车 == 风来吴山 then
+		return 1
+	end
+	if 离手风车()==1 then
+		return 1
+	end 
+	return 0
+    end
+	
+--定义可攻击
+local 可攻击 = function()
+
+    if 目标.nState==死亡 then
+	    return 0
+	end
+	
+	if bufftimeT(2315--[[女娲BUFF]])>-500 and bufftimeT(2953,6637,6636,8839--[[圣手BUFF]])>-500 then --女娲+圣手
+	    return 0
+	end
+	
+	if bufftimeT(20230--[[龙门伪盾立]],20359--[[龙门伪机车无敌]])>-1000  then
+	    return 0
+	end
+	
+	if bufftimeT(12458,12459,12534,盾立F,隐F,3425,20230--[[伪龙门盾立]])>0  then
+	    return 0
+	end
+	
+	if bufftimeT(5668)>0 and bufftimeT(2065)>0 then
+	    return 0
+	end
+	
+    if bufftimeT(10486)>0 and  bufftimeT(11979,11981,11980)>0 then --和尚绝对反弹
+	    if 玩家.nHP > ( 目标.nHP + 15 ) then 
+            return 1
+		end 
+	end
+	
+	if  bufftimeT(3425)<0 and bufftimeT(8303)<0 and bufftimeT(10174)<0 and bufftimeT(雷霆震怒F)<0 and bufftimeT(9934)<0 and bufftimeT(377)<0 and bufftimeT(6182)<0 and bufftimeT(682)<0 and bufftimeT(13778)<0 and bufftimeT(13927)<0 and bufftimeT(15107)<0 and  bufftimeT(14996)<0 and bufftimeT(15717)<0 and bufftimeT(772)<0 and bufftimeT(12186)<0 and bufftimeT(961)<0 and bufftimeT(772)<0 and bufftimeT(17647)<0 and bufftimeT(3425)<0 and InView(目标ID()) == true and ( t关系==16 or t关系==24) and 目标.nState ~= 死亡 then
+	    return 1
+	end
+
+    return 0
+end
+
+local 目标不可拉=function()
+
+    if t读条技能() == 千蝶吐瑞 or t读条技能() == 鬼斧神工 or t读条技能() == 笑醉狂 or 目标.nState== 被抓 or t物化天行_升~=0 or t物化天行_降~=0 or 目标轻功时间()>=2 or 目标.nState ==轻功 or 目标.nState ==20--[[击倒爬起状态]] or 目标.nState ==击退 or 目标.nState ==击退2 or t倒地>-500 then
+	    return 1
+	end
+
+    if bufftimeT(11077,11322,11361--[[尘身]],4332,9059,9068,9354,10245,11319,13735,13742,14105,14247,14356,15735,15749,15921,18075,免拉霸体F,412,7918,11808,13238,13296,15019,15619,15621,17585,17888,17901,17939,18189,10821,8864,浮空F,浮空2F,1186,17882,8483,12458,12459,7669)>0  then 
+	    return 1
+	end
+	
+	if 不可控制减伤BUFF>-500 then
+	    return 1
+	end	
+	
+	if bufftimeT(2756--[[任驰骋免控BUFF]])>-500 then
+	    
+		if bufftimeT(204)>0 then
+		    return 1
+		end
+		if bufftimeT(204)<0 then
+		    return 0
+		end	
+	end
+	
+	if bufftimeT(2781--[[转乾坤免控BUFF]])>-500 then
+	
+	    if t:GetBuffLevel(2781) ==1 then 
+		    return 0
+		end
+	    if t:GetBuffLevel(2756) ==2 then 
+		    return 1
+		end
+	
+	end
+	
+	return 0
+
+end
+
+目标免推=function()
+
+    if bufftimeT(8247,8864,2756,10245,377,9934,6213,1903,1856,1686,10130,3425,4439,6279,4245,5754,5995,8265,8303,8483,9509,9693,10173,11151,11336,11361,11385,11319,11322,11335,11310,1186,1903,10258,11077,11148,11149,16381,5994,5996,1802,9855,8716,11808,15621,15749,15735,22360,16448,16403,10245,1686,13742,14105,15107,14996,15717,14972,护盾F,17905,9848,10247)>0 or 不可控制减伤BUFF>0 then
+	    return 1
+	end
+	return 0
+
+end 
+
+--定义可控制
+local 可控制 = function()
+
+    if 目标.nState==死亡 then
+	    return 0
+	end
+	
+	if 目标不可拉()==1 then
+	    return 0
+	end
+
+	if  bufftimeT(8303)>0 or bufftimeT(10174)>-500 or bufftimeT(雷霆震怒F)>-500 or bufftimeT(9934)>-500 or bufftimeT(377)>-500  or bufftimeT(682)>-500 or bufftimeT(13778)>-500 or bufftimeT(13927)>-500 or bufftimeT(15107)>-500 or  bufftimeT(14996)>-500 or bufftimeT(15717)>-500 or bufftimeT(772)>-500 or bufftimeT(12186)>-500 or bufftimeT(961)>-500 or bufftimeT(772)>-500  then --and InView(目标ID()) == true
+	    return 0
+	end
+
+    return 1
+end
+
+--定义可控前置
+local 可控前置= function()
+
+if 可控制()==0 then return 0 end
+
+    if bufftimeT(飞竹F)>-500 or bufftimeT(免拉霸体F)>-500 or bufftimeT(嵬崖F)>-500 or bufftimeT(二业F)>-500 or bufftimeT(爆体F)>-500 or bufftimeT(护盾F)>-500 or bufftimeT(妙法F)>-500 or bufftimeT(15621,15749,15735,15933,15826,15845)>-500 or t免控>-500 or bufftimeT(18124)>-500 or bufftimeT(18228)>-500 or bufftimeT(17905)>-500 or bufftimeT(17585)>-500 or bufftimeT(12665)>-500 or t免控>-500 then 
+        return 0
+    end
+	if bufftimeT(20181,20247,20192,27868,27358,20245)>-1000 then --龙门伪技能·免控
+	    return 0
+	end
+	
+	if bufftimeT(20780,20754,20709,21745)>0 then --和尚新增免控 心诤 无执 / 花间机甲人 / 丐帮城复于隍霸体
+	    return 0
+	end
+
+	if bufftimeT(21276,20199,20072,20666,20667,20036,21202)>-1000 then --新爹免控
+	    return 0
+	end
+	
+	if bufftimeT(13742,14105)>-500 then --定波砥澜F
+	    return 0
+	end
+	
+	if 目标免推()==1 then
+	    return 0
+	end
+	
+    return 1
+end 
+
+--定义难以命中
+local 目标难被命中=function() --外功版
+
+    if 目标.nState==死亡 then
+	    return 1
+	end
+
+
+    if bufftimeT(2065--[[云栖松]],5668--[[风吹荷]],3214--[[惊鸿]],6299--[[御风而行]],6174--[[两生]],6434--[[醉逍遥]],677--[[鹊踏枝]],17585--[[踏星行]],15234--[[羁影]],18075--[[微妙风]])>0 or t:GetBuffLevel(15621) ==2 or t:GetBuffLevel(15621) ==4 then --
+        return 1
+    end
+	
+	if bufftimeR(3215--[[荆天棘地]],18749--[[圣元DEBUFF]],17907--[[乘墨由心DEBUFF]])>0 then
+	    return 1
+	end
+	
+	return 0
+
+end 
+
+local 目标存在化解类BUFF=function()
+
+    if bufftimeT(月斜F,疾电叱羽F,12558,4244,6224,6143,5735,8279,8291,8253,8425,9334,15948,16730,8868,134,8867,6090,17028,17094,17997,17990,18148,2778,18084,1242,9830,10208,15019)>0 then
+	    return 1
+	end
+	
+	return 0
+
+end 
+
+--定义重要技能释放条件
+local 可释放重要外功技能= function()
+
+    if 目标.nState==死亡 then
+	    return 0
+	end
+	
+	if bufftimeT(17015,20398)>-1000 then --星楼血盾BUFF / 龙葵自苦治疗F
+	    return 0
+	end
+
+    if t减伤<0 and t免伤<0 and t免伤2<0 and 目标难被命中()==0 then
+        return 1
+    end	
+
+	return 0
+
+end 
+
+local 自身存在封轻功类BUFF=function()
+
+    if bufftimeR(12486,562,1939,6074)>0 then
+	    return 1
+	end
+	return 0
+
+end
+
+目标解控技能在CD中估算=function()
+
+    if t:SkillCD(412)>15000 and t心法()== 傲血 then
+	    return 1
+	end
+	
+    if t:SkillCD(257)>5000 and t心法()== 易筋 then
+	    return 1
+	end
+	
+    if t:SkillCD(100)>13000 and ( t心法()== 离经 or t心法()== 花间)  then
+	    return 1
+	end
+	
+    if t:SkillCD(550)>23000 and t:SkillCD(574)>23000 and t:SkillCD(18579)>23000 and ( t心法()== 云裳 or t心法()== 冰心)  then
+	    return 1
+	end
+	
+    if t:SkillCD(372)>5000 and t心法()== 太虚 then
+	    return 1
+	end
+	
+    if t:SkillCD(371)>5000 and t心法()== 紫霞 then
+	    return 1
+	end
+	
+    if t:SkillCD(1656)>5000 and ( t心法()== 问水 or t心法()== 山居 ) then
+	    return 1
+	end
+	
+    if t:SkillCD(2226)>8000 and ( t心法()== 毒经 or t心法()== 补天 ) then
+	    return 1
+	end
+	
+    if t:SkillCD(17587)>8000 and ( t心法()== 惊羽 or t心法()== 天罗 )  then
+	    return 1
+	end
+
+    if bufftimeT(11886)<0 and bufftimeT(11887)<0 and ( t心法()== 惊羽 or t心法()== 天罗 )  then
+	    return 1
+	end
+	
+    if t:SkillCD(5267)>8000 and t心法()== 笑尘  then
+	    return 1
+	end
+	
+    if t:SkillCD(3974)>8000 and t心法()== 焚影  then
+	    return 1
+	end
+	
+    if t:SkillCD(13042)>5000 and t心法()== 分山  then
+	    return 1
+	end
+	
+    if bufftimeT(10814)<0 and bufftimeT(10816)<0 and t心法()== 北傲  then
+	    return 1
+	end
+	
+    if t:SkillCD(21772)>5000 and t心法()== 凌海  then
+	    return 1
+	end
+	
+    if t:SkillCD(22614)>5000 and t:SkillCD(22417)>5000 and t心法()== 10585  then
+	    return 1
+	end
+	
+    if t:SkillCD(24380)>5000 and t心法()== 10615  then
+	    return 1
+	end	
+	
+    if t:SkillCD(27897)>4000--[[绿草蔓生]] and t:SkillCD(27674)>4000--[[逐云寒蕊]] and ( t心法()== 10627 or t心法()== 10626 )  then --新爹
+	    return 1
+	end
+	
+    return 0
+end
+function  停手逻辑() 
+	if  t门派== m五毒 and   bufftimeR(14638) > -500  and  bufftimeT(14637) > -500  and ( 目标.nHP>30 or  玩家.nHP - 目标.nHP< 40 )    then  
+		ErrorRet()
+	end 
+	if   bufftimeT(14637) > -500  and    t门派== m五毒  then 
+		local ojb =  周围_友方("dis:<40;bufftime:14638>-500")
+		if  ojb  and   ojb.nHP  -  目标.nHP  <40  then 
+		
+		MessageYellow("毒手 停手")
+			ErrorRet()
+		end 
+		if  ojb  and 目标.nHP>30   then 
+		MessageYellow("毒手 停手")
+			ErrorRet()
+		end 
+	end 
+	if tState == 死亡 then
+	
+			ErrorRet()
+	end
+	if mState == 死亡 then
+			ErrorRet()
+	end
+	if m读条技能() == 斩无常 then
+			ErrorRet()
+	end
+	if m读条技能() == 斩无常2 then
+			ErrorRet()
+	end
+	if SkillAfter(斩无常) <1000 then
+			ErrorRet()
+	end
+
+	if SkillAfter(斩无常2) <1000 then
+			ErrorRet()
+	end
+	if 技能触发(斩无常,1000) ==1 then
+			ErrorRet()
+	end
+	if SkillAfter(十方玄机) <2000 then
+			ErrorRet()
+	end
+	if SkillAfter(十方玄机2) <2000 then
+			ErrorRet()
+	end
+	if 技能触发(十方玄机,2000) ==1 then
+			ErrorRet()
+	end
+	if 技能触发(十方玄机2,2000) ==1 then
+			ErrorRet()
+	end
+	
+	if  bufftimeR(15717) > -500 then 
+	
+		ErrorRet()
+	end 
+	if bufftimeR(12612--[[啸影]]) > -500 and m读条技能() == 乱天狼 then
+			停止读条()
+	end
+	if bufftimeR(10212)<-500--[[扬旌沙场]] and bufftimeT(10212)>-500--[[扬旌沙场]] then
+			ErrorRet()
+	end
+	if 目标无敌 > -500 or t霸体 > -500 or 自身无敌打坐骑马 > -500 or bufftimeR(17647)>-500--[[鸿蒙天禁]] then
+			ErrorRet()
+	end
+
+	if bufftimeT(20814) >-500 or  bufftimeR(20814) >-500 then 
+		ErrorRet()
+	end 
+
+	if   bufftimeT(4871--[[无名魂锁--]]) > 0 then
+		ErrorRet()
+	end
+
+    if Distance >66 then
+	   ErrorRet()
+    end
+    if 玩家.nState == 死亡 then
+	   ErrorRet()
+    end
+	 if 获得指定敌对释放技能的时间(盾立,目标ID()) >0 and 获得指定敌对释放技能的时间(盾立,目标ID()) <1000 then
+	   ErrorRet()
+    end
+	
+    if 目标.nState == 死亡 then
+	   ErrorRet()
+    end
+	
+end 
+	
+local 奇怪小轻功=function()
+
+	if m控制 ~=1 and 自身存在封轻功类BUFF()==0 and 玩家.nSate ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000") then 
+		
+		if 技能CD(迎风回浪)==1 and 技能GCD(迎风回浪)==1 then				
+			改变面向(118)
+			释放(迎风回浪)
+		end 
+				
+		if 技能CD(瑶台枕鹤)==1 and 技能GCD(瑶台枕鹤)==1 then
+			改变面向(54)
+			释放(瑶台枕鹤)
+		end 
+		
+		if 技能CD(凌霄揽胜)==1 and 技能GCD(凌霄揽胜)==1 then
+			改变面向(-54)
+			释放(凌霄揽胜)
+		end	
+
+		if SkillAfter(后跳)> 5000  then
+			--释放(后跳)
+		end
+		
+	end
+
+end 
+
+
+
+function  敌对离挂局内()
+	d_all=d_all or  tabplayer:New(nil,nil,nil,"敌对",nil) 
+
+		local 火离敌对OJB = d_all:GetGXOjb("火离")  
+		if 火离敌对OJB then
+			if  火离敌对OJB:Skill_CN(鬼星开穴) > 0  and 火离敌对OJB:InViewPlayer() then
+					return  自身在指定玩家的灯局内(火离敌对OJB.nID)
+			end
+		end 
+	return false
+end
+
+
+
+function 自身存在无敌类BUFF()
+
+    if bufftimeR(8303,10173,10174,9934,377,11201,6182,682,13778,13927,15107,14996,15717,3851--[[新镇山河]],9933--[[笼花F]])>0 then
+	    return 1
+	end
+	
+	return 0
+
+end
+
+
+
+  function 释放盾立()
+    if bufftimeR(盾立F)<-500 and bufftimeR(隐F)<-500 and SkillAfter(13067--[[盾立]])>1000 and SkillAfter(13152--[[隐刀]])>1000 and  bufftimeR(盾飞F)<-500 and 自身存在无敌类BUFF()==0 then 
+	    释放(13067--[[盾立]])
+	end
+end
+
+function 敌对爆发()
+local  nT擒龙诀= 获得范围内指定心法释放的技能时间(擒龙诀,易筋,50)
+local  nT激雷= 获得范围内指定心法释放的技能时间(404,傲血,30)
+local  nT紫气东来= 获得范围内指定心法释放的技能时间(紫气东来,紫霞,50)
+local  nT繁音急节= 获得范围内指定心法释放的技能时间(繁音急节,冰心,50)
+local  nT生灭= 获得范围内指定心法释放的技能时间(生灭,焚影,50)
+local  nT冥月渡心= 获得范围内指定心法释放的技能时间(冥月渡心,焚影,50)
+local  nT乱洒青荷= 获得范围内指定心法释放的技能时间(乱洒青荷,花间,50)
+local  nT鬼斧神工= 获得范围内指定心法释放的技能时间(鬼斧神工,天罗,50)
+if nT擒龙诀 > 0  and nT擒龙诀 <5000 then
+	return 1
+end 
+if nT激雷 > 0  and nT激雷 <5000 then
+	return 1
+end 
+if nT紫气东来 > 0  and nT紫气东来 <4000 then
+	return 1
+end 
+if nT繁音急节 > 0  and nT繁音急节 <7000 then
+	return 1
+end 
+if nT冥月渡心 > 0  and nT冥月渡心 <4000 then
+	return 1
+end 
+if nT生灭 > 0  and nT生灭 <6000 then
+	return 1
+end 
+if nT乱洒青荷 > 0  and nT乱洒青荷 <5000 then
+	return 1
+end 
+    return 0
+end 
+
+local 目标心法为奶妈=function()
+
+    if  t心法()== 相知 or t心法()== 离经 or t心法()== 补天 or t心法()== 云裳 or t心法()== 10626 then
+	    return 1
+	end 
+
+    return 0
+
+end
+	
+function 基础数据()
+
+
+  友方HP,友方ID ,友方State,友方距离 =全局友方(20)
+  f免伤_全局友方 = 全局友方_BUFF(友方ID,8303,9534,377--[[镇山河]], 961--[[太虚]], 772--[[回神]], 3425--[[鬼斧神工]],9934--[[南风吐月]], 11151 --[[散流霞]],203--[[啸如虎]])
+  f减伤_全局友方 = 全局友方_BUFF(友方ID,6163,3193,6264,6257,3171,4444,5744,6637,8292,11319,368,367,9933--[[守如山]], 384--[[转乾坤]], 399--[[无相诀]], 3068--[[雾体]],122--[[春泥]],1802--[[御天]], 684--[[天地低昂]], 4439--[[贪魔体]], 6315--[[零落]],6240--[[玄水蛊]], 5996--[[笑醉狂]],6200--[[龙啸九天]], 6636--[[圣手织天]],6262--[[金屋]], 2849--[[蝶戏水]], 3315--[[护体]], 8279--[[盾壁]], 8300--[[盾墙]],8427--[[荣辉]], 8291--[[盾护]],  2983--[[无我]], 10014--[[绝歌]])
+奇穴定义()
+绝返记录()
+
+--决斗提醒
+if 周围敌对玩家(40)<=5 then 
+    if 友方HP<=30 and 技能等级(15196)==1 and 技能CD(15196)==1 and ( 技能等级(20984)~=1 or 技能CD(盾壁)==0 ) then 
+        MessageYellow("有队友血量已达警戒值，请注意决斗拆集火！")
+    end
+end
+
+
+技能前置(盾刀,1000)	
+技能前置(盾压,1000)
+技能前置(盾猛,1000)
+技能前置(盾飞,1000)
+技能前置(撼地,1000)
+技能前置(劫刀,1000)
+技能前置(斩刀,1000)
+技能前置(绝刀,1500)
+技能前置(闪刀,1000)
+技能前置(血刀,1000)
+技能前置(盾回,1000)
+技能前置(盾墙,1000)
+技能前置(收盾,1000)
+技能前置(盾舞,1000)
+技能前置(盾舞·强化,1000)
+技能前置(盾壁,1000)
+技能前置(盾毅,1000)
+
+if SkillAfter(血怒)>700 then
+    技能前置(血怒,500)
+end
+
+技能前置(无惧,1000)
+技能前置(扬旌沙场,1000)
+
+手动技能("盾立",盾立)
+手动技能("盾刀",盾刀)
+手动技能("盾猛",盾猛)
+手动技能("盾击",盾击)
+手动技能("盾压",盾压)
+手动技能("劫刀",劫刀)
+手动技能("斩刀",斩刀)
+手动技能("绝刀",绝刀)
+手动技能("闪刀",闪刀)
+手动技能("盾飞",盾飞)
+手动技能("盾回",盾回)
+手动技能("盾墙",盾墙)
+手动技能("收盾",收盾)
+手动技能("盾舞",盾舞)
+手动技能("盾壁",盾壁)
+手动技能("无惧",无惧)
+手动技能("血怒",血怒)
+手动技能("盾毅",盾毅)
+手动技能("撼地",撼地)
+手动技能("扬旌沙场",扬旌沙场)
+
+充能盾立 	= 	技能充能(盾立)
+cn盾立 		=  	充能盾立
+充能血怒 	= 	技能充能(血怒)
+充能盾击 	= 	技能充能(盾击)  
+充能盾飞 	= 	技能充能(盾飞)  
+充能隐刀 	=	技能充能(盾飞)
+cn盾飞 		= 	技能充能()
+cn隐刀	 	=  	充能隐刀
+cn血怒  	=   充能血怒
+
+ftm盾击,cftm盾击	=		buffisme_t(8487)
+f怒涌 =  bufftimeR(20746)
+f怒涌监控 =  bufftimeR(20747)
+if 玩家.姿态 == 1 then 
+	GCD 	=  技能GCD(13052)
+else
+
+	GCD = 技能GCD (13044)
+
+end 
+
+   ftm流血 =  buffisme_t(8249)
+充能隐刀state = UICALL(隐刀U,UI_STATE)
+	if KeyDown(设置快捷("撼地一键往前冲","撼地一键往前冲")) == 1 then 
+		投掷_面向(撼地,20,10,5)
+
+end 
+
+	
+		nC松舍 , nC松舍问霞ID =   敌对对自己释放的技能(松舍问霞,800,20)
+	    nC浮光掠影 , nC浮光掠影ID = 敌对对自己释放的技能(浮光掠影,1500,30)
+		nC流光囚影 , nC流光囚影ID = 敌对对自己释放的技能(流光囚影,2000,20)
+	    nC驱夜 , nC驱夜ID = 敌对对自己释放的技能(驱夜,2000,20)
+	    nC冥月渡心 , nC冥月渡心ID = 敌对对自己释放的技能(冥月渡心,6000,20)
+	    nC生灭 , nC生灭ID = 敌对对自己释放的技能(生灭,4000,20)
+	    nC捉影式 , nC捉影式ID = 敌对对自己释放的技能(捉影式,500,25)
+	    nC千斤坠 , nC千斤坠ID = 敌对对自己释放的技能(千斤坠,500,20)
+	    nC擒王六式 , nC擒王六式ID = 敌对对自己释放的技能(擒王六式,500,20)
+	    nC盾猛 , nC盾猛ID =   敌对对自己释放的技能(盾猛,500,12)
+	    nC疾 , nC疾ID =   敌对对自己释放的技能(疾,600,15)
+	    nC撼地 , nC撼地ID = 敌对对自己释放的技能(撼地,500,20)
+	    nC斩刀 , nC斩刀ID = 敌对对自己释放的技能(斩刀,1000,20)
+		nC绝刀 , nC绝刀ID = 敌对对自己释放的技能(绝刀,1000,9)
+	    nC割据秦宫 , nC割据秦宫ID = 敌对对自己释放的技能(割据秦宫,500,10)
+	    nC断魂刺 , nC断魂刺ID = 敌对对自己释放的技能(断魂刺,500,27)
+	    nC坚壁清野 ,nC坚壁清野ID =敌对对自己释放的技能(坚壁清野,2000,27)
+	    nC撼如雷 ,nC撼如雷ID =敌对对自己释放的技能(404,8000,8)
+	    nC擒龙诀 , nC擒龙诀ID = 敌对对自己释放的技能(擒龙诀,10000,8)
+	    nC龙跃于渊 , nC龙跃于渊ID = 敌对对自己释放的技能(龙跃于渊,500,20)
+	    nC龙战于野 , nC龙战于野ID = 敌对对自己释放的技能(龙战于野,500,20)
+	    nC棒打狗头 , nC棒打狗头= 敌对对自己释放的技能(棒打狗头,500,20)
+	    nC繁音急节 , nC繁音急节ID = 敌对对自己释放的技能(繁音急节,7000,20)
+	    nC蛊虫献祭 , nC蛊虫献祭ID = 敌对对自己释放的技能(蛊虫献祭,5000,20)
+	    nC水月无间 , nC水月无间ID = 敌对对自己释放的技能(水月无间,3000,20)
+	    nC紫气东来 , nC紫气东来ID = 敌对对自己释放的技能(紫气东来,3000,20)
+	    nC醉月,nC醉月ID = 敌对对自己释放的技能(醉月,1000,8)
+	    nC惊涛,nC惊涛ID = 敌对对自己释放的技能(惊涛,1000,8)
+	    nC突,nC突ID = 敌对对自己释放的技能(突,1000,8)
+	    nC破坚阵,nC破坚阵ID = 敌对对自己释放的技能(破坚阵,1000,8)
+	    nC大道无术=敌对对自己释放的技能(大道无术,1000,8)
+	    nC血覆黄泉 , nC血覆黄泉ID = 敌对对自己释放的技能(血覆黄泉,6000,20)
+	    nC剑冲阴阳,nC剑冲阴阳ID = 敌对对自己释放的技能(剑冲阴阳,6000,20)
+		nC暗尘弥散,nC暗尘弥散ID = 敌对对自己释放的技能(暗尘弥散,6000,20)
+		
+        -- 预判_破魔击 = 预判敌对技能(破魔击,8000,12,焚影,"月灵",满月)
+        -- 预判_生死劫 = 预判敌对技能(生死劫,8000,5,焚影,"日灵",满日)
+        预判_芙蓉并蒂 = 预判敌对技能(芙蓉并蒂,20000,20,花间,0,0)
+        预判_百足,预判_百足ID =预判敌对技能(百足,12000,20,毒经,0,0)
+        预判_大狮子吼,预判_大狮子吼ID =预判敌对技能(大狮子吼,13000,7,易筋,"禅那",3) 
+	    预判_醉月 = 预判敌对技能(醉月,15000,8,问水,"剑气",15)
+	    预判_醉月2 = 预判敌对技能(醉月,15000,8,居山,"剑气",15)
+	    预判_惊涛 = 预判敌对技能(惊涛,15000,8,居山,"剑气",20)
+	    预判_破坚阵,预判_破坚阵ID = 预判敌对技能(破坚阵,15000,5,傲血,"战意",2)
+		预判_摩诃无量 = 预判敌对技能(摩诃无量,25000,5,易筋,"禅那",1)
+		预判_盾猛 = 预判敌对技能(盾猛,15000,12,分山,0,0)
+		
+		nSkillTime_物化天行=t:OnSkillTime(物化天行)
+		nSkillTime_血覆黄泉=t:OnSkillTime(血覆黄泉)
+
+		nC七星拱瑞 = 全局_敌对对自己读条(七星拱瑞,20,60)
+		nC四象轮回 = 全局_敌对对自己读条(四象轮回,20,60)
+		nC夺魄箭 = 全局_敌对对自己读条(夺魄箭,30,60)
+		nC平沙落雁 = 全局_敌对对自己读条(平沙落雁,20,70)
+	    nC夺魄箭2 = 全局_敌对对自己读条(夺魄箭2,30,60)
+	    nC追命箭 = 全局_敌对对自己读条(追命箭,30,60)
+	    nC追命箭2 = 全局_敌对对自己读条(追命箭2,30,60)
+	    nC刀啸风吟 = 全局_敌对对自己读条(刀啸风吟,30,60)
+		nC百里追魂 = 全局_敌对对自己读条(百里追魂,50,60)
+	    nC碧落 , nC翔极碧落ID =   敌对对自己释放的技能(20065,300,20)
+        nC逐波 , nC逐波灵游ID =   敌对对自己释放的技能(20084,300,25)		
+        nC溟海 , nC溟海御波ID =   敌对对自己释放的技能(20083,300,8)
+	    nC踏宴扬旗 , nC踏宴扬旗= 敌对对自己释放的技能(踏宴扬旗,500,12)
+	    nC骤雨寒江 , nC骤雨寒江ID =   敌对对自己释放的技能(22150,300,6)
+	    nC随物剑冲阴阳 , nC随物剑冲阴阳ID =   敌对对自己释放的技能(18751,1000,20) 
+	    nt星楼月影,nt星楼月影ID = 获得范围内指定心法释放的技能时间(星楼月影,离经,30)
+	    nt水月无间,nt水月无间ID = 获得范围内指定心法释放的技能时间(水月无间,离经,30)
+	    nt千蝶吐瑞,nt千蝶吐瑞ID = 获得范围内指定心法释放的技能时间(千蝶吐瑞,补天,30)
+	    nt千蝶吐瑞,nt千蝶吐瑞ID = 获得范围内指定心法释放的技能时间(千蝶吐瑞,补天,30)
+	    nt蛊虫献祭,nt蛊虫献祭ID =获得范围内指定心法释放的技能时间(蛊虫献祭,补天,30)
+	    nt移型幻影,nt移型幻影ID = 获得范围内指定心法释放的技能时间(移型幻影,相知,30)
+	    nt移型幻影2,nt移型幻影2ID = 获得范围内指定心法释放的技能时间(移型幻影2,相知,30)
+	    nt移型幻影3,nt移型幻影3ID = 获得范围内指定心法释放的技能时间(移型幻影3,相知,30)
+	    nt孤影化双,nt孤影化双ID = 获得范围内指定心法释放的技能时间(14081,相知,30)
+	    nt青霄飞羽,nt青霄飞羽ID = 获得范围内指定心法释放的技能时间(青霄飞羽,相知,30)
+	    nt灵蛊,nt灵蛊ID = 获得范围内指定心法释放的技能时间(灵蛊,补天,30)
+	    nt疾如风,nt疾如风ID = 获得范围内指定心法释放的技能时间(疾如风,傲血,40)
+	    nt繁音急节,nt繁音急节ID = 获得范围内指定心法释放的技能时间(繁音急节,冰心,40)
+	    nt紫气东来,nt紫气东来ID = 获得范围内指定心法释放的技能时间(紫气东来,紫霞,40)
+	    nt生灭予夺,nt生灭予夺ID = 获得范围内指定心法释放的技能时间(生灭予夺,焚影,40)
+	    nt驱夜断愁,nt驱夜断愁ID = 获得范围内指定心法释放的技能时间(驱夜断愁,焚影,40)
+	    nt冥月渡心,nt冥月渡心ID = 获得范围内指定心法释放的技能时间(冥月渡心,焚影,40)
+	    nt擒龙诀,nt擒龙诀ID = 获得范围内指定心法释放的技能时间(疾如风,易筋,40)
+	    nC物化天行 , nC物化天行ID = 敌对对自己释放的技能(物化天行,1300,20)
+	    nC铁马冰河 , nC铁马冰河ID = 敌对对自己释放的技能(铁马冰河,500,25)
+	    nt盾墙,nt盾墙ID = 获得范围内指定心法释放的技能时间(盾墙,分山,40)
+	    nt任驰骋,nt任驰骋ID = 获得范围内指定心法释放的技能时间(任驰骋,傲血,40)
+	    nt蹑云逐月_云裳,nt蹑云逐月_云裳ID = 获得范围内指定心法释放的技能时间(蹑云逐月,云裳,40)
+	    nt蹑云逐月_离经,nt蹑云逐月_离经ID = 获得范围内指定心法释放的技能时间(蹑云逐月,离经,40)
+	    nt蹑云逐月_补天,nt蹑云逐月_补天ID = 获得范围内指定心法释放的技能时间(蹑云逐月,补天,40)
+	    nt蹑云逐月_相知,nt蹑云逐月_相知ID = 获得范围内指定心法释放的技能时间(蹑云逐月,相知,40)
+	    nt青霄飞羽,nt青霄飞羽ID = 获得范围内指定心法释放的技能时间(青霄飞羽,相知,40)
+	    nt水月无间_花间,nt水月无间_花间ID = 获得范围内指定心法释放的技能时间(水月无间,花间,40)
+		
+	    nt圣元_补天,nt圣元_补天ID = 获得范围内指定心法释放的技能时间(25058,补天,40)
+		Dis圣元补天 =全局_距离2(自身ID(),nt圣元_补天ID)
+		
+	    Dis云裳 = 全局_距离2(自身ID(),nt蹑云逐月_云裳ID)
+	    Dis离经 = 全局_距离2(自身ID(),nt蹑云逐月_离经ID)
+	    Dis补天 =全局_距离2(自身ID(),nt蹑云逐月_补天ID)
+	    Dis相知 =全局_距离2(自身ID(),nt蹑云逐月_相知ID)
+		
+		
+	    Dis补天2 =  全局_距离2(自身ID(),敌对血量最少的ID)  ---自身与敌对最少血线
+	    Dis相知2 =  全局_距离2(自身ID(),敌对血量最少的ID)
+	    Dis离经2 =  全局_距离2(自身ID(),敌对血量最少的ID)
+	    Dis云裳2 =  全局_距离2(自身ID(),敌对血量最少的ID)
+		
+		周围敌对奶毒 =周围敌对玩家(50,3,补天)
+		周围敌对奶妈 =周围敌对玩家(50,3,相知,云裳,离经,补天,灵素)
+		
+		周围敌对玩家_60尺=周围敌对玩家(60)
+		周围敌对玩家_20尺=周围敌对玩家(20)
+		周围敌对玩家_35尺=周围敌对玩家(35)
+		周围敌对玩家_15尺=周围敌对玩家(15)
+		周围敌对玩家_9尺=周围敌对玩家(9)
+        周围敌对玩家_6尺=周围敌对玩家(6)
+		
+		友方HP,友方ID ,友方State,友方距离 =全局友方(20)
+		f不可选_全局友方= 全局友方_BUFF(友方ID,682,10173,10174,10212,9506)
+        f免伤_全局友方 = 全局友方_BUFF(友方ID,8303,9534,377--[[镇山河]], 961--[[太虚]], 772--[[回神]], 3425--[[鬼斧神工]],9934--[[南风吐月]], 11151 --[[散流霞]],203--[[啸如虎]])
+        f减伤_全局友方 = 全局友方_BUFF(友方ID,6163,3193,6264,6257,3171,4444,5744,6637,8292,11319,368,367,9933--[[笼花]], 384--[[转乾坤]], 399--[[无相诀]], 3068--[[雾体]],122--[[春泥]], 684--[[天地低昂]], 4439--[[贪魔体]], 6315--[[零落]],6240--[[玄水蛊]], 5996--[[笑醉狂]],6200--[[龙啸九天]], 6636--[[圣手织天]],6262--[[金屋]], 2849--[[蝶戏水]], 3315--[[护体]], 8279--[[盾壁]], 8300--[[盾墙]],8427--[[荣辉]], 8291--[[盾护]],  2983--[[无我]], 10014--[[绝歌]])	
+		f绝反  =  bufftimeR(8451) 
+        m无敌 = bufftimeR(8303,10173,10174,9934,377,11201,6182,682,13778,13927,15107,14996,15717,3851--[[新镇山河]])
+		f无敌 = bufftimeT(8303,10173,10174,9934,377,11201,6182,682,13778,13927,15107,14996,15717,3851--[[新镇山河]]) 
+		f闪避 = bufftimeT(2065,5668,3214,6299,6174,6434,677)
+        m闪避 = bufftimeR(2065,5668,3214,6299,6174,6434,677)
+        t减速 = bufftimeT(6191,555,6374,12444,560,584,12540,1720,549,3463,3226,10861,6078,2297,11262,563,4054,8398,8492,11168,11245,9170)
+		f仇飞	= bufftimeR(18105)
+		nd离手风车 = NPC距离(57739,"敌对") or 0  --目标离手风车与玩家之间距离
+        nd六合独尊 = NPC距离(58295,"敌对") or 0 --目标六合独尊与玩家之间距离
+        nd坚壁清野 = NPC距离(53233,"敌对") or 0 --目标坚壁清野与玩家之间距离
+		nd澹然若海 = NPC距离(63709,"敌对") or 0 --目标澹然若海与玩家之间距离
+        nd振翅图南 = NPC距离(62273,"敌对") or 0 --目标振翅图南与玩家之间距离
+        nd青山共我 = NPC距离(67665,"敌对") or 0 --目标自身青山共我与玩家之间距离
+		
+		
+		不控NPC=设置功能("不控NPC",27112,"不控NPC")
+		自动盾护保队友 = 设置功能("自动盾护保队友",29338,"自动盾护保队友")
+		吃鸡自动大药=设置功能("吃鸡自动大药",27222,"吃鸡自动大药")
+		吃鸡自动吃行气散=设置功能("吃鸡自动吃行气散",27223,"不做人了，有就直接自己吃")
+		
+	--反弹	
+	if  f仇飞 > 0 and 玩家.怒气<30 and SkillAfter(血怒) >  1500  then 
+		释放(血怒,1)
+	end 
+	if  f仇飞 > -200 and 玩家.怒气<55  and f仇飞 > 1000  and SkillAfter(血怒) >  1500 then 
+		释放(血怒,1)
+	end 
+	if not 可追击() then 
+	return
+	end
+	
+    if ( nd六合独尊>0 and nd六合独尊<7 ) or ( nd坚壁清野>0 and nd坚壁清野<5 ) or ( nd离手风车>0 and nd离手风车<11 ) or ( nd振翅图南>0 and nd振翅图南<6 ) or ( nd澹然若海>0 and nd澹然若海<7 ) or ( nd青山共我>0 and nd青山共我<=4 ) then
+        if bufftimeR(盾飞F)<0 then
+            释放盾立()
+		end
+		
+		if bufftimeR(盾飞F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+		    释放非追击隐刀()
+		end
+    end
+
+	
+    --躲控			 
+    if  m免控< 0 and SkillAfter(血怒)>2000 and SkillAfter(无惧)>2000 and SkillAfter(隐刀)>1000 and bufftimeR(盾墙F)<0 and bufftimeR(隐F)<0 and bufftimeR(无惧F)<0 and bufftimeR(8449)<0 then 
+
+        if nC撼地 == 1 or nC千斤坠 == 1 or nC疾 ==1  or nC七星拱瑞==1 or nC碧落==1 or nC逐波==1 or nC溟海==1   or nC踏宴扬旗==1 or nC捉影式==1 or nC骤雨寒江==1 or nC盾猛 == 1  or  nC龙战于野==1  or nC擒王六式==1 or nC大道无术==1  or nC剑冲阴阳==1 or nC随物剑冲阴阳==1 or nC割据秦宫==1  or nC断魂刺 == 1  or nC棒打狗头==1  or nC醉月==1 or nC突==1  then
+		    if t控制==0 and 可控前置()==1 then
+			    释放盾立()
+			end
+		    if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			    释放非追击隐刀()
+			end
+				 释放(血怒,1)
+
+			血怒补怒气() 
+            奇怪小轻功()
+	    end 
+		
+	    if  ( 预判_醉月==1 or 预判_醉月2==1 ) then
+		    if ( t心法()== 问水 or t心法()== 山居 ) and t控制==0 then
+		        if t控制==0 and 可控前置()==1 then
+			        释放盾立()
+			    end
+		        if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			        释放非追击隐刀()
+			    end
+								 释放(血怒,1)
+
+				血怒补怒气() 
+                奇怪小轻功()
+			end
+		    if  t心法()~= 问水 and t心法()~= 山居 then
+		        if t控制==0 and 可控前置()==1 then
+			     		if cn盾立> 1 then 
+							释放盾立()
+					end 
+			    end
+		        if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			        释放非追击隐刀()
+			    end
+												 释放(血怒,1)
+
+				血怒补怒气() 
+                奇怪小轻功()
+			end
+	    end 
+		
+	    if  预判_摩诃无量==1 then
+		    if  t心法()== 易筋 and t控制==0 then
+		        if t控制==0 and 可控前置()==1 then
+			        释放盾立()
+			    end
+		        if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			        释放非追击隐刀()
+			    end
+												 释放(血怒,1)
+
+				血怒补怒气() 
+                奇怪小轻功()
+			end
+		    if  t心法()~= 易筋 then
+		        if t控制==0 and 可控前置()==1 then
+			        释放盾立()
+			    end
+		        if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			        释放非追击隐刀()
+			    end
+				 释放(血怒,1)
+
+				血怒补怒气() 
+                奇怪小轻功()
+			end
+	    end
+		
+	    if  预判_盾猛==1 and bufftimeT(8265)<-500 and bufftimeT(隐F)<-500 and bufftimeT(8391)<-500 and bufftimeT(盾立F)<-500 then
+		    if  t心法()== 分山 and t控制==0 then
+		        if t控制==0 and 可控前置()==1 then
+			        释放盾立()
+			    end
+		        if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			        释放非追击隐刀()
+			    end
+				 释放(血怒,1)
+
+				血怒补怒气() 
+                奇怪小轻功()
+			end
+		    if  t心法()~= 分山 then
+		        if t控制==0 and 可控前置()==1 then
+			        释放盾立()
+			    end
+		        if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			        释放非追击隐刀()
+			    end
+				 释放(血怒,1)
+
+				血怒补怒气() 
+                奇怪小轻功()
+			end
+	    end
+		
+	
+	    if 目标ID()==预判_破坚阵ID and bufftimeT(244)>-500 and 预判_破坚阵==1 and t控制==0 then
+		    if t控制==0 and 可控前置()==1 then
+			    释放盾立()
+			end
+		    if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			    释放非追击隐刀()
+			end
+				 释放(血怒,1)
+
+			血怒补怒气() 
+            奇怪小轻功()
+	    end 
+	
+    end
+
+
+end
+
+function 释放非追击隐刀()
+--MessageYellow(cf隐刀消耗层数)	
+--if cf隐刀消耗层数==1 then MessageYellow("下次隐刀消耗10怒") end
+--if cf隐刀消耗层数>1 then MessageYellow("下次隐刀消耗15怒") end
+
+local cf隐刀消耗层数,tf隐刀消耗层数=GetBuffS("自身",8373)
+local 充能隐刀2state = UICALL(隐刀U,UI_STATE)
+
+    if 充能隐刀2state==0 then --前置
+	    if 玩家.怒气<14 and SkillAfter(血怒)>1000 and bufftimeR(20746--[[怒涌]])<-500 then
+		    血怒补怒气() 
+		end 
+	    if  玩家.怒气>14 or bufftimeR(20746--[[怒涌]])>0  then 
+	        if Distance<=6 then 
+			    释放(闪刀,0,15,1)
+			end 
+	        if Distance>6 then 
+			    释放(闪刀)
+			end 
+		end
+    end		
+    if 充能隐刀2state~=0 then 
+        if cf隐刀消耗层数==0 then
+	        if 玩家.怒气<4 and bufftimeR(20746--[[怒涌]])<-500 then
+		        血怒补怒气() 
+		    end 
+	        if ( 玩家.怒气>4 or bufftimeR(20746--[[怒涌]])>0 ) and SkillAfter(13152--[[隐刀]])>700 and bufftimeR(隐F)<0 then 
+			--调试信息(cf隐刀消耗层数)
+	            if Distance<=6 then 
+			        释放隐刀()
+			    end 
+	            if Distance>6 then 
+			        释放隐刀()
+		    	end 
+            end				
+		end
+        if cf隐刀消耗层数==1 then
+	        if 玩家.怒气<9 and SkillAfter(血怒)>1000 and bufftimeR(20746--[[怒涌]])<-500 then
+		        血怒补怒气() 
+		    end 
+	        if ( 玩家.怒气>9 or bufftimeR(20746--[[怒涌]])>0 ) and SkillAfter(13152--[[隐刀]])>700 and bufftimeR(隐F)<0 then 
+	            if Distance<=6 then 
+			        释放隐刀()
+			    end 
+	            if Distance>6 then 
+			        释放隐刀()
+		    	end 
+            end				
+		end
+        if cf隐刀消耗层数>1 then
+	        if 玩家.怒气<14 and SkillAfter(血怒)>1000 and bufftimeR(20746--[[怒涌]])<-500 then
+		        血怒补怒气() 
+		    end 
+	        if ( 玩家.怒气>14 or bufftimeR(20746--[[怒涌]])>0 ) and SkillAfter(13152--[[隐刀]])>700 and bufftimeR(隐F)<0 then 
+	            if Distance<=6 then 
+			        释放隐刀()
+			    end 
+	            if Distance>6 then 
+			        释放隐刀()
+		    	end 
+            end				
+		end
+	end
+end
+
+
+local 目标可被一刀斩=function()
+
+    if bufftimeT(203)<0 and bufftimeT(18105)<0 and bufftimeT(14319)<0 and InView(目标ID()) == true and 可攻击()==1 then  --啸如虎、仇非、激奋BUFF 
+	
+	    if V可释放重要技能()==1 and 目标存在化解类BUFF()==0 then 
+		
+		    return 1
+		
+		end 
+	
+	end
+	
+	return 0
+
+end 
+
+
+ function 花间爆发规避 ()
+
+if  bufftimeR(666)>9000 and bufftimeR(714)>9000 and  bufftimeR(711)>9000 and m减伤<0 and 自身存在无敌类BUFF()==0  then
+
+
+        if bufftimeR(盾飞F)<0 then
+            释放盾立()
+	    end
+		if bufftimeR(盾飞F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+		    释放非追击隐刀()
+		end
+		
+    if 玩家.nHP<=60 and SkillAfter(盾墙)>1000 and bufftimeR(盾墙F)<0 then 
+        if bufftimeR(18105)<0 then 释放(盾壁) end
+    end
+
+	
+end
+
+end 
+
+function 冰心爆发规避()
+
+if  ( GetBuffS("自身",2920)>=2 or bufftimeR(14506)>0 ) and m减伤<0 and 自身存在无敌类BUFF()==0  then
+
+    if bufftimeT(10617,10618,10619)>0  then
+        if bufftimeR(盾飞F)<0 then
+            释放盾立()
+	    end
+		if bufftimeR(盾飞F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+		    释放非追击隐刀()
+		end	
+    end
+
+    if 玩家.nHP<=45 and SkillAfter(盾墙)>1000 and bufftimeR(盾墙F)<0 then 
+        if bufftimeR(18105)<0 then 释放(盾壁) end
+    end
+
+	
+	
+end
+
+end 
+
+function 乱天狼规避()
+
+	--乱天狼规避
+	if t心法()==10585 and TFaceOK()==1 and t读条技能()== 乱天狼  and bufftimeR(骑御F)<-500 and 自身存在封轻功类BUFF()==0 and m免伤<0 then
+
+		if Distance<=8 and Distance>=6 and bufftimeT(崔嵬鬼步F)<-500 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000") then 
+		
+            if bufftimeR(盾飞F)<0 then
+                释放盾立()
+	        end
+		    if bufftimeR(盾飞F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+		       释放非追击隐刀()
+		    end			
+		    
+				if 技能CD(迎风回浪)==1 and 技能GCD(迎风回浪)==1 then
+									改变面向(112)
+									释放(迎风回浪)
+				end 
+				if 技能CD(瑶台枕鹤)==1 and 技能GCD(瑶台枕鹤)==1 then
+							        改变面向(52)
+									释放(瑶台枕鹤)
+				end 
+				if 技能CD(凌霄揽胜)==1 and 技能GCD(凌霄揽胜)==1 then
+							        改变面向(-52)
+									释放(凌霄揽胜)
+				end
+		end 		
+		if Distance>8 and Distance<13 and bufftimeT(崔嵬鬼步F)<-500 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000") then 
+		
+            if bufftimeR(盾飞F)<0 then
+                释放盾立()
+	        end
+		    if bufftimeR(盾飞F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+		       释放非追击隐刀()
+		    end	
+		
+				if 技能CD(迎风回浪)==1 and 技能GCD(迎风回浪)==1 then
+				    math.randomseed(tostring(os.time()):reverse():sub(1, 7))
+                    rannum=math.random(1,2)
+                        if rannum==1 then 				
+									改变面向(64)
+									释放(迎风回浪)
+						end
+                        if rannum==2 then 				
+									改变面向(-64)
+									释放(迎风回浪)
+						end
+				end 
+				
+				if 技能CD(瑶台枕鹤)==1 and 技能GCD(瑶台枕鹤)==1 then
+							        改变面向(10)
+									释放(瑶台枕鹤)
+				end 
+				if 技能CD(凌霄揽胜)==1 and 技能GCD(凌霄揽胜)==1 then
+							        改变面向(-10)
+									释放(凌霄揽胜)
+				end		
+		end
+    end
+
+
+end
+
+建模信息=function()
+--dbg(打印所属玩家的NPC建模ID(自身ID()))
+
+    nd目标到自身植物距离 = NPC距离T(苍棘缚地M,"自身") or 0
+	
+	nd目标到自身沾衣圈距离 = NPC距离T(沾衣未妨M,"自身") or 0
+	
+	nd目标到自身紫伏花距离 = NPC距离T(106632,"自身") or 0
+	
+	nd自身到敌对沾衣圈距离 = NPC距离(沾衣未妨M,"敌对") or 0
+	
+	nd自身到敌对植物距离 = NPC距离(苍棘缚地M,"敌对") or 0
+	
+	nd自身到自身植物距离 = NPC距离(苍棘缚地M,"自身") or 0
+	
+   --nd自身到敌对生太极距离 = NPC距离(生太极M,"敌对") or 0
+end
+
+  function 满足释放预判盾立条件()
+
+if ttisme==1 and t控制==0 then  --目标是我
+
+    if t心法()==太虚 then
+	    if t橙武>0 and Distance<13 then 
+            return 1 
+        end 		
+        if t爆发>0 and t:Skill_CN(八荒归元)<1 and  t:OnSkillTime(八荒归元)<10200 and Distance<13 then
+            return 1 
+        end 
+        if t:Skill_CN(八荒归元)<1 and  t:OnSkillTime(八荒归元)<10200 and Distance<=12  and 玩家.nHP<=40 then
+            return 1 
+        end 
+        if nC八荒归元==1 and Distance<=12  and 玩家.nHP<=40 then
+            return 1 
+        end 
+		if  nC剑冲阴阳==1 then
+            return 1 
+        end 		
+        if m免控<0 and ( bufftimeR(562)>0 or bufftimeR(560)>0) and Distance<11 and t:Skill_CN(人剑合一)<1 and  t:OnSkillTime(人剑合一)<14200 then
+            return 1 
+        end 
+        if m免控<0 and ( bufftimeR(562)>0 or bufftimeR(560)>0) and Distance<11 and nC人剑合一==1 then
+            return 1 
+        end 
+        if m免控<0 and Distance<=8 and 预判_大道无术==1 and t:Skill_CN(大道无术)<1 and  t:OnSkillTime(大道无术)<19200 then
+            return 1 
+        end
+
+    end
+
+    if t心法()==紫霞 then
+	    if t橙武>0 and Distance<21 then 
+            return 1 
+        end
+        if  m减伤<0 and bufftimeR(盾壁F)<0 and t爆发>0 then
+            return 1 
+        end 
+        if bufftimeR(无惧F)<0 and bufftimeR(盾墙F)<0 and Distance<=8 and t:Skill_CN(九转归一)<1 and  t:OnSkillTime(九转归一)<14200 then
+            return 1 
+        end 
+    end 
+
+    if t心法()== 花间 then
+	    if t橙武>0 and Distance<21 then 
+            return 1 
+        end
+		if t读条技能()~=605 and t读条技能()~=0 then
+            return 1 
+        end		    
+        if bufftimeR(商阳指F)>0 and bufftimeR(兰摧玉折F)>0 and buffisme_t(钟林毓秀F)>0 and t:Skill_CN(玉石俱焚)<1 and  t:OnSkillTime(玉石俱焚)<16200 then
+            return 1 
+        end 
+        if bufftimeR(商阳指F)>0 and bufftimeR(兰摧玉折F)>0 and buffisme_t(钟林毓秀F)>0 and nC玉石俱焚==1 then
+            return 1 
+        end 
+        if bufftimeR(商阳指F)>0 and bufftimeR(商阳指F)<14000 and bufftimeR(兰摧玉折F)>0 and bufftimeR(兰摧玉折F)<14000 and buffisme_t(钟林毓秀F)>0 and bufftimeR(钟林毓秀F)<14000   then
+		    if  预判_芙蓉并蒂==1 or ( t:Skill_CN(玉石俱焚)<1 and  t:OnSkillTime(玉石俱焚)<15200 and t:Skill_CN(芙蓉并蒂)<1 and  t:OnSkillTime(芙蓉并蒂)<19200) then 
+                return 1 
+			end 
+        end
+    end
+
+    if t心法()== 问水  then
+	    if t橙武>0 and Distance<17 then 
+            return 1 
+        end	
+        if   预判_醉月==1 or 预判_醉月2==1 then
+		    if t免控<0 or m免控<500  then 
+                return 1 
+			end 
+        end
+    end
+
+    if t心法()== 山居 then
+        if   预判_醉月==1 or 预判_醉月2==1 or 预判_惊涛==1 then
+		    if m免控<0 then
+                return 1 
+			end 
+        end
+		if t读条技能()==云飞玉皇 then
+		    return 1
+		end
+        if t:Skill_CN(峰插云景)<1 and  t:OnSkillTime(峰插云景)<14200 and bufftimeR(无惧F)<0 and bufftimeR(盾墙F)<0 and Distance<=6 then 
+            return 1 
+        end
+		if ( bufftimeT(云景F)>-500 or bufftimeT(夜雨F)>0 )  and Distance<17 and t:OnSkillTime(云飞玉皇)>3600 then --and t:OnSkillTime(云飞玉皇)>3800
+            return 1 		
+		end 
+		if  bufftimeT(1922)>0   and Distance<9 then --cw
+			return 1 
+		end
+		if nC松舍==1 then
+			return 1 
+		end
+		if f闪避<0  and ( bufftimeR(血怒F)>0 or bufftimeR(无惧F)>0 ) and Distance<9 and t:Skill_CN(风吹荷)<1 and  t:OnSkillTime(风吹荷)<20200 then --and t:Skill_CN(风吹荷)<1 and  t:OnSkillTime(风吹荷)<20200
+			return 1 
+		end
+	end
+
+    if t心法()== 傲血 then
+	    if t橙武>0 and Distance<9 then 
+            return 1 
+        end
+        if  bufftimeT(纵轻骑F)>0 and bufftimeT(破重围F)>0 and Distance<4.5 then 
+            return 1 
+        end
+        if nC断魂刺==1 and ( t免控<0 or m免控<500 ) then 
+            return 1 
+        end
+        if bufftimeT(骑御F)>0  and m免控<0 and Distance<5 then
+		    if ( t:Skill_CN(破坚阵)<1 and  t:OnSkillTime(破坚阵)<11200  ) or  预判_破坚阵==1   then 
+                return 1 
+			end 
+        end
+        if t爆发>0 and Distance<9 then
+            return 1 
+        end
+    end
+
+    if t心法()== 易筋 then
+	    if t橙武>0 and Distance<9 then 
+            return 1 
+        end
+		if m免控<0 and Distance<7 and (t免控<0 or m免控<500 ) then
+		    if (  t:Skill_CN(大狮子吼)<1 and  t:OnSkillTime(破坚阵)<12200 ) or  预判_大狮子吼==1 then 
+			    return 1 
+			end 
+		end
+		if m免控<0 and Distance<5 and (t免控<0 or m免控<500 ) then
+		    if (  t:Skill_CN(摩诃无量)<1 and  t:OnSkillTime(摩诃无量)<14200 ) or  预判_摩诃无量==1 then 
+			    return 1 
+			end 
+		end
+		if  t爆发>0 and Distance<9 then 
+			return 1 
+		end
+	end 
+
+    if t心法()== 冰心 then
+	    if t橙武>0 and Distance<21 then 
+            return 1 
+        end
+        if GetBuffS("自身",2920)==2 and Distance<9 and t:Skill_CN(剑影留痕)<1 and  t:OnSkillTime(剑影留痕)<9000 then
+            return 1 
+        end
+        if GetBuffS("自身",2920)==3 and Distance<=20 then
+            return 1 
+        end
+        if m免控<0 and Distance<9 and (t免控<0 or m免控<500 ) then 
+            if  t:Skill_CN(帝骖龙翔)<1 and  t:OnSkillTime(帝骖龙翔)<38200	then 	
+                return 1 
+			end 
+        end
+    end
+
+    if t心法()== 毒经 then
+	    if t橙武>0 and Distance<21 then 
+            return 1 
+        end
+		
+		if bufftimeR(2489,2492,2296)<0 and Distance<21 then
+		    return 1
+		end
+		
+        if bufftimeR(6247)>0  and Distance<21 and (t免控<0 or m免控<500 )  then 
+		    if 预判_百足==1 then 
+                return 1 
+			end 
+        end
+    end 
+
+    if t心法()== 惊羽 then
+	    if t橙武>0 and Distance<26 then 
+            return 1 
+        end
+        if nc百里追魂==1 then
+            return 1 
+        end
+        if t爆发>0 and bufftimeT(追命无声F)>0 and Distance<26 then 
+            return 1 
+        end
+        if Distance<21 and (t免控<0 or m免控<500 )  then
+		    if ( t:Skill_CN(雷震子)<1 and  t:OnSkillTime(雷震子)<24200  ) or  nC雷震子==1 then 
+                return 1 
+			end 
+		    if ( t:Skill_CN(迷神钉)<1 and  t:OnSkillTime(迷神钉)<19200  ) or  nC迷神钉==1 then 
+                return 1 
+			end 
+        end
+        if bufftimeR(无惧F)<0 and bufftimeR(盾墙F)<0 and Distance>10 and t:Skill_CN(逐星箭)<1 and  t:OnSkillTime(逐星箭)<9200 then
+            return 1 
+        end
+    end
+
+    if t心法()== 天罗 then
+	    if t橙武>0 and Distance<21 then 
+            return 1 
+        end
+        if nC千秋万劫==1 then
+            return 1 
+        end
+        --if  t:Skill_CN(荆天棘地)<1 and  t:OnSkillTime(荆天棘地)<24000 and Distance<9 then
+            --return 1 
+        --end
+        --if nC荆天棘地==1 then
+            --return 1 
+        --end
+        if Distance<21 and (t免控<0 or m免控<500 )  then
+		    if ( t:Skill_CN(雷震子)<1 and  t:OnSkillTime(雷震子)<24200  ) or  nC雷震子==1 then 
+                return 1 
+			end 
+		    if ( t:Skill_CN(迷神钉)<1 and  t:OnSkillTime(迷神钉)<19200  ) or  nC迷神钉==1 then 
+                return 1 
+			end 
+        end
+    end 
+
+    if t心法()== 焚影 and 不可控制减伤BUFF<-500 then
+	    if t橙武>0 and Distance<16 then 
+            return 1 
+        end
+        if nC怖畏暗刑==1 or nC冥月渡心==1 then 
+            return 1 
+        end
+        if  Distance<6 and t:Skill_CN(怖畏暗刑)<1 and  t:OnSkillTime(怖畏暗刑)<27200 and m免控>0  then 
+            return 1 
+        end
+        -- if m免控<0 and (预判_破魔击==1 or 预判_生死劫==1 ) and Distance<16 then 
+            -- return 1 
+        -- end
+    end 
+
+    if t心法()== 笑尘 then
+	    if t橙武>0 and Distance<9 then 
+            return 1 
+        end
+        if bufftimeT(龙头F)>0 and GetBuffS("目标",龙头F)>=2  and bufftimeT(有攸F)>0  and Distance<=8 then 
+            return 1 
+        end
+        if (bufftimeT(6434)>0 or bufftimeT(6379)>0 or bufftimeT(5754)>0 or bufftimeT(酒中仙F)>0 ) and 目标.nMP>22 and Distance<9 and t读条技能()==0 then 
+            return 1 
+        end
+		if ( bufftimeT(城复于隍霸体F)>-500 or GetBuffS("目标",21031)>25 ) and Distance<9 then
+		    return 1
+		end
+    end 
+
+    if t心法()== 分山 then
+	    if t橙武>0 and Distance<9 then 
+            return 1 
+        end
+		if bufftimeT(狂绝F)>0 and Distance<9 and bufftimeT(隐F)<-500 and bufftimeT(盾飞F)>0 then
+		    return 1
+		end
+        if Distance<13 and (t免控<0 or m免控<500 ) and bufftimeT(盾飞F)<0 and bufftimeT(盾墙F)<0 and bufftimeT(隐F)<0 then
+		    if ( t:Skill_CN(盾猛)<1 and  t:OnSkillTime(盾猛)<14200 ) or nC盾猛==1 then 
+                return 1 
+			end 
+        end
+        if Distance<21 and (t免控<0 or m免控<500 ) and bufftimeT(盾飞F)<0 and bufftimeT(盾墙F)<0 then
+		    if ( t:Skill_CN(撼地)<1 and  t:OnSkillTime(撼地)<19200 ) or nC撼地==1 then 
+                return 1 
+			end 
+        end
+        if bufftimeT(盾飞F)>0 and nC斩刀==1 and Distance<=20 and m减伤<0  then 
+            return 1 
+        end
+        if bufftimeT(盾飞F)>0 and nC绝刀==1 and Distance<=6 and m减伤<0  then 
+            return 1 
+        end    
+    end
+
+    if  t心法()== 北傲 then
+	    if t橙武>0 and Distance<9 then 
+            return 1 
+        end
+		if bufftimeT(碎江天F)>-500 and Distance<8 then 
+            return 1 
+        end		
+        if  nC刀啸风吟==1 then 
+            return 1 
+        end
+        if nC踏宴扬旗==1 and bufftimeT(松烟竹雾F)>0 and Distance<13 and m免控<0 and t免控<0 then 
+            return 1 
+        end
+        if nC踏宴扬旗==1 and bufftimeT(秀明尘身F)>0 and Distance<7 and m免控<0 and t免控<0 then 
+        return 1 
+        end    
+        if nC上将军印==1 and Distance<7 then
+            return 1 
+        end
+    end 
+
+    if  t心法()== 凌海 then
+	    if t橙武>0 and Distance<9 then 
+            return 1 
+        end
+        if nC海运南冥==1 or nC鸿渐于飞==1 then
+            return 1 
+        end
+        if nC物化天行==1 and Distance<10 then
+            return 1 
+        end
+    end 
+
+    if t心法()==10585 then 
+	    if t橙武>0 and Distance<13 then 
+            return 1 
+        end
+        if nC铁马冰河==1 or nC骤雨寒江==1 or nC血覆黄泉==1 then
+            return 1 
+        end
+        if  nC乱天狼==1 then
+            return 1 
+        end
+        if m免控<1000 and bufftimeR(链接F)>0 and bufftimeR(隐F)<-500 and bufftimeR(盾立F)<-500 then
+            return 1 
+        end
+        if t免控<0 and bufftimeT(15621,15749,15735,15933,15826,15845)<0 and ( nC骤雨寒江==1 or nC骤雨寒江==1 or  nC血覆黄泉==1 ) then
+            return 1 
+        end
+    end 
+
+    if t读条技能()==且待时休 or t读条技能()==奚毒射罔 then
+	    return 1
+	end
+	
+	
+	
+end 
+
+
+	if bufftimeT(14982,14983,14984--[[云中剑隐藏BUFF]])>2000 and Distance<=6 then
+    	return 1
+	end
+	if bufftimeR(14506)>0 then --冰心霜天
+		return 1
+	end
+	if bufftimeT(13744)>0 and Distance<6 then
+		return 1
+	end
+	if bufftimeT(15029)>0 and Distance<15 then
+		return 1
+	end
+	if bufftimeT(1856)>1000 and Distance<=10 then
+    	return 1
+	end
+
+
+	if bufftimeR(21653)>0 and GetBuffS("自身",21653)>4 then
+    	return 1
+	end
+
+	if nd自身到敌对沾衣圈距离>0 and nd自身到敌对沾衣圈距离<11  and 进战()==1 and me:TestHeight(4)==false and bufftimeR(逐云寒蕊不可选中F)<-1000 then --躲圈
+	    return 1
+	end
+
+    --刀宗爆发·闪避或者开减伤
+    -- if bufftimeT(灭影追风F,灭影追风2F,灭影追风3F)>0 and 玩家.nHP<75 and ttisme==1 and Distance<=8 and 进战()==1 and InView(目标ID())==true and bufftimeR(244)<0 and t控制==0 and V目标存在封内或缴械()==0 and bufftimeT(凝云势F)<0 then
+	    -- --dbg("1")
+	    -- return 1
+	-- end
+	
+	if t:GetBuffLevel(单手持刀F)>0 and 目标.神机值>94 and ttisme==1 and Distance<=6 and 进战()==1 and InView(目标ID())==true and bufftimeR(244)<0 and t控制==0 and V目标存在封内或缴械()==0 and bufftimeT(凝云势F)<0 and SkillAfter(盾猛)>1500 and SkillAfter(撼地)>1500 then
+	    --dbg("2")
+	    return 2
+	end
+	
+	if t:GetBuffLevel(双手持刀F)>0 and ( bufftimeR(破绽_刀宗F)>1500 or bufftimeR(破绽_刀宗F)<0 or bufftimeT(灭影追风F,灭影追风2F,灭影追风3F)>0 ) and ttisme==1 and Distance<=7 and 进战()==1 and InView(目标ID())==true and bufftimeR(244)<0 and t控制==0 and V目标存在封内或缴械()==0 and bufftimeT(凝云势F)<0 and SkillAfter(盾猛)>1500 and SkillAfter(撼地)>1500 then
+	    --dbg("3")
+	    return 2
+	end
+	
+	if t:GetBuffLevel(单手持刀F)>0 and t:OnSkillTime(洗兵雨)>47000 and m免控<500 and m封轻功>0 and m控制==0 and ttisme==1 and Distance<=4 and 进战()==1 and InView(目标ID())==true and t控制==0 and V目标存在封内或缴械()==0 and bufftimeT(凝云势F)<0 and SkillAfter(盾猛)>1500 and SkillAfter(撼地)>1500 then
+	    --dbg("4")
+	    return 2
+	end
+	
+	if bufftimeT(19208)>0 and ttisme==1 and Distance<=8 and 进战()==1 and InView(目标ID())==true and t控制==0 and V目标存在封内或缴械()==0 then --镜花影
+	    return 2
+	end
+	
+    return 0
+
+end 
+
+
+
+
+local 释放闪刀=function()
+
+	
+	if InView(目标ID()) == true and Distance<=15 and ( 玩家.怒气>14 or bufftimeR(20746--[[怒涌]])>0 ) then
+	    释放(闪刀,0,15,1)
+	end
+	
+	释放(闪刀)
+
+end
+
+local 释放血刀=function()
+
+	
+	if InView(目标ID()) == true and Distance<=15 and buffisme_t(流血F)>1000 and ( 玩家.怒气>14 or bufftimeR(20746--[[怒涌]])>0 ) then
+	    释放(13153,0,15,1)
+	end
+	
+	释放(13153)
+
+end
+
+
+	
+local 释放劫刀=function()
+
+    if 技能等级(劫生)~=1 and ( 玩家.怒气>4 or bufftimeR(20746--[[怒涌]])>0 ) then
+	
+	    if InView(目标ID()) == true and Distance<=4 then
+	        释放(劫刀,0,4,1)
+	    end
+		
+		释放(劫刀)
+	
+	end 
+	
+    if 技能等级(劫生)==1 and ( 玩家.怒气>4 or bufftimeR(20746--[[怒涌]])>0 ) then
+
+	
+	    if InView(目标ID()) == true and Distance<=6 then
+	        释放(劫刀,0,6,1)
+	    end
+		
+		释放(劫刀)
+	
+	end 
+
+end
+
+
+local 释放斩刀=function()
+
+	
+	if InView(目标ID()) == true and Distance<=20 and ( 玩家.怒气>14 or bufftimeR(20746--[[怒涌]])>0 ) then
+	    释放(斩刀,0,20,1)
+	end
+	
+
+    if   玩家.怒气>14 or bufftimeR(20746--[[怒涌]])>0  then
+	    释放(斩刀)
+	end
+
+end
+
+function 斩绝第一刀()
+
+    if  技能等级(绝返)==1 then
+	
+	
+	    if bufftimeR(狂绝F)>0 then
+		    释放绝刀()
+		end
+	
+	    if bufftimeR(狂绝F)<0 and buffisme_t(虚弱F)>0 then
+		    释放斩刀()
+		end
+	
+	end
+
+end
+
+local 斩绝第二刀=function()
+
+    if 技能等级(绝返)==1 then
+	
+        if buffisme_t(流血F)>0 and 技能等级(吓魂)==1 and bufftimeR(狂绝F)<0 and 技能CD时间(斩刀)>2 then
+		    释放绝刀()
+		end
+		
+        if buffisme_t(流血F)>0 and 技能等级(吓魂)~=1 and bufftimeR(狂绝F)<0 then
+		    释放绝刀()
+		end
+		
+	
+	end
+
+end
+
+local 斩绝第三刀=function()
+
+    if 技能CD时间(斩刀)>2 and buffisme_t(流血F)<0 and buffisme_t(虚弱F)<0 and bufftimeR(狂绝F)<0 then
+	    if Distance>4 or 玩家.怒气<15 or ( bufftimeR(8453)<2500 and bufftimeR(8453)>0 ) then
+	        释放绝刀()
+		end
+	end
+
+end
+
+local 斩绝第四刀=function()
+
+    if 技能CD时间(斩刀)>2 and buffisme_t(流血F)<0 and buffisme_t(虚弱F)<0 and bufftimeR(狂绝F)<0 then
+	    if  bufftimeR(8453)<2500 and bufftimeR(8453)>0 then
+	        释放绝刀()
+		end
+	end
+
+end
+
+local 四尺外盾刀三连=function()
+
+    释放(13060)
+    释放(13059)
+	释放(13044)
+
+end
+
+local 四尺内盾刀三连=function()
+
+    释放(13060,0,4,1)
+    释放(13059,0,4,1)
+	释放(13044,0,4,1)
+
+end
+
+function 释放盾猛()
+
+	
+	if InView(目标ID()) == true and Distance<=7 then
+	    释放(盾猛,0,7,1)
+	end
+	
+	释放(盾猛)
+
+end
+
+local 释放盾刀=function()
+
+	
+	if InView(目标ID()) == true and Distance<=4 then
+	    四尺内盾刀三连()
+	end
+	
+	四尺外盾刀三连()
+
+end
+
+ function 释放盾压()
+
+	
+	if InView(目标ID()) == true and Distance<=4 then
+	    释放(盾压,0,4,1)
+	end
+	
+	释放(盾压)
+
+end
+
+  function 释放盾击()
+
+	if InView(目标ID()) == true and Distance<=4 then
+	    释放(盾击,0,4,1)
+	end
+	
+	释放(盾击)
+
+end
+
+function 释放攻击断马摧城()  --if 
+
+	if 技能CD(25213)==1 and InView(目标ID()) == true and Distance<=6 and V可释放重要技能()==1 and 玩家.怒气>59 and ( 目标.nHP<50 or 周围敌对玩家_6尺>1 ) and ISNPC()==4 then
+	    释放(25213,0,6,1)
+	end
+	
+	if 技能CD(25213)==1 and InView(目标ID()) == true and Distance<=6 and V可释放重要技能()==1 and 玩家.怒气>29 and 周围敌对玩家_60尺<2 and  玩家.nHP<60 and ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 and ISNPC()==4 then
+	    释放(25213,0,6,1)
+	end
+	
+	if 技能CD(25213)==1 and InView(目标ID()) == true and Distance<=6 and V可释放重要技能()==1 and 玩家.怒气>19 and  玩家.nHP<30 and ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 and ISNPC()==4 then
+	    释放(25213,0,6,1)
+	end
+	
+	if 技能CD(25213)==1 and InView(目标ID()) == true and Distance<=6 and V可释放重要技能()==1  and  玩家.nHP<20 and ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 and ISNPC()==4 then
+	    释放(25213,0,6,1)
+	end
+
+	if 技能CD(25213)==1 and InView(目标ID()) == true and Distance<=6 and V可释放重要技能()==1 and 技能等级(血魄)==1 and 玩家.怒气>19 and ( 目标.nHP<50 or 周围敌对玩家_6尺>1 ) and ISNPC()==4 then
+	    释放(25213,0,6,1)
+	end
+	
+
+end
+
+local 释放拆火断马摧城=function()  --if me:GetRelation(tt.nID)==68
+
+	if InView(目标ID()) == true and Distance<=6 and ( t爆发>0 or bufftimeT(激雷F,2779,10245,4423,17918)>0 ) and t控制==0 and 目标心法为奶妈()==0 and 目标难被命中()==0 then
+	    释放(25213,0,6,1)
+	end
+
+end
+
+ function 释放盾飞 ()
+	if 技能等级(28514) == 1 then 
+		return
+	end 
+	if f仇飞 > 0 then 
+		return
+	end 
+
+	if InView(目标ID()) == true and Distance<=6 then
+	    释放(盾飞,0,6,1)
+	end
+	
+	释放(盾飞)
+
+end
+
+local 目标存在减疗 = function()
+
+	if bufftimeT(8487)<6500 and bufftimeT(8487)>0 then
+        return 0
+    end
+
+    if bufftimeT(2774,3195,3538,2496,2502,4030,6155,9514,11199,18004,14103)>0 or GetBuffS("目标",574)>4 or GetBuffS("目标",16664)>4 or GetBuffS("目标",576)>1 or GetBuffS("目标",16559)>1 or GetBuffS("目标",8487)>1 then 
+        return 1
+    end
+	
+	
+    return 0
+end
+
+ function 控制盾猛()
+	
+	if Distance<=12 and InView(目标ID()) == true then
+	    控制(盾猛,倒地,1000,0,12,1)
+	end
+	
+
+	控制(盾猛,倒地,1000)
+
+	
+end
+
+local 控制撼地=function()
+	
+    if 玩家.nState~= 锁足 and 目标.nState~= 被抓  and InView(目标ID()) == true and 目标轻功时间()<2 then
+	    控制(撼地,眩晕,1000,4,20)
+	end
+	
+    if 玩家.nState~= 锁足 and 目标.nState~= 被抓  and InView(目标ID()) == true and bufftimeR(13422)>0 then --战斗轻功
+	    控制(撼地,眩晕,1000,4)
+	end
+	
+end
+
+local 控制断马摧城=function()
+
+    if 技能等级(25213)==1 and Distance<=6 and InView(目标ID()) == true  then
+	    if ( 玩家.怒气>39 or V可释放重要技能()==1 ) or (技能CD(撼地)==0 and 技能CD(盾猛)==0 ) then
+	        控制(25213,眩晕,1000,0,6,1)
+		end
+	end
+
+end
+
+  function 控制盾压()
+
+    if t封轻功<0 and 可控前置()==1 and ( 技能CD时间(盾猛)<2 or 技能CD时间(撼地)<2 ) then
+	    if Distance<=4 and InView(目标ID()) == true then
+		    控制(盾压,击倒,1000,0,4,1)
+		end
+
+		控制(盾压,击倒,1000)
+
+	end
+
+    if t封轻功<0 and 可控前置()==1 and 技能等级(25213)==1 and 技能CD时间(25213)<2 then
+	    if Distance<=4 and InView(目标ID()) == true then
+		    控制(盾压,击倒,1000,0,4,1)
+		end
+
+		控制(盾压,击倒,1000)
+
+	end	
+
+end 
+
+local 控制非盾墙盾毅=function()
+
+
+    if 技能等级(24098)==1 then
+	
+		
+	        if Distance<=8 and InView(目标ID()) == true then
+	            控制(盾毅,倒地,1000,0,8,1)
+	        end
+	
+
+	        控制(盾毅,倒地,1000)
+
+		
+	
+	end 
+
+end 
+
+local 控制盾墙盾毅=function()
+
+
+    if bufftimeR(盾墙F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000  and bufftimeR(8441)<0 then
+	
+
+		
+	        if Distance<=8 and InView(目标ID()) == true then
+	            控制(盾毅,倒地,1000,0,8,1)
+	        end
+	
+
+	        控制(盾毅,倒地,1000)
+
+		
+
+	
+	end 
+
+end 
+
+  function 控制盾墙盾抛()
+
+
+    if bufftimeR(盾墙F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 and bufftimeR(8441)>0 then
+	
+
+	        if Distance<=4 and InView(目标ID()) == true then
+	            控制(13069,倒地,1000,0,4,1)
+	        end
+	
+
+	        控制(13069,倒地,1000)
+
+	
+	end 
+
+end 
+
+local 释放惊沙=function()
+
+    释放(惊沙)
+
+end
+
+  function 控制目标()
+
+    if  V可控前置()==1 and bufftimeT(18109)<0 then --刷新BUFF()==1
+	
+	    if 	ISNPC()==4 or (ISNPC()~=4 and 不控NPC~=1 )  then
+		  
+		    控制(惊沙,击倒,9000)
+			
+			控制盾墙盾抛()
+		
+			控制非盾墙盾毅()		
+		
+			控制断马摧城()
+			
+			if SkillAfter(25213)>1000  then
+                控制撼地()
+			    控制盾猛()
+			end
+			
+			控制盾压()
+			
+
+			
+		end
+		
+	end
+
+end
+
+function 目标不在友方重要范围技能内()
+
+ nd离手风车 = NPC距离T(57739,"友方") or 0  --离手风车与目标之间距离
+ nd六合独尊 = NPC距离T(58295,"友方") or 0 --六合独尊与目标之间距离
+ nd行天道   = NPC距离T(57807,"友方") or 0 --行天道与目标之间距离
+ nd坚壁清野 = NPC距离T(53233,"友方") or 0 --坚壁清野与目标之间距离
+ nd振翅图南 = NPC距离T(62273,"友方") or 0 --振翅图南与目标之间距离
+ nd青山共我 = NPC距离T(67665,"友方") or 0 --自身青山共我与目标之间距离
+
+    if ( nd离手风车==0 or nd离手风车>10 )  and ( nd坚壁清野==0 or nd坚壁清野>8 )  and ( nd振翅图南==0 or nd振翅图南>8 )  and ( nd行天道==0 or nd行天道>10 )  and ( nd六合独尊==0 or nd六合独尊>6)  and ( nd青山共我==0 or nd青山共我>8 ) then
+	    return 1
+	end
+	
+	return 0
+
+end
+
+function 搔首弄姿吃我沧风逐月()
+
+if 可攻击()==1 and  目标免推()==0 and t物化天行_升==0 and t物化天行_降==0 and 目标不在友方重要范围技能内()==1 and (t免控 >800 or bufftimeT(15933,15826,15845,9294,6015,19213) >800 or bufftimeT(二业F)>800 or t读条技能()== 25043 or bufftimeT(21276,20199,20072,20666,20883,21202,17901)>0 or t读条技能()==2636 or t读条技能()==且待时休  ) and ( 目标.nState== 1 or 目标.nState== 3 or 目标.nState== 4 ) and bufftimeT(12481)<-500 and bufftimeR(10245)<-500 then
+	释放(盾猛,0,12,1)
+end
+
+end
+
+
+ function 盾姿态DPS()
+	
+		if 奶妈ID> 0  and ftm盾击<-500    then 
+				   释放盾击()
+		end
+		
+	if  bufftimeR(盾墙F) > 0 and SkillAfter(收盾)>1000 then  --盾墙盾舞
+	    控制盾墙盾抛()
+		
+		少林龙抓手() --盾抛
+	
+	    if 技能CD(盾压)==1 and SeeIn(盾压)==1 then 
+	       停止读条()
+	    end 
+	--	释放盾压()
+
+
+		if 技能CD(盾压)==0 then
+			释放(盾舞2)
+		end 
+
+
+	end 
+
+    if bufftimeR(8391)<-500 then --无盾飞BUFF
+	
+        if SkillAfter(盾立)>2000 and bufftimeR(盾墙F)<0 and 自身存在无敌类BUFF()==0 then --非盾墙盾立
+	        if  ttisme==1 and t控制==0 and 被集火>0 and 目标心法为奶妈()==0 and Distance<5 and m免控<0 and SkillAfter(血怒)>1000 and 充能盾立>1  then
+	            释放盾立()
+		    end
+	    end
+		
+        if SkillAfter(盾立)>2000 and bufftimeR(盾墙F)<0 and 自身存在无敌类BUFF()==0 then --非盾墙盾立
+	        if 被集火>1 and bufftimeR(10212)<-500 then
+	            释放盾立()
+		    end
+	    end
+		
+
+		if ftm盾击>0 and ftm盾击<4000 then
+		    释放盾击()
+		end	
+
+
+		搔首弄姿吃我沧风逐月()
+		
+		释放拆火断马摧城()
+		
+		if 技能等级(13397)==1 then
+		    打断()
+		end
+		
+		
+		释放攻击断马摧城()
+	    if  周围敌对奶妈>0 or bufftimeR(16586)>0  then  --挂减疗 / 包括吃鸡中
+		    if 目标存在减疗()==0 and ISNPC()==4 then 
+		        释放盾击()
+			end
+		end
+		
+		释放盾压()
+	
+		
+		if 充能盾击>0 or ftm盾击 > 4000 then
+		    释放盾击()
+		end
+		
+		释放盾刀()
+	
+	end
+
+end
+
+  function 无脑吓魂绝刀()
+
+    if buffisme_t(流血F)>0 and 技能等级(吓魂)==1 and 技能CD时间(斩刀)>2 and bufftimeR(狂绝F)<0 then
+	    释放绝刀()
+	end
+
+end 
+
+ function 斩绝绝补血怒()
+
+    if 玩家.怒气<20 and bufftimeR(怒涌F)<0 and 进战()==1 and Distance<21 and bufftimeR(8449)<0 and bufftimeR(无惧F)<0 and SkillAfter(血怒)>1000 and SkillAfter(无惧)>1000 and SkillAfter(绝刀)>700 and 技能等级(血魄)~=1 then
+	
+	    if buffisme_t(虚弱F)>0 and 技能CD(斩刀)==1 and 技能CD时间(绝刀)<2  then
+	        血怒补怒气() 
+		end
+		
+		if bufftimeR(狂绝F)>0 and 技能CD(绝刀)==1 then
+		    血怒补怒气() 
+		end
+		
+		if buffisme_t(流血F)>0 and 技能等级(吓魂)==1 and 技能CD(绝刀)==1 then 
+		    血怒补怒气() 
+		end
+		
+	end  
+
+    if buffisme_t(虚弱F)>0 and 技能CD(斩刀)==1 and 技能CD时间(绝刀)<2 and 玩家.怒气<25 and bufftimeR(怒涌F)<0 and 进战()==1 and Distance<21 and bufftimeR(8449)<0 and bufftimeR(无惧F)<0 and SkillAfter(血怒)>1000 and SkillAfter(无惧)>1000 and SkillAfter(绝刀)>700 and 技能等级(血魄)~=1 then
+	    血怒补怒气() 
+	end  
+end
+
+ function 刀姿态DPS()
+	
+	
+	
+	if ftm流血 <6000 then 
+		释放(斩刀)
+	end 
+	if f怒涌>0 and 技能CD(绝刀) == 0 and 技能CD(斩刀) ==0 and GCD ==1 then
+			释放(斩刀)
+			if f绝反 <-500 then 
+				释放(闪刀)
+				释放隐刀()
+			end 
+
+	end 
+	if  技能CD(斩刀) == 0 and 玩家.怒气<15  and GCD ==1 then
+					释放(闪刀)
+								        释放隐刀()
+	end 	
+	if f仇飞 > 0 and 玩家.姿态==1 then 
+		释放(盾回,1)
+	end
+	
+	if  b绝返 and q绝返 == 1 and 技能CD时间(绝刀) <1.5   then 
+		释放(斩刀)
+	end 
+
+	释放绝刀()
+	if (bufftimeR(8451--[[绝反]]) >-500 or 技能CD时间(斩刀) > 2) and GCD ==1 then 
+		释放绝刀()
+	end 
+	if 满足释放预判盾立条件()==1 and bufftimeR(盾飞F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 and GCD ==1 then
+	    释放非追击隐刀()
+	end
+	if  技能等级(13090) ==1 and 玩家.怒气>=25  then 
+								释放(斩刀)
+	end 
+	if   GCD ==1 then 
+		隐刀拼刀()
+	end  	
+	if 玩家.姿态== 2 then
+		血魄斩刀绝刀打伤害()	
+	end
+if bufftimeR(8391)>-500 then
+
+	释放阵云结晦()
+
+    
+	无脑吓魂绝刀()
+
+    if SkillAfter(13051)>1000 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+	    if ( ttisme==1 and t控制==0 and 被集火>0 and 目标心法为奶妈()==0 ) or 被集火>0 or ( 周围敌对玩家(14)>1 and ttisme==1 and t控制==0 and 目标心法为奶妈()==0 )  then
+	        释放非追击隐刀()
+		end
+	end
+
+    斩绝第一刀()
+	斩绝第二刀()
+
+	
+	斩绝第三刀()
+	
+	if (bufftimeR(虚弱F)>0 and bufftimeR(流血F)>0 ) or 技能CD时间(斩刀)>1.55 then --V
+        --释放血刀()
+	end
+	
+	--释放血刀() --公版
+	
+	if buffisme_t(流血F,虚弱F)>0 and 技能等级(13153)==1	 then
+	    释放闪刀()
+	end
+	
+	--填充
+	if Distance>4 then
+		
+		if buffisme_t(流血F,虚弱F)>0 then
+	        释放闪刀()
+		end
+		
+		if SkillAfter(隐刀)>1100 and SkillAfter(绝刀)>700 then
+		    释放非追击隐刀()
+		end
+		
+	end
+	
+	if 技能CD(绝刀)==1 or ( bufftimeR(8453)<0 and 技能CD时间(绝刀)>2 and SkillAfter(绝刀)>700 ) then
+		释放斩刀()
+	end
+	
+	
+	释放绝刀()
+	
+	if Distance>4 then
+	    释放闪刀()
+	end
+	
+	if SkillAfter(13050)>1000 and bufftimeR(8453)<0 and SkillAfter(绝刀)>700 then
+	    释放劫刀()
+	end
+	
+end
+
+end
+
+function 释放阵云结晦()
+
+ 
+	if bufftimeR(22977)>0 and ( Distance>7 or  bufftimeR(22977)<2000 ) and InView(目标ID()) == true then
+	    释放(30856,0,20,1)
+	end
+	
+	斩绝第一刀()
+
+    if  cf阵云>3  and Distance<7 and InView(目标ID()) == true and m控制==0 and m沉默<0 and 玩家.nState~=17 and 进战()==1 and 可攻击()==1 and bufftimeR(8391)>0 and 技能GCD(13054)==1 and 技能CD(30769)==1 and 与目标的面向角度()>64 then --调整
+	    改变面向(0)
+    end
+	
+    if  bufftimeR(22976)>0  and Distance<7 and InView(目标ID()) == true and m控制==0 and m沉默<0 and 玩家.nState~=17 and 进战()==1 and 可攻击()==1 and bufftimeR(8391)>0 and 技能GCD(13054)==1 and 与目标的面向角度()>64 then --调整
+	    改变面向(0)
+    end
+	
+	if cf阵云>3  then --一二段的快速释放打第三段
+        释放(30769)
+	end
+	
+	if bufftimeR(22976)>0 then --一二段的快速释放打第三段
+		释放(30855)
+	end
+	
+	-- if 与目标的面向角度()<10 and InView(目标ID()) == true and  then
+	    -- if bufftimeR(17176)>0 or 技能等级(13087)~=1 or 技能CD(绝刀)==0 or 玩家.怒气<10 then --1
+            -- 释放(30769,0,6,2)
+		-- end
+	-- end
+	
+	
+	-- if bufftimeR(22976)>0 and 与目标的面向角度()<10 and InView(目标ID()) == true then
+	    -- if bufftimeR(17176)>0 or 技能等级(13087)~=1 or 技能CD(绝刀)==0 or 玩家.怒气<10 then --2
+            -- 释放(30855,0,8,2)
+		-- end
+	-- end
+	
+
+
+end
+
+
+ function 隐刀拼刀()
+
+    if bufftimeT(隐F)>0 and bufftimeR(8391)>0 and SkillAfter(13051)>1000 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+	    释放非追击隐刀()
+	end
+
+end 
+
+local 收盾驱散盾飞一体=function()
+
+	    开启连招(1000)
+		AddSkill(收盾)
+	    Delay(50)
+	    AddSkill(盾飞)
+	    ErrorRet()
+
+end
+
+local 十尺盾护保队友=function()
+
+    if 周围敌对玩家(40)<=5 and 十尺盾护保队友==1 and 技能GCD(盾压)==1  and 技能CD(盾压)==1 and  进战()==1  and 玩家.nState~=死亡 and bufftimeR(盾墙F)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then 
+
+
+        给队友舍身(盾压,"1242&6163&3193&6264&6257&3171&4444&5744&6637&8292&11319&368&367&9933&384&399&3068&122&684&4439&6315&6240&5996&6200&6636&6262&2849&3315&8279&8300&8427&2983&10014&8303&9534&377&961&772&3425&9934&11151",20)
+
+
+    end
+
+end
+
+ function 盾墙盾立斩绝绝抽刀()
+	if  bufftimeR(盾墙F)>0 and bufftimeR(盾立F)>500 and ISNPC()==4 and t心法()~=相知 and  t心法()~=离经 and  t心法()~=补天 and 玩家.怒气>=25 and 技能CD时间(斩刀)<1.55 and 技能CD时间(绝刀)<2 and Distance<20 and InView(目标ID()) == true and V可释放重要技能()==1 and 玩家.nHP>=40 and 技能等级(绝返)==1 and bufftimeR(18105)<0 then
+	    if bufftimeR(711)<0 and SkillAfter(盾墙)>1500 then
+		    收盾驱散盾飞一体()
+		end
+        释放盾飞()
+	end 
+end
+
+local 盾墙盾立斩绝绝=function() --
+
+
+	if  bufftimeR(盾墙F)>0 and bufftimeR(盾立F)<-500 and ISNPC()==4 and t心法()~=相知 and  t心法()~=离经 and  t心法()~=补天 and SkillAfter(盾立)>1000 and 玩家.怒气>=25  then  --盾墙盾立
+        if 技能CD(斩刀)==1 and 技能CD(绝刀)==1 and 充能盾飞>0 and Distance<20 and InView(目标ID()) == true and V可释放重要技能()==1 and 玩家.nHP>=50 and t控制==0  then
+            释放(13067--[[盾立]])
+		end 
+	end 
+	
+	if  bufftimeR(盾墙F)>0 and bufftimeR(盾立F)<-500 and ISNPC()==4 and t心法()~=相知 and  t心法()~=离经 and  t心法()~=补天 and SkillAfter(盾立)>1000 and 玩家.怒气>=25  then  --盾墙盾立
+        if 技能CD(斩刀)==1 and 技能CD(绝刀)==1 and 充能盾飞>0 and Distance<20 and InView(目标ID()) == true and V可释放重要技能()==1 and 玩家.nHP>=50 and  被集火>1 and bufftimeR(10212)<-500 then
+            释放(13067--[[盾立]])
+		end 
+	end 
+	
+	if  bufftimeR(盾墙F)<0 and bufftimeR(盾立F)<-500 and ISNPC()==4 and t心法()~=相知 and  t心法()~=离经 and  t心法()~=补天 and SkillAfter(盾立)>1000 and 玩家.怒气>=25 and ttisme==1 and t控制==0 and m免控<0 and m减伤<0 then  --盾墙盾立
+        if 技能CD(斩刀)==1 and 技能CD(绝刀)==1 and 充能盾飞>0 and Distance<20 and InView(目标ID()) == true and V可释放重要技能()==1 and 玩家.nHP>=50 then
+         --   释放(盾墙)
+		end 
+	end 
+
+end
+
+
+
+   function 额外盾切刀()
+
+    if ( 技能CD(无惧)==1 or 充能血怒>0 ) and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 and bufftimeR(盾墙F)>0 and 充能盾立<1 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 and Distance>8 and bufftimeR(18105)<0 then
+
+		    if V可释放重要技能()==1 and 玩家.怒气>=25 then --Min
+	            if bufftimeR(711)<0 and SkillAfter(盾墙)>1500 then
+		            收盾驱散盾飞一体()
+		        end
+				释放盾飞()
+			end
+			if  不可控制减伤BUFF<0 and 目标难被命中()==0 and 玩家.怒气>=75  then
+	            if bufftimeR(711)<0 and SkillAfter(盾墙)>1500 then
+		            收盾驱散盾飞一体()
+		        end
+				释放盾飞()
+			end			
+
+	end
+
+
+end
+
+
+
+function 盾切刀 ()
+
+    if ( nd六合独尊==0 or nd六合独尊>7 ) and ( nd坚壁清野==0 or nd坚壁清野>5 ) and ( nd离手风车==0 or nd离手风车>11 ) and ( nd振翅图南==0 or nd振翅图南>6 ) and ( nd澹然若海==0 or nd澹然若海>7 ) and ( nd青山共我==0 or nd青山共我>4 ) and bufftimeR(18105)<0 then 
+        盾墙盾立斩绝绝()
+	end
+	if q血魄 == 1 and SkillAfter(撼地) > 1400  and   技能等级(步临)==1  and 奶妈ID>0  and 玩家.姿态==姿态_擎盾 and 技能CD(盾飞)  ==1 and SkillAfter(盾飞 ) > 2000  and SkillAfter(盾回 ) >1000  and Distance <20   and  (t减伤<1000 or  目标.nHP<40)  and cftm盾击 > 1  and  ftm盾击 >6000  then
+		if  技能CD(斩刀) ==0  then
+		
+			
+			if  释放R(血怒,1) == 1 then 
+					开启连招(1000)
+					AddSkill(盾飞)
+					ErrorRet()
+			end 
+
+		end
+	end
+
+    if 技能等级(步临)==1 and bufftimeR(8391)<0 and bufftimeR(盾墙F)<0 and SkillAfter(盾墙)>1000 and bufftimeR(18105)<0 then
+		
+		
+	    if 目标存在减疗()==1 and 玩家.怒气>=25  then  --针对减疗
+		
+		    if V可释放重要技能()==1 and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 then --Min
+			    释放盾飞()
+			end 
+			
+			if 不可控制减伤BUFF>0 and 玩家.怒气>=90 and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 then --Max
+			    释放盾飞()
+			end 
+			
+			if  不可控制减伤BUFF<0 and 目标难被命中()==0 and 玩家.怒气>=75 and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 then
+			    释放盾飞()
+			end
+			
+		end
+		
+				
+
+		
+		if Distance>4  and SkillAfter(撼地) > 1400  then --追击
+		    
+
+			if  玩家.nState==锁足 and 玩家.怒气>14 and 技能CD(斩刀)==1 and Distance > 4 then
+			    释放盾飞()
+			end
+			
+			if Distance>12 and 技能CD(撼地)==0 and 玩家.怒气>14 and ( 技能CD(斩刀)==1 or 技能CD(闪刀)==1 ) then
+			    释放盾飞()
+			end
+			
+			if ISNPC()~=4 and 不控NPC==1 and 玩家.怒气>14 and 技能CD(斩刀)==1 then
+			    释放盾飞()			
+			end
+			
+		end
+	
+	end
+	
+	if 周围敌对奶妈<1 and bufftimeR(盾墙F)<0 and SkillAfter(盾墙)>1000 and bufftimeR(18105)<0 and bufftimeR(盾飞F)<-500 then
+	
+		    if V可释放重要技能()==1  and 技能等级(28514)==1 then --MinEX --怒涌奇穴
+			    if  技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 then
+			        释放盾飞()
+				end
+				-- if  技能等级(血魄)==1 and 技能CD时间(斩刀)>=2 and ( 充能盾飞>0 or 技能CD时间(盾飞)<2 ) and 充能血怒>1 then  --V
+				    -- if 充能血怒>2 or ( 被集火>1 and m免控<0 ) or (V可释放重要技能()==1 and 目标.nHP<50 and bufftimeT(203)<0 and bufftimeT(18105)<0 and bufftimeT(14319)<0 ) then
+				        -- 血怒补怒气()
+					-- end
+				-- end
+			end 
+
+		    if V可释放重要技能()==1  then --Min
+			    if  技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 and 玩家.怒气>=25 then
+			        释放盾飞()
+				end
+				-- if  技能等级(血魄)==1 and 技能CD时间(斩刀)>=2 and ( 充能盾飞>0 or 技能CD时间(盾飞)<2 ) and 充能血怒>1 then --V
+				    -- if 充能血怒>2 or ( 被集火>1 and m免控<0 ) or (V可释放重要技能()==1 and 目标.nHP<50 and bufftimeT(203)<0 and bufftimeT(18105)<0 and bufftimeT(14319)<0 ) then
+				        -- 血怒补怒气()
+					-- end
+				-- end
+			end 
+
+			if 不可控制减伤BUFF>0 and 玩家.怒气>=90 and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 then --Max
+			    释放盾飞()
+			end 
+			
+			if  不可控制减伤BUFF<0 and 目标难被命中()==0 and 玩家.怒气>=75 and 技能CD时间(绝刀)<2 and 技能CD(斩刀)==1 then
+			    释放盾飞()
+			end			
+	
+	end
+
+    if ( 目标存在减疗()==1 or IsJJC()==false ) and cf阵云>3 and 技能CD时间(斩刀)>2 and 技能CD时间(绝刀)>2 and 充能盾飞>1 and V可释放重要技能()==1  and bufftimeR(盾墙F)<0 and SkillAfter(盾墙)>1000 and bufftimeR(18105)<0 and bufftimeR(盾飞F)<-500 and 技能CD(30769)==1 then 
+	    释放盾飞()
+	end
+
+end 
+
+
+function 释放盾回()
+	if  bufftimeR(20746) >0 then 
+		return
+	end
+	释放(盾回)
+end 
+
+
+
+function 盾回补减疗()
+	if cftm盾击 >0    and SkillAfter(盾飞) > 4000    then 
+		if  Distance <5  and ftm盾击<2500 then 
+				释放盾回()
+		end 
+		if 技能CD(盾猛) == 1 and Distance <12 and Distance>6 and  ftm盾击<2500 and  GCD ==1  then 
+			if   控制R(盾回,倒地,1500)== 1 then 
+					开启连招(1000)
+					AddSkill(盾猛,"锁定")
+					ErrorRet()
+			end 
+		end
+		if 技能CD(撼地) == 1 and Distance <20 and Distance>6 and  GCD ==1  then 
+			if   控制R(盾回,倒地,1500)== 1 then 
+					开启连招(1000)
+					AddSkill(撼地,"锁定")
+					ErrorRet()
+			end
+		end 
+	end 
+end 
+
+ function 刀切盾()
+
+
+    if bufftimeR(18105)>0 and 目标可被一刀斩()==0 then
+	  释放盾回()
+	end	
+
+    if 技能CD时间(绝刀)>2 and bufftimeR(狂绝F)<0 and bufftimeR(8453)<0 and SkillAfter(绝刀)>700 and 玩家.怒气<15 and bufftimeR(20746--[[怒涌]])<-500 and SkillAfter(血怒)>1000 then
+	  释放盾回()
+	end
+	
+    if 技能CD时间(绝刀)>2 and bufftimeR(狂绝F)<0 and bufftimeR(8453)<0 and SkillAfter(绝刀)>700 and 技能等级(步临)==1 and Distance<5 and 目标存在减疗()==0 and SkillAfter(血怒)>1000 and ISNPC()==4 and 周围敌对奶妈>0 then
+	 释放盾回()
+	end	
+	
+    -- if 技能CD时间(绝刀)>2 and bufftimeR(狂绝F)<0 and bufftimeR(8453)<0 and SkillAfter(绝刀)>700 and 技能等级(步临)==1 and Distance<=12 and 可控前置()==1 and 技能CD(盾猛)==1 and 目标存在减疗()==0 and SkillAfter(血怒)>700 and ISNPC()==4 and 周围敌对奶妈>0 then
+	    -- 释放(盾回)
+	-- end
+	
+	if 技能等级(步临)==1 and Distance<5 and 目标存在减疗()==0 and 周围敌对奶妈>0 and buffisme_t(流血F)<0 and buffisme_t(虚弱F)<0 and bufftimeR(狂绝F)<0 and bufftimeR(8453)<0 and SkillAfter(绝刀)>700 then
+	 释放盾回()
+	end	    
+	
+    if 玩家.怒气<10 and SkillAfter(血怒)>700 and bufftimeR(20746--[[怒涌]])<-500 then
+	   释放盾回()
+	end
+
+end
+
+local 盾墙模块=function()
+
+	if bufftimeR(盾壁F) < 0 and 自身存在无敌类BUFF()==0  and SkillAfter(13067--[[盾立]])>2000 and SkillAfter(13152--[[隐刀]])>1000 and  SkillAfter(盾壁)>2000 and 进战()==1 then   ---盾状态下减伤
+	
+	    if 玩家.怒气<30 and 技能CD时间(绝刀)>2 and 技能CD时间(斩刀)>2 and SkillAfter(绝刀)>1000 and bufftimeR(狂绝F)<0 and t控制==0 and 被集火>1 and m减伤<0 and ( 技能等级(25210)==1 or 技能等级(14841)==1 or bufftimeR(16586)>0 ) and bufftimeR(盾壁F)<0 and SkillAfter(盾壁)>1000 and 进战()==1 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 and 玩家.nHP<80 and 技能等级(绝返)==1 and m减伤<0 then --吃鸡
+		    释放(盾墙)
+        end
+		
+		if bufftimeR(21653)>0 and GetBuffS("自身",21653)>4 and 玩家.nHP<70 and m减伤<0 then
+		    if SkillAfter(盾壁)>1000 then if bufftimeR(18105)<0 then 释放(盾壁) end end
+		end
+
+	    if   充能盾立>=1 and 被集火>=2 and m减伤<0 then
+		    释放(盾墙)
+        end 	
+	    if   ttisme==1 and bufftimeT(1686)>0 and Distance<18 and m减伤<0 then
+		    释放(盾墙)
+        end 	
+
+	    if   充能盾立<1  and 充能血怒<1 and 被集火>=2 and m减伤<0 then
+		    释放(盾墙)
+        end 	
+
+	    if   充能盾立<1  and 充能血怒<1 and 被集火>=2 and 目标.nHP>=40 and m减伤<0 then
+		    释放(盾墙)
+        end		
+		
+	    if   充能盾立>=1 and 充能血怒<3 and 玩家.nHP<90 and ttisme==1 and Distance<=20 and ISNPC()==4 and t心法()~=相知 and  t心法()~=离经 and t心法()~=云裳 and  t心法()~=补天 and m减伤<0 then
+		    释放(盾墙)
+        end
+		
+	    if 充能盾立>1 and t爆发>0 and ttisme==1 and Distance<=20 and 玩家.nHP<80  and  ISNPC()==4 and t心法()~=相知 and  t心法()~=离经 and t心法()~=云裳 and  t心法()~=补天 and m减伤<0 then
+			释放(盾墙)
+		end 
+	
+		if ( nC浮光掠影 == 1 or nC斩刀==1 ) and m减伤<0 then --鲸鱼跟花间的爆发
+			释放(盾墙)
+		end
+     
+		if nC繁音急节 ==1 and SkillAfter(13067--[[盾立]]) > 2000  and t心法()==冰心 and ttisme==1 and m减伤<0  then   ---回避冰心爆发 
+			释放(盾墙)
+		end
+
+		if 玩家.nHP<35 and bufftimeR(10212)<-500 then  
+			if SkillAfter(盾壁)>1000 then if bufftimeR(18105)<0 then 释放(盾壁) end end
+			if m免控<0 and SkillAfter(13067--[[盾立]])>3000 and 被集火>0 then 
+			    释放(13067--[[盾立]])
+			end 
+		end 
+		
+		if 充能盾立>=3 and 被集火>=1 and 玩家.nHP<90 and m免控<0 and m减伤<0 then
+            释放(13067--[[盾立]])
+        end
+		
+		if 充能盾立>=3 and 被集火>=2 and m免控<0 and bufftimeR(10212)<-500 and m减伤<0 then
+            释放(13067--[[盾立]])
+        end
+
+		if t心法()== 笑尘 and ttisme==1 and Distance<20 and m减伤<0 then
+		    if m免控<0 then  ---没有免空的情况下 if SkillAfter(13067--[[盾立]])>1000 and m免控<0 and bufftimeR(盾立F)<0 and 
+				if 玩家.nHP<80 and 被集火>=1  then 释放(13067--[[盾立]]) end
+				if 玩家.nHP<90 and 被集火>=2  then 释放(13067--[[盾立]]) end
+				 
+			end 
+		end
+		
+		if t心法()== 凌海 and ttisme==1 and Distance<=12 and m减伤<0 then
+			if m免控<0 then  ---没有免空的情况下
+				if 玩家.nHP<80 and 被集火>=1  then 释放(13067--[[盾立]]) end
+				if 玩家.nHP<90 and 被集火>=2  then 释放(13067--[[盾立]]) end
+				 
+			end 	
+		end
+		
+		if t心法()== 北傲 and ttisme==1 and Distance<8 and m减伤<0 then
+			if m免控<0 then  ---没有免空的情况下
+				if 玩家.nHP<80 and 被集火>=1  then 释放(13067--[[盾立]]) end
+				if 玩家.nHP<90 and 被集火>=2  then 释放(13067--[[盾立]]) end
+				 
+			end 	
+		end
+		
+		if t心法()== 焚影 and ttisme==1 and Distance<13 and m减伤<0 then
+			if m免控<0 then  ---没有免空的情况下
+				if 玩家.nHP<80 and 被集火>=1  then 释放(13067--[[盾立]]) end
+				if 玩家.nHP<90 and 被集火>=2  then 释放(13067--[[盾立]]) end
+				 
+			end 	
+		end
+		
+		if 玩家.nHP < 35   and  SkillAfter(13067--[[盾立]]) > 2000   then
+			if SkillAfter(盾壁)>1000 then if bufftimeR(18105)<0 then 释放(盾壁) end end
+		end
+
+		if 玩家.nHP < 55   and  SkillAfter(13067--[[盾立]]) > 2000 and 技能等级(20984)~=1 and bufftimeT(凝云势F)<0 then
+			if SkillAfter(盾壁)>1000 then if bufftimeR(18105)<0 then 释放(盾壁) end end
+		end
+			
+		if 玩家.nHP < 60 and Distance < 25 and m减伤 < 0  and t爆发>1500  and 被集火>=1 and m减伤<0  then
+			if   m免控 <0 then
+			    if  SkillAfter(13067--[[盾立]]) > 2000  then
+			   		释放(13067--[[盾立]])
+			    end 
+		    end 
+			if SkillAfter(盾壁)>1000 and 技能等级(20984)~=1 then if bufftimeR(18105)<0 then 释放(盾壁) end end
+		end 
+		
+		if t远程爆发> 1000 and ttisme ==1  and Distance < 27 and t控制==0 and  t沉默<0 and t心法()~= 相知 and t心法()~= 离经 and t心法()~= 云裳 and t心法()~= 补天  and m减伤<0 then
+			 if  SkillAfter(13067--[[盾立]]) > 2000  then
+			   		释放(13067--[[盾立]])
+			 end 
+				释放(盾墙)
+		end 
+  end
+
+end
+function	获取敌对释放技能时间(nSkillID,心法)
+
+	local  敌对表 =   全局敌对列表()
+	local nTime  
+		for i , ojb in pairs(敌对表) do
+			if  not nTime and ojb    and ojb:IsXinFa(心法)    then
+				nTime = ojb:OnSkillTime(nSkillID)
+            end 
+			if nTime  and nTime >  ojb:OnSkillTime(nSkillID)  and ojb:IsXinFa(心法) then 
+				return nTime
+			end 
+		end
+		
+		return  nTime or Newtime()
+end 
+
+
+function 目标附近风车()
+	 天绝地灭M = 15994
+	local nd振翅图			=	NPC距离T(振翅图南M,"敌对")
+	local nd藏剑离手风车	=	NPC距离T(藏剑离手风车M,"敌对")
+	local NPC天绝地灭T 		=  	NPC距离T(天绝地灭M,"敌对")
+	local nTime =	获取敌对释放技能时间(3108,"天罗")
+	local n天绝地灭引爆距离 = 8+ (nTime /1000) -1.5
+
+	if  n天绝地灭引爆距离 > 15 then 
+		n天绝地灭引爆距离 = 15
+	end
+
+	if nd振翅图 > 0  and nd振翅图<6  then
+		return true
+	end
+	
+	if nd振翅图 > 0  and nd振翅图<6  then
+		return true
+	end
+	if NPC天绝地灭T > 0  and NPC天绝地灭T<n天绝地灭引爆距离 then
+		return true
+	end
+--dbg( 读条技能(),风来吴山)
+	if    读条技能()==风来吴山 or   目标附近的离手风车()==1  then
+		return	true
+	end	
+	
+	return false
+end
+function 可追击()
+	f络川 		= 	bufftimeR(17908)	
+	
+	if   f络川 >   -500  and Distance > 2  then 
+		return false
+	end 
+	if 目标附近风车() then 
+		return false	
+	end 
+	return true
+end 
+
+function 血怒连招()
+		if 技能等级(13090) == 1 and( bufftimeR(8451--[[绝返]]) >0 or SkillAfter(斩刀) <1500) then 
+			return
+		end 
+	
+			 if 	释放R(血怒,1) == 1 then
+				开启连招(1300)
+				AddFud(
+					function ()
+						if 玩家.姿态==  2 and SkillAfter(盾飞) > 1000  then 
+							释放(盾飞)
+						end 
+						释放绝刀()
+						if 玩家.怒气> 30 or SkillAfter(血怒) <1500 then 
+							
+
+						释放(斩刀)
+						end
+					end
+
+				)
+				
+				ErrorRet()
+			 end		
+end 
+
+function 血魄补刀()
+	if   	目标.nHP<60 and t减伤<-500 and t免伤<-500 and 技能CD(斩刀) == 0  and m免控<1000  and SkillAfter(血怒) > 2000  and bufftimeR(8451)<-500  then 
+			血怒连招()
+	end 
+end 
+
+function 血魄追击()
+	if   t减伤<-500 and 目标.nHP>57 then 
+		return
+	end 
+	if f仇飞 > 0 then 
+		return
+	end 
+	if not 可追击() then 
+		return
+	end
+	if  Distance > 15 and m免控 <1000 and bufftimeR(8303)<500 and 玩家.姿态 == 2  and 玩家.怒气<60 and 可追击() and GCD ==1  and 玩家.怒气>15 then 
+		if 技能CD(斩刀) == 0 or( 技能CD(血怒) ==1  and m免控<1000 and SkillAfter(血怒) >1000 )  then 
+				if  释放R(盾飞)  == 1 then
+						开启连招(1000)
+						
+						AddFud(
+						function ()
+							if 技能CD(斩刀) == 0  then 
+								释放(血怒,1)
+							end	
+							释放绝刀()	
+							释放(斩刀)
+						end 
+						)
+						ErrorRet()
+				end
+		end  
+
+	end 
+	if  技能CD(盾猛) == 0 and m免控 <1000 and bufftimeR(8303)<500 and 玩家.姿态 == 2  and 玩家.怒气<60 and 可追击() and GCD ==1 and 技能CD(斩刀) ==1 and 玩家.怒气>15 and Distance >6  then 
+		if 技能CD(斩刀) == 0 or( 技能CD(血怒) ==1  and m免控<1000 and SkillAfter(血怒) >1000 )  then 
+				if  释放R(盾飞)  == 1 then
+						开启连招(1000)
+						AddFud(
+						function ()
+							if 技能CD(斩刀) == 0  then 
+								释放(血怒,1)
+							end	
+							释放绝刀()	
+
+							释放(斩刀)
+						end 
+						)
+						ErrorRet()
+				end
+		end  
+	end
+	if 技能CD(盾猛) == 0   and Distance >7  and 玩家.怒气>20 and 技能CD(闪刀) == 1 and cn隐刀 >1  and GCD ==1 and Distance<15 and  目标.nHP<40 then 
+		释放R(盾飞)
+	end 
+	if 技能CD(盾猛) == 0 and Distance >7  and 玩家.怒气>20 and 技能CD(闪刀) == 1 and cn隐刀 >1  and GCD ==1  and Distance<15  and t减伤<0 then 
+		释放R(盾飞)
+	end 
+end 
+function 血魄斩刀绝刀打伤害()
+	
+	if  技能等级(21281--[[血魄]]) == 0 then 
+		return
+	end
+	
+	if q绝返 == 1 then 
+		return 
+	end 
+	
+	if   cn血怒>1 and 技能CD时间(血怒)<4 and 玩家.怒气<60  and 玩家.姿态==1 then  --血怒快三层的时候用
+		if t减伤<-500  and  t免伤<-500  and m免控<1000 and GCD ==1 and 技能CD(斩刀) ==0    and 可追击()  and (技能CD(绝刀) ==0 or 玩家.怒气<20 ) then 
+				血怒连招()
+		end 
+	end 
+
+end
+
+
+	
+
+
+function 血怒补怒气()
+
+    if SkillAfter(血怒)>2000 and 技能等级(28514)==0  then
+	
+	    if 技能等级(血魄)~=1 or ( 技能等级(血魄)==1 and 技能CD时间(斩刀)>2  ) or 玩家.怒气<15 or ( 技能等级(血魄)==1 and m封轻功>0 ) or ( 技能等级(血魄)==1 and 被集火>0 ) then
+	        释放(血怒,1)
+		end
+		
+	end
+
+end
+
+
+  function 续免控()
+
+nt醉月,nt醉月ID = 获得范围内指定心法释放的技能时间(醉月,山居,9)
+nt惊涛,nt惊涛ID = 获得范围内指定心法释放的技能时间(惊涛,山居,9)
+nt人剑合一,nt人剑合一ID = 获得范围内指定心法释放的技能时间(人剑合一,太虚,14)
+
+周围9尺敌对藏剑剑纯 = 周围敌对玩家(9,3,山居,太虚,北傲)
+
+--续免控
+
+if SkillAfter(盾立)>1000 and SkillAfter(隐刀)>1000 and SkillAfter(盾毅)>1000 and SkillAfter(无惧)>1000 and bufftimeR(盾立F)<0 and bufftimeR(隐F)<0 and m免控<0 and 玩家.怒气<=75  then
+
+    if 玩家.nState==锁足 and 被集火>0  then
+	    血怒补怒气()
+		if SkillAfter(血怒)>2000 and 充能血怒<1 and 充能盾立>1 then 释放盾立() end
+	end 
+
+
+    if 自身存在无敌类BUFF()==0  and ( 可攻击()==1 or 被集火>0 ) then 
+	    if  玩家.nState==27 or ( bufftimeR(17581)>0 and bufftimeR(17581)<1.5 ) or ( bufftimeR(17582)>0 and bufftimeR(17582)<1.5 ) or ( t心法()==焚影 and ttisme==1 and t控制==0 and 不可控制减伤BUFF<-500 and Distance<16 ) or ( t心法()==笑尘 and ttisme==1 and t控制==0 and 不可控制减伤BUFF<-500 and t读条技能()==0 and Distance<29  ) or ( t心法()==凌海 and ttisme==1 and t控制==0 and 不可控制减伤BUFF<-500 and t物化天行_升==0 and t物化天行_降==0 and bufftimeT(13744)<0 and bufftimeT(13742)<0 and bufftimeT(14105)<0 ) or ( t心法()==傲血 and ttisme==1 and t控制==0 and bufftimeT(244)>0  and Distance<29 ) or ( t心法()==傲血 and ttisme==1 and t控制==0 and Distance>4 )  then
+            血怒补怒气()
+            if SkillAfter(血怒)>2000 and 充能血怒<1 and Distance<=4 and 充能盾立>1 then 释放盾立() end			
+		end
+		
+	    if  nC七星拱瑞==1 or nt醉月>15000 or nt惊涛>15000 or 周围9尺敌对藏剑剑纯>0 or nt人剑合一>19000 or 敌对爆发()==1 then
+            血怒补怒气()
+            if SkillAfter(血怒)>2000 and 充能血怒<1 and Distance<=4 and 充能盾立>2 then 释放盾立() end			
+		end
+		if bufftimeR(破绽_刀宗F)>0 and ( t:GetBuffLevel(双手持刀F)>0 or t:GetBuffLevel(单手持刀F)>0 ) and Distance<8 and ttisme==1 and t控制==1 and V目标存在封内或缴械()==0 and InView(目标ID())==true then
+		    血怒补怒气()
+		end
+    end   
+
+end
+
+end
+
+local 缴械规避=function()
+
+    if bufftimeR(且待时休沉默F)<-500 and  m沉默 > 0 and m免伤 < 0 and 玩家.nState ~= 4 and 自身存在无敌类BUFF()==0 then
+	
+        if bufftimeR(208) >=-500 then
+            跳(1,1)
+        end
+		释放(蹑云逐月)
+        奇怪小轻功()
+    end  
+
+end
+
+function 回避振翅图南2()
+local 回避振翅图南2= 设置功能("回避振翅图南2",31247,"")
+	local ojbNPC= NearestNPCR(62273,"敌对")
+	local ojbNPC2= NearestNPCR(57739,"敌对")
+	
+	 
+	 if  ojbNPC ~=nil  and ojbNPC.nDis<6.5 and 回避振翅图南2==1 and m封轻功<-500 then
+	 
+		if m控制 ~=1 and 技能GCD(迎风回浪)==1 and 技能CD(迎风回浪)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")  and m封轻功<-500  then
+			SetFace(ojbNPC:GetAngleR())
+			释放(迎风回浪)
+		end
+		if m控制 ~=1 and 技能GCD(凌霄揽胜)==1 and 技能CD(凌霄揽胜)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")  and m封轻功<-500  then
+			SetFace(ojbNPC:GetAngleR()+64)
+			释放(凌霄揽胜)
+		end	
+		if m控制 ~=1 and 技能GCD(瑶台枕鹤)==1 and 技能CD(瑶台枕鹤)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   and m封轻功<-500 then
+			SetFace(ojbNPC:GetAngleR()-64)
+			释放(瑶台枕鹤)
+		end	
+		if m控制 ~=1 and 技能GCD(蹑云逐月)==1 and 技能CD(蹑云逐月)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")  and sk(蹑云逐月,">=4000")  and m封轻功<-500 then
+			SetFace(ojbNPC:GetAngleR()+128)
+			释放(蹑云逐月)
+		end	
+	 end
+	 
+	 if  ojbNPC2 ~=nil  and ojbNPC2.nDis<8 and 回避振翅图南2==1  and m封轻功<-500  then
+	
+		if m控制 ~=1 and 技能GCD(迎风回浪)==1 and 技能CD(迎风回浪)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   then
+			SetFace(ojbNPC2:GetAngleR())
+			释放(迎风回浪)
+		end
+		if m控制 ~=1 and 技能GCD(凌霄揽胜)==1 and 技能CD(凌霄揽胜)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   then
+			SetFace(ojbNPC2:GetAngleR()+64)
+			释放(凌霄揽胜)
+		end	
+		if m控制 ~=1 and 技能GCD(瑶台枕鹤)==1 and 技能CD(瑶台枕鹤)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   then
+			SetFace(ojbNPC2:GetAngleR()-64)
+			释放(瑶台枕鹤)
+		end	
+		if m控制 ~=1 and 技能GCD(蹑云逐月)==1 and 技能CD(蹑云逐月)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")  and sk(蹑云逐月,">=4000") then
+			SetFace(ojbNPC2:GetAngleR()+128)
+			释放(蹑云逐月)
+		end	
+	 end
+ end 
+
+function 回避六合独尊()
+local ojbNPC_六合独尊 = NearestNPCR(58295,"敌对")
+	
+	 
+	 if  ojbNPC_六合独尊 ~=nil  and ojbNPC_六合独尊.nDis<7 and 回避六合独尊==1  and m封轻功<-500  then
+	 
+		if m控制 ~=1 and 技能GCD(迎风回浪)==1 and 技能CD(迎风回浪)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   then
+			SetFace(ojbNPC_六合独尊:GetAngleR())
+			释放(迎风回浪)
+		end
+		if m控制 ~=1 and 技能GCD(凌霄揽胜)==1 and 技能CD(凌霄揽胜)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   then
+			SetFace(ojbNPC_六合独尊:GetAngleR()+64)
+			释放(凌霄揽胜)
+		end	
+		if m控制 ~=1 and 技能GCD(瑶台枕鹤)==1 and 技能CD(瑶台枕鹤)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")   then
+			SetFace(ojbNPC_六合独尊:GetAngleR()-64)
+			释放(瑶台枕鹤)
+		end	
+		if m控制 ~=1 and 技能GCD(蹑云逐月)==1 and 技能CD(蹑云逐月)==1 and m封轻功<-500 and 玩家.nState ~=轻功 and sk(迎风回浪,">=4000") and sk(凌霄揽胜,">=4000")and sk(瑶台枕鹤,">=4000")  and sk(蹑云逐月,">=4000") then
+			SetFace(ojbNPC_六合独尊:GetAngleR()+128)
+			释放(蹑云逐月)
+		end	
+	 end
+ end 
+
+
+local AOE伤害回避=function()
+
+    if 自身存在无敌类BUFF()==0 and bufftimeR(盾立F)<0 and bufftimeR(隐F)<0 and bufftimeR(盾墙F)<0 and bufftimeR(盾壁F)<0 and 充能盾立<1 and SkillAfter(盾立)>1000 and SkillAfter(隐刀)>1000 and SkillAfter(盾墙)>2000 and SkillAfter(收盾)>2000 and SkillAfter(盾壁)>1000 and SkillAfter(血怒)>1000 and SkillAfter(无惧F)>1000 then 
+		回避风车躲控制()
+		
+		if m免控<0 then
+		    回避振翅图南2()
+		end
+		
+		回避六合独尊()
+    end
+	
+end
+	
+	
+local 吃鸡极限血量自动决斗=function()
+
+    if bufftimeR(16586)>0 and 玩家.nHP<20 and 目标.nHP>35 and bufftimeR(盾壁F)<0 and bufftimeR(盾墙F)<0 and bufftimeR(盾立F)<0 and bufftimeR(隐F)<0 and SkillAfter(盾壁)>1000 and SkillAfter(盾墙)>1000 and SkillAfter(盾立)>1000 and SkillAfter(隐刀)>1000 and 自身存在无敌类BUFF()==0 and 进战()==1 and 技能等级(15196)==1 and 技能CD(15196)==1 and bufftimeT(10212)<0 and 可攻击()==1 then
+	    开启连招(1000)
+		AddSkill(收盾)
+	    Delay(50)
+	    AddSkill(15196)
+	    ErrorRet()
+	end
+
+end 
+
+local 连局规避=function() -------------全职业可推广
+
+	if 敌对离挂局内()==true then
+	
+	    MessageYellow("火卦连局 注意规避")
+		--dbg("火卦连局 注意规避")
+		
+		
+		if ( t心法()==10615 and bufftimeT(17996)<-500 and t控制==0 ) or ( t心法()==10615 and bufftimeT(18176)>0 and t控制==0 ) or t心法()~=10615 then
+	
+		    释放盾立()
+
+		    if bufftimeR(8391)>0 and bufftimeR(盾立F)<0 and SkillAfter(盾立)>1000 then
+			    释放非追击隐刀()
+		    end	    
+	
+	        if bufftimeR(208) >=-500 and bufftimeR(盾立F)<0 and bufftimeR(隐F)<0 and SkillAfter(盾立)>1000 and SkillAfter(隐刀)>1000 then
+                跳(1,1)
+            end
+			
+		end
+	    
+	end
+
+end
+
+local 矿车点水枪补水=function()
+
+   
+	if bufftimeR(17993)>0 and bufftimeT(377)<0 and bufftimeT(3851)<0 and bufftimeT(9934)<0  then
+	   
+	    if bufftimeR(17993)>0 and bufftimeT(377)<0 and bufftimeT(3851)<0 and bufftimeT(9934)<0 and bufftimeR(17993)<4000 and GetBuffS("自身",18142)>2 then
+		    MessageYellow("水枪即将消失 请尽快换枪")
+		end
+	
+	    if GetBuffS("自身",18142)<1 then MessageYellow("子弹已空 请尽快补水") end
+		
+	    if  GetBuffS("自身",18142)<12 and 周围敌对玩家_35尺<1 and SkillAfter(25165)>5000 then --吸水
+	        释放(25165)
+	    end
+
+    end
+
+
+end
+
+local 矿车点水枪=function()
+
+	if bufftimeR(17992)>0 then
+		取消BUFF(17992)
+	end 
+   
+	if bufftimeR(17993)>0 and bufftimeT(377)<0 and bufftimeT(3851)<0 and bufftimeT(9934)<0  then
+	
+        if 目标.nState==死亡 then
+	        读条变招(13)
+	    end
+		
+		if bufftimeR(18210)>0 then
+		    取消BUFF(18210)
+		end
+		
+		if 心法()==紫霞 and 可控前置()==1 then
+		    if  SkillAfter(七星拱瑞)>2000 and SkillAfter(九转归一)>1500 and SkillAfter(五方行尽)>1000 then
+			    if (NoTargetJK(2)==true and bufftimeT(5901)<2000 and bufftimeT(558)<2000 ) or NoTargetJK(2)==false then
+		            控制三才化生()
+				end
+			end
+			
+			if SkillAfter(三才化生)>2000 and SkillAfter(七星拱瑞)>2000 and 目标濒危()==0 then
+			    if (NoTargetJK(2)==true and bufftimeT(5901)<2000 and bufftimeT(558)<2000 ) or NoTargetJK(2)==false then
+		            控制五方行尽()
+				end
+			end
+			
+			if SkillAfter(三才化生)>2000 and SkillAfter(七星拱瑞)>2000 then
+			    控制九转归一()
+			end
+		end
+	
+	    if  t控制==1 and ISNPC()==4 and SkillAfter(25051)>1500 and 目标.nState~=死亡 then
+	        释放(25051,2) --读条群攻水光
+	    end 
+
+        if  GetBuffS("自身",18142)>0 and 技能GCD(25050)==1 and ISNPC()==4 then
+            补刀(28,30)
+	    end
+
+        if  GetBuffS("自身",18142)>0 and t关系==16 and ISNPC()==4 then
+            释放(25050) --单体瞬发凝雨
+	    end
+	
+	    if  GetBuffS("自身",18142)<12 and 进战()==0 and SkillAfter(25165)>5000 then --吸水
+	        释放(25165)
+	    end
+		
+	    if  GetBuffS("自身",18142)<12 and 周围敌对玩家_35尺<1 and SkillAfter(25165)>5000 then --吸水
+	        释放(25165)
+	    end
+
+    end
+
+
+end
+
+local 目标存在封内或缴械 = function() 
+    if bufftimeT(20060)>0 then --且待时休沉默F
+        return 1	
+	end
+    if t沉默>0 then 
+        return 1
+    end
+	if bufftimeT(4053,12321)>0 then
+	    return 1
+	end
+    if ( t封内>0 or bufftimeT(17974--[[神皆寂封内]])>0 )  and ( t内功==1 or t心法()==10615 )  then 
+        return 1
+    end
+    return 0
+end
+
+local 目标可封内=function()
+
+    if 可攻击()==0 then
+	    return 0
+	end
+
+    if 目标存在封内或缴械()==1 then
+	   return 0
+	end
+	
+	if  不可控制减伤BUFF > 0  or t免封内> 0 or t读条技能()== 斩无常 or t读条技能()== 移动斩无常 or t读条技能()== 乱天狼 or t读条技能()== 千蝶吐瑞 or t读条技能()== 鬼斧神工 or t读条技能()== 笑醉狂 or t读条技能()== 1645 or t读条技能()== 25043 then
+	    return 0
+	end
+	
+	if bufftimeT(9342,6256,6350,5789,9377,10618,18065,6414,17901,18001,412,8458,9999,5777,19313,19217)>0 then
+	    return 0
+	end
+	
+	if ISNPC()~=4 then 
+	    return 0
+	end
+	
+    return 1
+
+end
+
+local 打断允许条件=function()
+
+if 读条技能()== 3970 or 读条技能()== 242 or 读条技能()== 斩无常 or 读条技能()== 移动斩无常 or 读条技能()== 乱天狼 or 读条技能()== 千蝶吐瑞 or 读条技能()== 鬼斧神工 or 读条技能()==15132--[[迷仙引梦]] or 读条技能()== 1645 or bufftimeT(不工F,17901--[[快雪免封内BUFF]],5995,19313)>-500 or 读条技能()== 25043--[[连缘蛊]] or 读条技能()== 27623--[[当归四逆]] then return 0 end
+
+return 1
+
+end
+
+
+
+local 打断=function()
+	if f仇飞 > 0 then 
+		return
+	end 
+	if not 可追击() then 
+	return
+	end
+
+
+    if 打断允许条件()==1 and bufftimeR(8391)<-500 and 目标可封内()==1 and t免封内 < -500 and bufftimeT(8864)< -500 and bufftimeT(12481)< -500 and bufftimeT(12483)< -500 and bufftimeT(10258)< -500 and bufftimeT(10617)< -500 and bufftimeT(10618)< -500 and bufftimeT(10619)< -500 and bufftimeT(18065--[[衍天华盖]])< -500 and bufftimeT(6350--[[纯阳紫气]])< -500 and bufftimeT(9377--[[高山流水]])< -500 and bufftimeT(5789--[[繁音急节]])< -500 and bufftimeT(6256--[[万花沃土]])< -500 and bufftimeT(8458--[[水月无间]])< -500 and bufftimeT(10618--[[雾雨]])< -500 and bufftimeT(11920--[[万花列宿]])< -500 and bufftimeT(11361)<-500 and bufftimeT(11077)<-500 and bufftimeT(11322)<-500 then
+		
+		
+		if t读条进度()>22 then  
+			
+			if 读条技能()==358 or 读条技能()== 14072 or 读条技能()== 14076 or 读条技能()== 14074  or 读条技能()== 14075  or  读条技能()== 14154  or  读条技能()== 14073 or 读条技能()==15187--[[行天道]] or 读条技能()==18796--[[万世不竭]] or 读条技能()==18668--[[六合独尊]] or 读条技能()== 433 or t读条技能()==且待时休 or t读条技能()==奚毒射罔 or t读条技能()==苍棘缚地 then
+				释放盾飞()			
+			end
+			
+			if t心法()== 山居 and ( t免控<0 or  玩家.nHP<70 or ttisme==1 ) then	
+				释放盾飞()	
+			end
+			
+			
+			if  不可控制减伤BUFF<-500 and t心法()~= 傲血 and t心法()~= 笑尘  and t心法()~= 北傲 and t心法()~= 山居 and t心法()~= 惊羽 and  t心法()~= 天罗 and  t心法()~= 补天 then
+				释放盾飞()	
+			end
+			
+
+            if  t心法()== 笑尘 or t心法()== 山居 or t心法()== 惊羽 or t心法()== 天罗 or  t心法()== 补天 or t心法()== 分山 then
+				释放盾飞()	
+			end	
+
+			if t心法()== 北傲 and bufftimeT(10815)<-1000 then
+				释放盾飞()	
+			end
+			
+		end
+		
+		
+	end
+
+end
+
+
+local function 自身存在禁疗类BUFF()
+
+
+    if bufftimeR(9175,6223,18105,20188,20719)>0 then
+	    return 1
+	end
+	
+	return 0
+
+end
+
+function 近战职业丢燧石()
+
+燧石state= UICALL(211,UI_STATE)
+
+
+if bufftimeR(16586,12696,14976,18064,20697)>0 then --吃鸡伪技能·保险添加BUFF
+
+    if  燧石state~=2057 and 燧石state~=2051 and 进战()==1 and 可攻击()==1 and Distance>4 and Distance<21 and bufftimeT(21172)<0 and ( m免控>0 or 被集火<1 ) then --点燃
+	    使用物品("燧石")
+	end    
+
+end
+
+end
+
+--定义自身心法内外功
+function V自身心法为外功()
+
+    if 心法()==傲血 or 心法()==太虚 or 心法()==山居 or 心法()==问水 or 心法()==笑尘 or 心法()==分山 or 心法()==北傲 or 心法()==惊羽 or 心法()==天罗 or 心法()==隐龙 or 心法()==凌海 or 心法()==分山 then
+	    return 1
+	end
+	
+	return 0
+
+end
+
+--定义难以命中
+function V目标难被命中()
+
+    if 目标.nState==死亡 then
+	    return 1
+	end
+	
+if V自身心法为外功()==1 then
+
+    if bufftimeT(2065--[[云栖松]],5668--[[风吹荷]],3214--[[惊鸿]],6299--[[御风而行]],6174--[[两生]],6434--[[醉逍遥]],677--[[鹊踏枝]],17585--[[踏星行]],15234--[[羁影]],18075--[[微妙风]],13778--[[逸尘步虚]],11201--[[流影]])>0 or t:GetBuffLevel(15621) ==2 or t:GetBuffLevel(15621) ==4 then --
+        return 1
+    end
+	
+	if bufftimeR(3215--[[荆天棘地]],18749--[[圣元DEBUFF]],17907--[[乘墨由心DEBUFF]])>0 then
+	    return 1
+	end
+	
+end
+
+if V自身心法为外功()==0 then
+
+    if  t:GetBuffLevel(15621) ==2 or t:GetBuffLevel(15621) ==4 or bufftimeT(17585--[[踏星行]],15234--[[羁影]],18075--[[微妙风]],13778--[[逸尘步虚]])>0 or bufftimeR(18749--[[圣元DEBUFF]],17907--[[乘墨由心DEBUFF]])>0 then 
+        return 1
+    end
+
+end
+	
+	return 0
+
+end 
+
+--定义重要技能释放条件
+function V可释放重要技能()
+
+
+    if 目标.nState==死亡 then
+	    return 0
+	end
+	
+	if bufftimeT(17015,20398)>-1000 then --星楼血盾BUFF / 龙葵自苦治疗F
+	    return 0
+	end
+	
+	if bufftimeT(凝云势F,5995,5996)>0 then 
+	    return 0
+	end
+
+    if t减伤<0 and t免伤<0 and t免伤2<0 and V目标难被命中()==0  then
+        return 1
+    end	
+	
+
+
+	return 0
+
+end
+
+--定义可攻击
+function V可攻击()
+
+    if 目标.nState==死亡 then
+	    return 0
+	end
+	
+	if bufftimeT(10212)>0 and bufftimeR(10212)<0 then --决斗判断
+	    return 0
+	end	
+
+	if bufftimeT(20230--[[龙门伪盾立]],20359--[[龙门伪机车无敌]],20235--[[龙门伪镇山河]])>-1000  then
+	    return 0
+	end	
+	if bufftimeT(8303,13927,12534--[[风场无敌BUFF]])>0 then --盾立F / 隐刀F /风场无敌BUFF
+	    return 0
+	end
+	
+	if V自身心法为外功()==1 then
+	    if bufftimeT(5668)>0 and bufftimeT(2065)>0 then --风吹荷+云栖松，闪避溢出视为无敌
+	        return 0
+	    end
+		if bufftimeT(11201)>0 then --流影100%闪避
+		    return 0
+		end
+	end
+
+    if bufftimeT(10486)>0 and  bufftimeT(11979,11981,11980)>0 then --和尚绝对反弹
+	    if 玩家.nHP > ( 目标.nHP + 15 ) then 
+            return 1
+		end 
+	end
+	
+	if  bufftimeT(3425)<0 and bufftimeT(8303)<0 and bufftimeT(10174)<0 and bufftimeT(682)<0 and bufftimeT(9934)<0 and bufftimeT(377)<0 and bufftimeT(6182)<0 and bufftimeT(682)<0 and bufftimeT(13778)<0 and bufftimeT(13927)<0 and bufftimeT(15107)<0 and  bufftimeT(14996)<0 and bufftimeT(15717)<0 and bufftimeT(772)<0 and bufftimeT(12186)<0 and bufftimeT(961)<0 and bufftimeT(772)<0 and bufftimeT(17647)<0 and bufftimeT(3425)<0 and InView(目标ID()) == true and t关系==16 and 目标.nState ~= 死亡 then
+	    return 1
+	end
+	
+
+
+    return 0
+end
+
+--定义目标封内缴械状态·刀宗版
+function V目标存在封内或缴械()
+
+
+	if bufftimeT(23982,12481,12483,9509,20060,17974)>0 then
+	    return 1
+	end
+
+    if t沉默>0 then 
+        return 1
+    end
+	if t沉默>0 and t沉默<1100 then 
+        return 2
+    end
+    -- if ( t封内>0 or bufftimeT(--[[神皆寂封内]])>0 )  and ( t内功==1 or t心法()==10615 ) then 
+        -- return 1
+    -- end
+    if  t封内>0 and t封内<1100 and ( t内功==1 or t心法()==10615 ) then 
+        return 2
+    end
+    if  bufftimeT(17974--[[神皆寂封内]])>0 and bufftimeT(17974--[[神皆寂封内]])<1100 and ( t内功==1 or t心法()==10615 ) then 
+        return 2
+    end
+	
+    return 0
+end
+
+--定义目标是否可被封内或缴械
+function V目标可封内()
+
+    if V可攻击()==0 then
+	    return 0
+	end
+	
+	if bufftimeT(8458)>-1000 then
+	    return 0
+	end	
+	
+	if bufftimeT(12481,12483,9509)>-500 then
+	    return 0
+	end
+
+    if V目标存在封内或缴械()~=0 then
+	   return 0
+	end
+	
+	if  不可控制减伤BUFF > 0  or t免封内> 0 or t读条技能()== 22358 or t读条技能()== 22647 or t读条技能()== 22320 or t读条技能()== 千蝶吐瑞 or t读条技能()== 鬼斧神工 or t读条技能()== 笑醉狂 or t读条技能()== 1645 or t读条技能()== 25043 or t读条技能()==27623 then
+	    return 0
+	end
+	
+	if bufftimeT(9342,6256,6350,5789,9377,10618,18065,6414,17901,18001,412,8458,9999,5777,19313,19217,20780,20754,5777,20667,20883,21202,20709)>-500 then 
+	    return 0
+	end
+	
+	
+	if ISNPC()~=4 then 
+	    return 0
+	end
+	
+    return 1
+
+end
+
+--定义无敌判断
+function V自身存在无敌类BUFF()
+
+    if bufftimeR(8303,10173,10174,9934,377,11201,6182,682,13778,13927,15107,14996,15717,3851--[[新镇山河]],9933--[[笼花F]],20230--[[龙门伪盾立]],20359--[[龙门伪机车无敌]])>0 then
+	    return 1
+    end
+	
+	return 0
+
+end
+
+function V目标存在无敌类BUFF()
+
+    if bufftimeT(8303,10173,10174,9934,377,11201,6182,682,13778,13927,15107,14996,15717,3851--[[新镇山河]],9933--[[笼花F]],20230--[[龙门伪盾立]],20359--[[龙门伪机车无敌]])>0 then
+	    return 1
+    end
+	
+	return 0
+
+end
+
+function V目标存在禁锢类BUFF()
+
+    if bufftimeT(20814,24290,24373)>0 then
+	    return 1
+	end
+
+    return 0
+
+end
+
+function V自身存在禁锢类BUFF()
+
+    if bufftimeT(20814,24290,24373)>0 then
+	    return 1
+	end
+
+    return 0
+
+end
+
+--定义可控前置
+function V可控前置()
+
+    if V目标存在禁锢类BUFF()==1 then
+	    return 0
+	end
+
+    if 目标.nState==死亡 then
+	    return 0
+	end
+
+    if bufftimeT(12470)>-500 then
+	    return 0
+	end
+
+	if  bufftimeT(8303)>0 or bufftimeT(10174)>-500 or bufftimeT(682)>-500 or bufftimeT(9934)>-500 or bufftimeT(377)>-500  or bufftimeT(682)>-500 or bufftimeT(13778)>-500 or bufftimeT(13927)>-500 or bufftimeT(15107)>-500 or  bufftimeT(14996)>-500 or bufftimeT(15717)>-500 or bufftimeT(772)>-500 or bufftimeT(12186)>-500 or bufftimeT(961)>-500 or bufftimeT(772)>-500  then --and InView(目标ID()) == true
+	    return 0
+	end
+
+    if bufftimeT(14515)>-500 or bufftimeT(16403)>-500 or bufftimeT(16448)>-500 or bufftimeT(16348)>-500 or bufftimeT(14972)>-500 or bufftimeT(15019)>-500 or bufftimeT(14273)>-500 or bufftimeT(15621,15749,15735,15933,15826,15845)>-500 or t免控>-500 or bufftimeT(18124)>-500 or bufftimeT(18228)>-500 or bufftimeT(17905)>-500 or bufftimeT(17585)>-500 or bufftimeT(12665)>-500 or t免控>-500 then 
+        return 0
+    end
+	if bufftimeT(20181,20247,20192,27868,27358,20245)>-1000 then --龙门伪技能·免控
+	    return 0
+	end
+	if bufftimeT(20780,20754,20709)>0 then --和尚新增免控 心诤 无执 / 花间机甲人
+	    return 0
+	end
+	if bufftimeT(21276,20199,20072,20666,20667,20036,21202)>-1000 then --新爹免控
+	    return 0
+	end
+	
+	if bufftimeT(20194,22392,3200)>0 then --龙门伪笑醉 / 伪蓬莱免控  / 连环弩
+	    return 0
+	end
+	
+	if bufftimeT(24172,23898,24182,24184,24240,24239)>0 then --游风飘踪F / 凝云势F /  驰风八步F 
+	    return 0
+	end
+	
+    return 1
+end 
+
+--定义打断技能释放前置判断
+function V打断技能允许前置判断()
+
+    if 读条技能()==2636 or 读条技能()== 3970 or 读条技能()== 242 or t读条技能()== 22358 or t读条技能()== 22647 or t读条技能()== 22320 or 读条技能()== 千蝶吐瑞 or 读条技能()== 鬼斧神工 or 读条技能()==15132--[[迷仙引梦]] or 读条技能()== 1645  or 读条技能()==27623 or 读条技能()==28720--[[万花机甲上车]]  or ISNPC()~=4 or bufftimeT(1856--[[不工F]],17901--[[快雪免封内BUFF]],3200)>-500 then
+	    return 0
+	end
+
+    return 1
+
+end
+
+--定义不可拉
+function V目标不可拉()
+
+	if bufftimeT(凝云势F)>-500 then
+	
+	    if t:GetBuffLevel(凝云势F) ==1 then 
+		    return 0
+		end
+	    if t:GetBuffLevel(凝云势F) ==2 then 
+		    return 1
+		end
+	
+	end
+
+
+    if V目标存在禁锢类BUFF()==1 then
+	    return 1
+	end
+
+    if t读条技能() == 千蝶吐瑞 or t读条技能() == 鬼斧神工 or t读条技能() == 笑醉狂 or 目标.nState== 被抓 or t物化天行_升~=0 or t物化天行_降~=0 or 目标轻功时间()>=2 or 目标.nState ==轻功 or 目标.nState ==20--[[击倒爬起状态]] or 目标.nState ==击退 or 目标.nState ==击退2 or t倒地>-500 then
+	    return 1
+	end
+
+    if bufftimeT(11077,11322,11361--[[尘身]],4332,9059,9068,9354,10245,11319,13735,13742,14105,14247,14356,15735,15749,15921,18075,16403,412,7918,11808,13238,13296,15019,15619,15621,17585,17888,17901,17939,18189,10821,8864,12481,12483,1186,17882,8483,12458,12459,7669,3200)>0  then 
+	    return 1
+	end
+	
+	if 不可控制减伤BUFF>-500 then
+	    return 1
+	end	
+	
+	if bufftimeT(2756--[[任驰骋免控BUFF]])>-500 then
+	    
+		if bufftimeT(204)>0 then
+		    return 1
+		end
+		if bufftimeT(204)<0 then
+		    return 0
+		end	
+	end
+	
+	if bufftimeT(2781--[[转乾坤免控BUFF]])>-500 then
+	
+	    if t:GetBuffLevel(2781) ==1 then 
+		    return 0
+		end
+	    if t:GetBuffLevel(2756) ==2 then 
+		    return 1
+		end
+	
+	end
+	
+	if bufftimeT(20194,22392,3200)>0 then --龙门伪笑醉 / 伪蓬莱免控 
+	    return 0
+	end
+	
+	return 0
+
+end
+
+function 新吃鸡伪传技能()
+
+--MessageYellow(m读条技能())
+
+if bufftimeR(3200)>0 then --连环弩保护BUFF
+    return
+end
+
+周围敌对玩家_15尺=周围敌对玩家(15)
+
+强力磁石state= UICALL(243,UI_STATE)
+这就是狼牙state= UICALL(243,UI_STATE)
+月铳state= UICALL(243,UI_STATE)
+甘霖state= UICALL(243,UI_STATE)
+御海刀state= UICALL(243,UI_STATE)
+断长生state= UICALL(243,UI_STATE)
+
+连环弩state= UICALL(3179,UI_STATE)
+徐如林state= UICALL(653,UI_STATE)
+花语酥心state= UICALL(407,UI_STATE)
+
+天原玄冰state= UICALL(10061,UI_STATE)
+
+if bufftimeR(16586,12696,14976,18064,20697)>0 and bufftimeR(244)<0 then --吃鸡伪技能·保险添加BUFF
+
+    --控制类
+	if 强力磁石state~=2057 and 强力磁石state~=2051 and 刷新BUFF()==1 and t:Buff("蚀心蛊")==false  and V目标可封内()==1 and V目标存在封内或缴械()==0 and V可攻击()==1  and Distance<20 and InView(目标ID()) == true and 周围敌对玩家_15尺>1 and bufftimeR(10212)<0 then
+	    使用物品("伪传·强力磁石")
+	end
+	
+	if 这就是狼牙state~=2057 and 这就是狼牙state~=2051 and 刷新BUFF()==1 and t:Buff("蚀心蛊")==false  and V目标可封内()==1 and V目标存在封内或缴械()==0 and V可攻击()==1  and Distance<20 and InView(目标ID()) == true and bufftimeR(10212)<0 and t控制==0 and bufftimeT(10212)<0 then
+	    使用物品("伪传·这就是狼牙")
+	end
+	
+
+    --伤害类--------
+	if 月铳state~=2051 and 月铳state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then  
+	    if  Distance<18 and V可释放重要技能()==1 and t控制==1 and bufftimeT(10212)<0 then
+	        使用物品("伪传·月铳")
+		end
+	end	
+	if 连环弩state~=2051 and 连环弩state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then  
+	    if  Distance<15  and V目标难被命中()==0 and t控制==0 and bufftimeT(10212)<0 then
+	        使用物品("伪传·连环弩")
+		end
+	end	
+	if 甘霖state~=2051 and 甘霖state~=2057  and V可攻击()==1 and t关系~=-1  then  
+	    if 周围敌对玩家_15尺>1 then
+	        使用物品("伪传·甘霖")
+		end
+	    if   Distance<13 and bufftimeT(10212) and bufftimeT(10212)<0 and InView(目标ID()) == true and 周围敌对玩家_15尺<2 and ( t控制==1 or V可释放重要技能()==0 ) then
+	        使用物品("伪传·甘霖")
+		end
+	end	
+	if 断长生state~=2051 and 断长生state~=2057  and V可攻击()==1 and t关系~=-1  then  
+	    if  ( Distance<5 and InView(目标ID()) == true and V可释放重要技能()==1 and bufftimeT(10212)<0 ) or 周围敌对玩家(5)>1 then
+	        使用物品("伪传·断长生")
+		end
+	end	
+	
+	if 御海刀state~=2057 and 御海刀state~=2051 and 刷新BUFF()==1 and t:Buff("蚀心蛊")==false and V可攻击()==1  and bufftimeR(10212)<0 and 玩家.nHP>35 then
+	    if ttisme==1 and t控制==0 and Distance<10 and InView(目标ID()) == true then
+	        使用物品("伪传·御海刀")
+		end
+		if 被集火>1 and 周围敌对玩家_15尺>1 then
+		    使用物品("伪传·御海刀")
+		end
+	end	
+	
+	--减伤类--------
+	if 徐如林state~=2057 and 徐如林state~=2051  and 玩家.nHP<70 and 进战()==1 and Distance<20 and InView(目标ID()) == true and m控制==0 then
+	    使用物品("伪传·徐如林")
+	end
+	
+	if 花语酥心state~=2057 and 花语酥心state~=2051  and 玩家.nHP<66 and 进战()==1 then
+	    if ( Distance<25 and InView(目标ID()) == true ) or 被集火>1 then
+	        使用物品("伪传·花语酥心")
+		end
+	end
+	
+	--天原驱散
+	if bufftimeR(20697)>0 and 天原玄冰state~=2057 and 天原玄冰state~=2051 and V可攻击()==1 and Distance<20 and InView(目标ID()) == true then
+	    if  目标.nHP>25 and 目标存在增益BUFF()==true  then
+		    使用物品("伪传·天原玄冰")
+		end
+	end
+
+end
+
+end
+
+function  目标存在增益BUFF()
+  local  增益BUFF = { 阳性增益 ,
+            混元增益 ,
+            阴性增益 ,
+            毒性增益  
+          }
+    for    i ,v in  pairs(增益BUFF) do 
+      if t:GetGetBuffStateObjectQJTime(v)  > -500 then
+        return true
+      end 
+    end 
+end 
+function  目标存在不利BUFF()
+  local  不利BUFF = { 阳性不利 ,
+            混元不利 ,
+            阴性不利 ,
+            毒性不利  
+          }
+    for    i ,v in  pairs(不利BUFF) do 
+      if t:GetGetBuffStateObjectQJTime(v)  > -500 then
+        return true
+      end 
+    end 
+  return false
+end
+
+
+--吃鸡技能释放函数
+function 吃鸡伪传技能()
+
+nd吃鸡敌对到敌对生太极距离 = NPC距离T(生太极M,"敌对") or 0
+
+月影沙state= UICALL(137,UI_STATE)
+
+钩爪state= UICALL(3199,UI_STATE)
+
+紫气东来state= UICALL(2933,UI_STATE)
+跃潮斩波state= UICALL(10757,UI_STATE)
+春泥护花state= UICALL(413,UI_STATE)
+怖畏暗刑state= UICALL(3794,UI_STATE)
+琴音共鸣state= UICALL(7118,UI_STATE)
+风来吴山state= UICALL(2375,UI_STATE)
+霞流宝石state= UICALL(2373,UI_STATE)
+九转归一state= UICALL(616,UI_STATE)
+翔极碧落state= UICALL(10810,UI_STATE)
+楚河汉界state= UICALL(8453,UI_STATE)
+云栖松state= UICALL(2364,UI_STATE)
+生太极state= UICALL(1448,UI_STATE)
+抢珠式state= UICALL(1509,UI_STATE)
+盾立state= UICALL(6340,UI_STATE)
+撼地state= UICALL(6350,UI_STATE)
+幻蛊state= UICALL(2780,UI_STATE)
+化蝶state= UICALL(2830,UI_STATE)
+星楼月影state= UICALL(1520,UI_STATE)
+烟雨行state= UICALL(4881,UI_STATE)
+鹊踏枝state= UICALL(912,UI_STATE)
+蝶弄足state= UICALL(915,UI_STATE)
+蚀心蛊state= UICALL(7233,UI_STATE)
+孤影化双state= UICALL(7052,UI_STATE)
+啸如虎state= UICALL(649,UI_STATE)
+任驰骋state= UICALL(640,UI_STATE)
+九霄风雷state= UICALL(11945,UI_STATE)
+
+极乐引state= UICALL(4179,UI_STATE)
+龙啸九天state= UICALL(4895,UI_STATE)
+撼地state= UICALL(6350,UI_STATE)
+笑醉狂state= UICALL(4887,UI_STATE)
+捉影式state= UICALL(426,UI_STATE)
+听风吹雪state= UICALL(2998,UI_STATE)
+凌然天风state= UICALL(15405,UI_STATE)
+逐云寒蕊state= UICALL(15421,UI_STATE)
+穹隆化生state= UICALL(14083,UI_STATE)
+无间狱state= UICALL(13524,UI_STATE)
+惊鸿游龙state= UICALL(3195,UI_STATE)
+飞刃回转state= UICALL(16200,UI_STATE)
+绿野蔓生state= UICALL(15423,UI_STATE)
+锻骨诀state= UICALL(421,UI_STATE)
+踏星行state= UICALL(13864,UI_STATE)
+玄水蛊state= UICALL(3038,UI_STATE)
+斩无常state= UICALL(12101,UI_STATE)
+鸿蒙天禁state= UICALL(13878,UI_STATE)
+疾电叱羽state= UICALL(10886,UI_STATE)
+驭羽骋风state= UICALL(10769,UI_STATE)
+转乾坤state= UICALL(1452,UI_STATE)
+守如山state= UICALL(652,UI_STATE)
+振翅图南state= UICALL(10755,UI_STATE)
+心诤state= UICALL(16213,UI_STATE)
+
+玄冰之息state= UICALL(14721,UI_STATE)
+
+--MessageYellow(玄冰之息state)
+
+自动使用伪传笑醉狂=设置功能("自动使用伪传笑醉狂",20023,"默认30%血量开始")
+自动使用伪传捉影式=设置功能("自动使用伪传捉影式",20024,"默认最少距离8尺")
+自动使用伪传穹隆化生=设置功能("自动使用伪传穹隆化生",20025,"残血逃跑，顺风追击")
+
+local 友方HP,友方ID ,友方State,友方距离 =全局友方(20)
+local lf不可选_全局友方= 全局友方_BUFF(友方ID,682,10173,10174,10212,9506)
+local lf免伤_全局友方 = 全局友方_BUFF(友方ID,8303,9534,377--[[镇山河]], 961--[[太虚]], 772--[[回神]], 3425--[[鬼斧神工]],9934--[[南风吐月]], 11151 --[[散流霞]],203--[[啸如虎]])
+local lf减伤_全局友方 = 全局友方_BUFF(友方ID,6163,3193,6264,6257,3171,4444,5744,6637,8292,11319,368,367,9933--[[守如山]], 384--[[转乾坤]], 399--[[无相诀]], 3068--[[雾体]],122--[[春泥]],1802--[[御天]], 684--[[天地低昂]], 4439--[[贪魔体]], 6315--[[零落]],6240--[[玄水蛊]], 5996--[[笑醉狂]],6200--[[龙啸九天]], 6636--[[圣手织天]],6262--[[金屋]], 2849--[[蝶戏水]], 3315--[[护体]], 8279--[[盾壁]], 8300--[[盾墙]],8427--[[荣辉]], 8291--[[盾护]],  2983--[[无我]], 10014--[[绝歌]])	
+
+
+
+if bufftimeR(20194)>0 then --道具笑醉狂保护 
+	屏蔽键盘(300)
+	ErrorRet()
+	return
+end
+
+if bufftimeR(22369)>0 then --心诤BUFF保护
+    ErrorRet()
+	return
+end
+
+if bufftimeR(16586,12696,14976,18064,20697)>0 and bufftimeR(244)<0 then --吃鸡伪技能·保险添加BUFF
+	
+    if bufftimeR(22282)>0 then --伪凌然天风BUFF期间
+	    if bufftimeR(22285)>0 then --可跳
+		    if t高低差()<25 and Distance>8 then --大于8尺 进行追击
+		        释放(30123)
+			end
+		    if t高低差()>=25 then --高低差较大 向上跳跃
+		        释放(30128)
+			end
+		end
+	end
+	
+    if  bufftimeR(20251)>0 then --秒解吃鸡伪平沙
+	    if 月影沙state==2049 then
+		    使用物品("月影沙")
+		end
+	    if 钩爪state==2049 and Distance<40 and InView(目标ID()) == true then --有目标才可
+		    使用物品("钩爪")
+		end
+	end	
+
+    --------解控类--------
+if SkillAfter(412--[[疾如风]])>1000 and SkillAfter(372--[[转乾坤]])>1000 and SkillAfter(3974--[[暗尘弥散]])>1000 and SkillAfter(100--[[星楼月影]])>1000 and SkillAfter(257--[[锻骨诀]])>1000 and SkillAfter(550--[[鹊踏枝]])>1000 and SkillAfter(2226--[[蛊虫献祭]])>1000 and SkillAfter(2227--[[蛊虫狂暴]])>1000 and SkillAfter(3112--[[浮光掠影]])>1000 and SkillAfter(17587--[[影遁]])>1000 and SkillAfter(17588--[[影遁2]])>1000 and SkillAfter(1656--[[啸日]])>1000 and SkillAfter(5267--[[龙啸九天]])>1000 and SkillAfter(5270--[[笑醉狂]])>1000 and SkillAfter(3977--[[流光囚影]])>1000 and SkillAfter(18633--[[瞬发幻光步]])>1000 and SkillAfter(13042--[[无惧]])>1000 and SkillAfter(13040--[[血怒]])>1000 and SkillAfter(13067--[[盾立]])>1000 and SkillAfter(16620--[[封渊震煞]])>1000 and SkillAfter(21772--[[横绝驭羽骋风]])>1000 and SkillAfter(19984--[[驭羽骋风]])>1000 and SkillAfter(22614--[[孤风飒踏]])>1000 and SkillAfter(24380--[[返闭惊魂]])>1000 and SkillAfter(27674--[[逐云寒蕊]])>1000 and SkillAfter(27897--[[绿野蔓生]])>1000 then
+
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 孤影化双state~=2057 and 孤影化双state~=2051 and 进战()==1  then
+	    使用物品("伪传·孤影化双")
+	end
+
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 星楼月影state~=2057 and 星楼月影state~=2051 and 进战()==1   then
+	    使用物品("伪传·星楼月影")
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 鹊踏枝state~=2057  and 鹊踏枝state~=2051 and 进战()==1 then
+	    使用物品("伪传·鹊踏枝")
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 绿野蔓生state~=2057  and 绿野蔓生state~=2051 and 进战()==1   then
+	    使用物品("伪传·绿野蔓生")
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 驭羽骋风state~=2057  and 驭羽骋风state~=2051 and 进战()==1 then
+	    使用物品("伪传·驭羽骋风")
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 锻骨诀state~=2057  and 锻骨诀state~=2051 and 进战()==1 and  玩家.nHP<80  then
+	    if t内功==1 or 被集火>1 or 玩家.nHP<70 then
+	        使用物品("伪传·锻骨诀")
+		end
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 转乾坤state~=2057  and 转乾坤state~=2051 and 进战()==1 and m减伤<0  then
+	    if  被集火>1 or 玩家.nHP<70 then
+	        使用物品("伪传·转乾坤")
+		end
+	end
+	
+    if 踏星行state~=2057  and 踏星行state~=2051 and 进战()==1 and m免控<0  then
+	    if ( 玩家.nState==锁足 and  玩家.nHP<75 and m减伤<0 ) or bufftimeR(541)>-1000 or (被集火>1 and 玩家.nHP<75 and m减伤<0 )  then
+	        使用物品("伪传·踏星行")
+		end
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==倒地 or 玩家.nState==27 ) and 逐云寒蕊state~=2057  and 逐云寒蕊state~=2051 and 进战()==1 and ( 玩家.nHP<75 or 被集火>1 )  then
+	    使用物品("伪传·逐云寒蕊")
+	end
+	
+    if ( 玩家.nState==眩晕 or 玩家.nState==定身 or 玩家.nState==27 ) and 蝶弄足state~=2057 and 蝶弄足state~=2051 and 进战()==1  then
+	    使用物品("伪传·蝶弄足")
+	end
+	
+    if  ( 玩家.nState==锁足 or bufftimeR(541)>-1000 ) and 烟雨行state~=2057 and 烟雨行state~=2051 and m免控<0 and m封轻功<0 and 进战()==1    then --and SkillAfter(突)>1000
+	    使用物品("伪传·烟雨行")
+	end
+	
+	if  龙啸九天state~=2057 and 龙啸九天state~=2051 and m减伤<0 and 进战()==1 and V自身存在无敌类BUFF()==0 and SkillAfter(413--[[守如山]])>1000 and SkillAfter(372--[[转乾坤]])>1000 then --
+	    if nd吃鸡敌对到敌对生太极距离>0 and nd吃鸡敌对到敌对生太极距离<6 then
+		    使用物品("伪传·龙啸九天")
+        end
+        if  m控制==1 or (玩家.nHP<75 and Distance<6) or 玩家.nHP<60 then
+		    使用物品("伪传·龙啸九天")
+		end
+	end
+	
+end
+	
+	--------救命类--------
+	if 玄冰之息state~=2057 and 玄冰之息state~=2051 and V自身存在无敌类BUFF()==0 and 玩家.nHP<40 and 进战()==1 and bufftimeR(203)<-500 and SkillAfter(422)>1000 then
+	    使用物品("伪传·玄冰之息")
+	end
+	
+	if 啸如虎state~=2057 and 啸如虎state~=2051 and V自身存在无敌类BUFF()==0 and 玩家.nHP<35 and 进战()==1 then
+	    使用物品("伪传·啸如虎")
+	end
+
+	if 自动使用伪传笑醉狂==1 and 笑醉狂state~=2057 and 笑醉狂state~=2051 and bufftimeR(203)<0 and bufftimeR(18105)<0 and bufftimeR(14319)<0 and V自身存在无敌类BUFF()==0 and 玩家.nHP<20 and 进战()==1 and bufftimeR(20194)<-500 and me:TestHeight(6)==false and 玩家.nState~=27 and SkillAfter(422--[[啸如虎]])>2000 then
+	    if 目标ID()== 自身ID() then
+		    使用物品("伪传·笑醉狂")
+		end
+	    if 目标ID()~= 自身ID() and m控制==0 then
+		    选择目标(自身ID())
+		end	
+        if m控制==1 then
+           使用物品("伪传·笑醉狂")
+        end
+	end
+	
+	if 听风吹雪state~=2057 and 听风吹雪state~=2051 and 进战()==1 and t关系==68 then
+	    if 玩家.nHP<75 or 目标.nHP<75 then
+	        使用物品("伪传·听风吹雪")
+		end
+	end	
+	
+	if 鸿蒙天禁state~=2057 and 鸿蒙天禁state~=2051 and 进战()==1 and t关系==68 then
+	    if 目标.nHP<35 and t减伤<0 and t免伤2<0 and V目标存在无敌类BUFF()==0 then
+	        使用物品("伪传·鸿蒙天禁")
+		end
+	end	
+	
+	--------减伤类--------
+	if  春泥护花state~=2057 and 春泥护花state~=2051 and m减伤<0 and 进战()==1 and 玩家.nHP<80 and Distance<45 then
+		使用物品("伪传·春泥护花")	
+	end	
+	
+	if  疾电叱羽state~=2057 and 疾电叱羽state~=2051 and m减伤<0 and 进战()==1 and 玩家.nHP<70 and V自身存在无敌类BUFF()==0 and me:TestHeight(6)==false and 玩家.nState~=27 then
+	    if 被集火>1 or (ttisme==1 and Distance<20 and t控制==0 and V目标存在封内或缴械()==0 ) then
+		    使用物品("伪传·疾电叱羽")
+        end	
+		if 友方距离<5 and 友方HP <55 and lf免伤_全局友方 < -500 and lf减伤_全局友方< -500 then
+		    使用物品("伪传·疾电叱羽")
+		end
+	end	
+	
+	if 云栖松state~=2051 and 云栖松state~=2057 and bufftimeR(3214)<-1000 and 进战()==1 and V自身存在无敌类BUFF()==0 then
+	    if ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 and t内功~=1  and m减伤<0 and ( 玩家.nHP<80 or t爆发>0 ) and Distance<25 and InView(目标ID()) == true then
+	        使用物品("伪传·云栖松")
+		end
+		if 玩家.nHP<70 and 周围敌对玩家(20)>0 then
+		    使用物品("伪传·云栖松")
+		end
+	end
+	
+	if 惊鸿游龙state~=2051 and 惊鸿游龙state~=2057 and bufftimeR(3214)<-1000 and 进战()==1 and V自身存在无敌类BUFF()==0 then
+	    if ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 and t内功~=1  and m减伤<0 and ( 玩家.nHP<80 or t爆发>0 ) and Distance<25 and InView(目标ID()) == true then
+	        使用物品("伪传·惊鸿游龙")
+		end
+		if 玩家.nHP<70  and 周围敌对玩家(20)>0 then
+		    使用物品("伪传·惊鸿游龙")
+		end
+	end
+	
+	if 守如山state~=2051 and 守如山state~=2057 and bufftimeR(3214)<-1000 and 进战()==1 and V自身存在无敌类BUFF()==0  and m减伤<0 and 玩家.nHP<60 then
+	    if 被集火>1 or 玩家.nHP<55 then
+	        使用物品("伪传·守如山")
+		end
+		if Distance<35 and InView(目标ID()) == true and ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 then
+		    使用物品("伪传·守如山")
+		end
+	end
+	
+	if 自动使用伪传穹隆化生==1 and 穹隆化生state~=2057 and 穹隆化生state~=2051 and m减伤<0 and m免控<0 and 进战()==1 and 玩家.nHP<90 and V自身存在无敌类BUFF()==0 and 玩家.nState~=27 then
+	    if 玩家.nHP > 目标.nHP  then
+		    if  Distance>10  then --追击
+			    --MessageYellow("伪传·穹隆化生")
+			    使用物品("伪传·穹隆化生")
+			end
+		end
+		if 玩家.nHP<80 and 被集火>1 then --逃跑
+		    使用物品("伪传·穹隆化生")
+		end
+		if 玩家.nHP<65 and Distance<8 then --逃跑
+		    使用物品("伪传·穹隆化生")
+		end
+		if 玩家.nHP<55 then --逃跑
+		    使用物品("伪传·穹隆化生")
+		end
+	end
+	
+	if  玄水蛊state~=2057 and 玄水蛊state~=2051 and m减伤<0 and 进战()==1 and Distance<20 and V自身存在无敌类BUFF()==0 then
+	    if 被集火>1 or (ttisme==1 and Distance<20 and t控制==0 and V目标存在封内或缴械()==0 ) or (被集火>0 and 玩家.nHP<80) or 玩家.nHP<60 then
+		    使用物品("伪传·玄水蛊")
+		end
+	end
+	
+	if  斩无常state~=2057 and 斩无常state~=2051 and m减伤<0 and 进战()==1 and m免控<0 and 玩家.nHP<70 and V自身存在无敌类BUFF()==0 then
+	    if 被集火>1 or (ttisme==1 and Distance<25 and t控制==0 and V目标存在封内或缴械()==0 and t内功==1) or ( ttisme==1 and Distance<6 and t控制==0 and V目标存在封内或缴械()==0 )  then
+		    使用物品("伪传·斩无常")
+		end
+	end
+	
+	--------爆发类--------
+	if  紫气东来state==2049 and V可攻击()==1 and V可释放重要技能()==1 and 进战()==1 and m读条技能()==0 and Distance<25 and InView(目标ID()) == true then
+	    if ( V自身心法为外功()==1 and Distance<12 ) or V自身心法为外功()~=1 then
+		    使用物品("伪传·紫气东来")	
+		end
+	end
+	
+	
+	--------控制类--------
+	--·缴械&封内&打断
+	if 怖畏暗刑state==2049 and 刷新BUFF()==1 and t:Buff("蚀心蛊")==false  and V目标可封内()==1 and V目标存在封内或缴械()==0 and V可攻击()==1  and Distance<7 and InView(目标ID()) == true then --and SkillAfter(霞流宝石)>2000
+	    使用物品("伪传·怖畏暗刑")
+	end
+	
+	if 抢珠式state==2049 and 刷新BUFF()==1 and t:Buff("蚀心蛊")==false  and V目标可封内()==1 and V目标存在封内或缴械()==0 and t内功==1 and V可攻击()==1  and Distance<9 and InView(目标ID()) == true then --and SkillAfter(霞流宝石)>2000
+	    使用物品("伪传·抢珠式")
+	end
+	
+	if 霞流宝石state~=2051 and 霞流宝石state~=2057 and 刷新BUFF()==1 and t:Buff("蚀心蛊")==false  and V目标可封内()==1 and V目标存在封内或缴械()==0 and V可攻击()==1  and Distance<6 and InView(目标ID()) == true then --霞流宝石state==2049 and SkillAfter(霞流宝石)>2000
+	    使用物品("伪传·霞流宝石") --去掉了CD判断。。
+	end
+	
+    if V打断技能允许前置判断()==1 and t免封内 < -500 and bufftimeT(8864)< -500 and bufftimeT(12481)< -500 and bufftimeT(12483)< -500 and bufftimeT(10258)< -500 and bufftimeT(10617)< -500 and bufftimeT(10618)< -500 and bufftimeT(10619)< -500 and bufftimeT(18065--[[衍天华盖]])< -500 and bufftimeT(6350--[[纯阳紫气]])< -500 and bufftimeT(9377--[[高山流水]])< -500 and bufftimeT(5789--[[繁音急节]])< -500 and bufftimeT(6256--[[万花沃土]])< -500 and bufftimeT(8458--[[水月无间]])< -500 and bufftimeT(10618--[[雾雨]])< -500 and bufftimeT(11920--[[万花列宿]])< -500 and bufftimeT(11361)<-500 and bufftimeT(11077)<-500 and bufftimeT(11322)<-500 and t读条进度()>22 and t读条进度()<90 and V可攻击()==1 then
+		
+		if 翔极碧落state==2049 then
+		    使用物品("伪传·翔极碧落")
+		end
+		
+	end
+	
+	--·常规控制
+	if 幻蛊state~=2051 and 幻蛊state~=2057 and V可控前置()==1 and ( t关系==16 or t关系==24 ) and Distance<21 and InView(目标ID()) == true and t锁足<1700 and t定身<1700 and t眩晕<0 and t倒地<0 then
+	    使用物品("伪传·幻蛊")
+	end
+	
+	if 极乐引state~=2051 and 极乐引state~=2057 and V可控前置()==1 and ( t关系==16 or t关系==24 ) and Distance<9 and InView(目标ID()) == true and t锁足<1700 and t定身<1700 and t眩晕<1700 and t倒地<0 and SkillAfter(588--[[人剑合一]])>1000 and SkillAfter(366--[[大道无术]])>1000 and SkillAfter(1647--[[惊涛]])>1000 then
+	    使用物品("伪传·极乐引")
+	end
+	
+	if 撼地state~=2051 and 撼地state~=2057 and V可控前置()==1 and ( t关系==16 or t关系==24 ) and Distance<20 and InView(目标ID()) == true and t锁足<1700 and t定身<1700 and t眩晕<0 and t倒地<0 then
+	    if Distance>4 or ttisme==1 then --稍许兼顾一下追击
+	        使用物品("伪传·撼地")
+		end
+	end
+	
+	if 蚀心蛊state~=2051 and 蚀心蛊state~=2057 and V可攻击()==1 and Distance<21 and InView(目标ID()) == true and t控制==0 and V目标存在封内或缴械()==0 and m读条技能()==0 then
+	    使用物品("伪传·蚀心蛊")
+	end	
+	
+	--·击退
+	if 九转归一state==2049 and IsTargetPushHinder(8,0,999) and InView(目标ID()) == true and v可控前置()==1 and ( t关系==16 or t关系==24 ) and Distance<10  and t锁足<1700 and t定身<1700 and t眩晕<0 and t倒地<0 then
+	    使用物品("伪传·九转归一") --击退撞墙九转
+	end
+	
+    --拉扯
+	if 自动使用伪传捉影式==1 and 捉影式state~=2051 and 捉影式state~=2057 and V可控前置()==1 and ( t关系==16 or t关系==24 ) and Distance<21 and InView(目标ID()) == true and t锁足<0 and t定身<0 and t眩晕<0 and t倒地<0 and V目标不可拉()==0 then
+	    if Distance>8 then
+	        使用物品("伪传·捉影式")
+		end
+	end	
+	
+	
+	--------伤害类--------
+	if 风来吴山state~=2051 and 风来吴山state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then --风来吴山state==2049 and 
+	    if ( Distance<10  and V可释放重要技能()==1 ) or 周围敌对玩家(9)>1 then
+	        使用物品("伪传·风来吴山")
+		end
+	end
+	
+	if 无间狱state~=2051 and 无间狱state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then  
+	    if ( Distance<5  and V可释放重要技能()==1 ) or 周围敌对玩家(7)>1 then
+	        使用物品("伪传·无间狱")
+		end
+	end
+	
+	if 飞刃回转state~=2051 and 飞刃回转state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then 
+	    if Distance<8 and V可释放重要技能()==1 then
+	        使用物品("伪传·飞刃回转")
+		end
+	end
+	
+	if 振翅图南state~=2051 and 振翅图南state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then  
+	    if Distance<20 and V可释放重要技能()==1 and t:TestHeight(5)==false then
+	        使用物品("伪传·振翅图南")
+		end
+	end
+
+	if 心诤state~=2051 and 心诤state~=2057 and InView(目标ID()) == true and V可攻击()==1 and t关系~=-1 then  
+	    if Distance<5 and V可释放重要技能()==1 and t:TestHeight(5)==false then
+		    if t控制==1 or V目标存在封内或缴械()==1 or (m免控<0 and 被集火>1 and me:TestHeight(6)==false) then
+	            使用物品("伪传·心诤")
+			end
+		end
+	end	
+
+	--------追击类--------
+	if  跃潮斩波state~=2057 and 跃潮斩波state~=2051 and V可攻击()==1 and Distance>4 and m读条技能()==0 then
+		if 心法()==问水 and bufftimeR(1686)<-1000 and Distance>8  then
+		    使用物品("伪传·跃潮斩波")
+		end
+		if 心法()~=问水 and Distance>8 then
+		    使用物品("伪传·跃潮斩波")
+		end		
+	end	
+	
+    if  Distance>8 and Distance<35 and 烟雨行state==2049 and m封轻功<0 and 进战()==1  and m控制==0 then --追击
+	    改变面向(0)
+	    使用物品("伪传·烟雨行")
+	end
+	
+
+	--其他类
+	if 琴音共鸣state~=2051 and 琴音共鸣state~=2057 and V可攻击()==1 and Distance<21 and InView(目标ID()) == true and bufftimeT(367,6163,3214,6264,122,11920,6257,684,2065,5735,2757,384,1186)>0 then
+	    使用物品("伪传·琴音共鸣")
+	end
+	
+	if 生太极state~=2051 and 生太极state~=2057 and  m免控<0  and Distance<9 and t关系~=-1 and 进战()==1 then -- 生太极state==2049 and
+	    使用物品("伪传·生太极")
+	end
+	
+	if 楚河汉界state==2049 and  V可攻击()==1  and 进战()==1 and m读条技能()==0 and Distance<19 and t高低差()<25 and ( t关系==16 or t关系==24 ) and 与目标的面向角度()<10 then
+	    使用物品("伪传·楚河汉界")
+	end	
+
+	if 盾立state~=2051 and 盾立state~=2057  and 进战()==1 and V自身存在无敌类BUFF()==0 and m免控<0 then --简易处理
+	    if ( t内功==1 and Distance<20 ) or Distance<8 then
+		    if  ttisme==1 and t控制==0 and V目标存在封内或缴械()==0 and TFaceOK()~=0 then
+	            使用物品("伪传·盾立")
+	     	end
+		end
+		if 被集火>1 then
+		    使用物品("伪传·盾立")
+	    end
+	end
+	
+	if  凌然天风state~=2057 and 凌然天风state~=2051 and V可攻击()==1 and m读条技能()==0 and 进战()==1 and m免控<0  and t控制==0 and V目标存在封内或缴械()==0 then
+	    if Distance>10 or ( t高低差()>30 and me:TestHeight(6)==false ) then
+	        使用物品("伪传·凌然天风")
+	    end
+	end
+
+end
+
+end
+
+function 少林龙抓手()
+
+    if 可攻击()==1 and V目标不可拉()==0 and ISNPC()==4 and 刷新BUFF()==1 and bufftimeT(渡若F)<-1000 and bufftimeT(藏丛F)<-1000 then 
+	
+		
+		    if  ( t免控>0 and t免控<500 ) or bufftimeT(2756,19313,20057,20666)>0 or t读条技能()==25043 or t读条技能()==且待时休 or t读条技能()==奚毒射罔 then --加入新爹判断
+				
+				    if bufftimeR(8441)>0 then
+					
+				        释放(13069,0,4,1)
+						
+					end
+					
+			end 
+
+		
+	end	
+	
+
+
+end
+
+function 针对刀宗对策()
+
+	nC触石雨,nC触石雨ID = 敌对对自己释放的技能(触石雨,1000,15)
+	
+	--躲背摔
+	if  m免控< 0 and SkillAfter(血怒)>2000 and SkillAfter(无惧)>2000 and SkillAfter(隐刀)>1000 and bufftimeR(盾墙F)<0 and bufftimeR(隐F)<0 and bufftimeR(无惧F)<0 and bufftimeR(8449)<0 and bufftimeR(20247--[[龙门星楼BUFF]])<-1000 and bufftimeR(绿野蔓生F)<-1000 and bufftimeR(逐云寒蕊不可选中F)<-1000 and m封轻功<0 and V自身存在无敌类BUFF()==0 then 
+		if nC触石雨==1  then
+	        奇怪小轻功()
+	    end
+	end
+
+    --免控·击退
+	if bufftimeT(24172,23898,24182,24184,24240,24239)>0 and V目标不可拉()==0  then
+	    --释放逐星箭()
+	end
+	
+	--盾·破盾
+	if V可攻击()==1 and bufftimeT(24233,24238,24241)>0 then
+	    --释放霹雳()
+	end
+
+    --刀宗爆发·闪避或者开减伤
+    if bufftimeT(灭影追风F,灭影追风2F,灭影追风3F)>0 and 玩家.nHP<75 and ttisme==1 and Distance<=8 and 进战()==1 and bufftimeR(244)<0 and bufftimeR(384)<0 and t控制==0 and V目标存在封内或缴械()==0 then
+	    --释放(惊鸿游龙,1)
+	end
+	
+	
+	
+	--缴械·规避·如果后期能识别武器掉落，或自身有免控，可以不蹑云，选择就近捡起武器
+    if bufftimeR(洗兵雨F)>0 and bufftimeR(244)<0  then
+	
+	    --MessageYellow("被缴械，注意规避")
+		
+		-- if SkillAfter(遁影)>1500 and SkillAfter(浮光掠影)>1500 and Distance<13 and bufftimeR(惊鸿游龙F)<0  then
+		    -- if V自身可转面向()==1 then
+			    -- 改变面向(128)
+				-- 释放(蹑云逐月)
+			-- end
+			
+		-- end
+	
+		-- if bufftimeR(208)<-500 and 玩家.nState ~= 4 then 
+		    -- 释放(扶摇直上)
+		-- end 
+			
+		-- if bufftimeR(208) >-500 and 玩家.nState ~= 4 then
+		   -- 跳(1,1)
+		-- end		
+		
+	end	
+	
+	--封轻功·跳
+	if bufftimeR(562)>0 then
+		if bufftimeR(208) >-500 and 玩家.nState ~= 4 and bufftimeR(244)<0 and m控制==0 then
+		    跳(1,1)
+		end	    
+	end
+	
+	--大招读条
+	-- if ttisme==1 and t读条技能()==怒锋倾涛 and 技能等级(仁德)==1 and bufftimeR(乘龙戏水F)<0 and bufftimeT(24172,23898,24182,24184,24240,24239)>0 then
+	    -- 释放(32704)
+	-- end
+
+    if V可攻击()==1  and 技能等级(残烈)==1 and V目标不可拉()==0 and bufftimeT(24182)<0 and bufftimeT(24184)<0 then --
+	    if ( t免控>0 and t免控<1000) or (bufftimeT(24172)>0 and bufftimeT(24172)<1000) or (bufftimeT(23898)>0 and bufftimeT(23898)<1000)  or (bufftimeT(24240)>0 and bufftimeT(24240)<1000) or (bufftimeT(24239)>0 and bufftimeT(24239)<1000) or bufftimeT(24172,23898,24240,24239)>6000 or t免控>6000 then
+	        释放盾猛()
+		end
+	end
+
+end
+	
+MessageYellow("惊沙万里浮光涌，尘起刀落血光胧")
+function FFantasy()  --主函数
+
+--dbg(bufftimeR(9052) )
+--dbg(bufftimeR(8568) )
+
+--	ErrorRet()
+--MessageYellow(t:GetBuffLevel(单手持刀F)) --t:GetBuffLevel(单手持刀F)
+	基础数据()
+	
+if bufftimeR(12742)>0 then return end 
+
+
+	
+cf阵云=GetBuffS("自身",22993)   
+建模信息()
+
+金疮药state= UICALL(金疮药U,UI_STATE)
+安定散state= UICALL(定安散U,UI_STATE)
+行气散state= UICALL(1355,UI_STATE)
+觅踪窥影烟state= UICALL(561,UI_STATE)
+烟雨行state= UICALL(4881,UI_STATE)
+化蝶state= UICALL(2830,UI_STATE)
+穹隆化生state= UICALL(14083,UI_STATE)
+
+    if bufftimeR(12651,14623,14630,14631,18327,12758)>0 then --吃鸡伪装 / 月影沙
+	    return 
+	end
+	if  m读条技能()==27967 or bufftimeR(20239,20259,20287,20288,20245,20297)>-1000 then --龙门风车 / 斩无常 / 散流霞 / 唐门隐身 / 明教隐身
+	    return
+	end	
+	
+----------------------------------------------------------------------------------------------------------------------------------------------------	
+--一键瞬发幻光步
+key一键撼地 = 设置快捷("一键撼地","一键撼地")
+if KeyDown(key一键撼地)  == 1  then ---修改VL_T 可以换快捷 比如改为R键 VL_R
+	--释放(瞬发幻光步,4,30)
+	--MessageYellow("11212")
+	投掷_面向(撼地,20,14,6)
+	
+    if bufftimeR(16586,12696,14976,18064,20697)>0 and SkillAfter(撼地)>1500 and 烟雨行state==2049 and m封轻功<0  and m控制==0 and 玩家.nState~=27 then --追击
+	    改变面向(0)
+	    使用物品("伪传·烟雨行")
+	end
+	
+    if bufftimeR(16586,12696,14976,18064,20697)>0 and SkillAfter(撼地)>1500 and 化蝶state==2049 and m封轻功<0  and m控制==0 and 玩家.nState~=27 then --追击
+	    改变面向(0)
+	    使用物品("伪传·化蝶")
+	end
+	
+    if bufftimeR(16586,12696,14976,18064,20697)>0 and SkillAfter(撼地)>1500 and 穹隆化生state==2049 and m封轻功<0  and m控制==0 and 玩家.nState~=27 then --追击
+	    改变面向(0)
+	    使用物品("伪传·穹隆化生")
+	end
+	
+    if  m封轻功<0 and m控制==0 and 玩家.nState~=27 and 技能CD(蹑云逐月)==1 and 技能GCD(蹑云逐月)==1 and SkillAfter(撼地)>1500 then
+		释放(蹑云逐月)
+	end	
+	return
+end
+	
+--一键盾墙
+if 技能触发(盾墙,1500)==1 then
+    if  bufftimeR(盾飞F) > 0 then
+          释放盾回()
+    end
+    if SkillAfter(13067--[[盾立]])>3000 then
+        释放(盾墙)
+    end 
+end 
+ 
+if ( SkillAfter(13049)<1000 or 技能触发(13049,1000)==1)  and (bufftimeR(盾飞F) > 0 or bufftimeR(盾墙F)<0) then
+    return 
+end
+
+--一键决斗
+if 技能触发(15196,1000)==1 and 技能CD(扬旌沙场)==1  then
+    if  bufftimeR(盾飞F) > 0 then
+     释放盾回()
+    end
+    if bufftimeR(盾飞F)<0 then 
+        释放(15196)
+    end
+end 
+
+if ( SkillAfter(15196)<1000 or 技能触发(15196,1000)==1)  and bufftimeR(盾飞F) > 0  then
+    释放盾回()
+    return 
+end
+
+if ( SkillAfter(15196)<1000 or 技能触发(15196,1000)==1)  and (bufftimeR(盾飞F) > 0 or buffisme_t(决斗F)<0) then
+    return 
+end	
+
+
+--一键盾立
+if 技能触发(13067,1000)==1 and 技能CD(13067--[[盾立]])==1  then
+	if  bufftimeR(盾飞F) > 0 then
+	    释放盾回()
+	end
+    if bufftimeR(盾飞F)<0 and bufftimeR(盾立F)<-500 then 
+        释放(13067)
+    end
+    if SkillAfter(13067--[[盾立]])<1000  and bufftimeR(盾立F)<-500 then
+        return 
+    end 
+end 
+
+--一键盾击
+if 技能触发(13047,1000)==1 and 技能CD(13047--[[盾击]])==1  then
+	if  bufftimeR(盾飞F) > 0 then
+    释放盾回()
+	end
+    if bufftimeR(盾飞F)<0 then 
+        释放(13047)
+    end
+end 
+
+if ( SkillAfter(13047)<1000 or 技能触发(13047,1000)==1)  and (bufftimeR(盾飞F) > 0 or buffisme_t(盾击F)<10000) then
+    return 
+end	
+----------------------------------------------------------------------------------------------------------------------------------------------------
+		执行连招()
+
+	
+	if bufftimeR(盾墙F)<0 then
+        小轻功拾取武器()
+	end
+	
+	针对刀宗对策()
+	
+	新吃鸡伪传技能()
+	
+    if 防止嘲讽() == 1 and 技能GCD(盾刀)==1 then
+        面对目标()
+    end
+    基础数据()
+	吃鸡极限血量自动决斗()
+	
+    --MOBA回血
+    if 被集火<1 and 周围敌对玩家(20)<1 and bufftimeR(14821)>0  then
+        if 玩家.nHP<80 then 
+            释放(21945,1)
+        end 
+    end 
+
+	
+	if bufftimeR(16586,20697,18064,14976,12696)>0  then --吃鸡回血
+	
+	    if 友方距离<9 and 友方HP <35 and 技能等级(20984--[[激奋]])==1 and f免伤_全局友方<0 and bufftimeR(14498)<0 and 技能CD(盾壁)==1 and 进战()==1 then
+		    MessageYellow("有队友血量濒危，请注意激奋盾壁")
+		end
+	
+	    if 友方距离<9 and 友方HP <20 and 技能等级(20984--[[激奋]])==1 and f免伤_全局友方<0 and bufftimeR(14498)<0 and 进战()==1 and f仇飞 <-500 then
+		    释放(盾壁)
+		end
+	
+	    if bufftimeR(18105)<0 and 玩家.nHP<25 and 自身存在无敌类BUFF()==0 and 进战()==1 and  Distance<29 and f仇飞 <-500  then
+		    释放(盾壁)
+		end
+		
+	
+	    if 吃鸡自动吃行气散==1 and 行气散state==2049  then
+		    使用物品("行气散")
+		end
+	
+	    if 进战()==0 and 玩家.nState==3 and 充能血怒>2 and 被集火>0 and 玩家.nHP<95 and SkillAfter(血怒)>4000 and m免控<0 then
+				释放(血怒,1)
+
+	        血怒补怒气()
+		end
+		
+	    if 进战()==0 and 玩家.nState~=17 and 玩家.nState~=4 and 充能血怒>1 and bufftimeR(22993)>0 and bufftimeR(22993)<10000 and SkillAfter(血怒)>4000  then --V
+	        --释放(血怒,1)
+		end		
+
+	    if 进战()==0 and 玩家.nState==3 and 充能血怒>2 and cf阵云<4 and SkillAfter(血怒)>4000 and 技能等级(30769)==1 then --V
+	        --释放(血怒,1)
+		end	
+		
+		if 自身存在无敌类BUFF()==0 and 进战()==1 and bufftimeR(9175)<0 and bufftimeR(6223)<0 and bufftimeR(18105)<0 and 吃鸡自动大药==1 and bufftimeR(18105)<0 then
+
+		    if  玩家.nHP<=25 and 金疮药state==2049 and 自身存在禁疗类BUFF()==0 then --2049代表有CD
+			    使用物品("金疮药")
+			end
+		
+		    if  玩家.nHP<=40 and bufftimeR(13074)<0 and 金疮药state==2049 and 自身存在禁疗类BUFF()==0 then
+			    使用物品("金疮药")
+			end
+		
+		end
+	end
+	
+
+
+    近战职业丢燧石() --V
+
+	
+	if 自身存在无敌类BUFF()==0 and m减伤<0 and 玩家.nHP<=20 and 目标.nHP>20 then
+	   -- 释放非追击隐刀()
+	end
+
+    if 满足释放预判盾立条件()==1  then
+	    if bufftimeR(盾飞F)<0 and 充能盾立>0 then
+            MessageYellow("预判盾立")
+		end
+	end
+	
+	矿车点水枪补水()
+
+------------------------------------------------------------------------------------------	
+if 自动盾护保队友==1 then
+	if  bufftimeR(盾墙F) > 0 and t关系==68 and InView(目标ID()) == true then
+	    释放(盾压,0,20,1)
+	end
+    if 友方距离<20  and f免伤_全局友方 < -500 and f减伤_全局友方< 3000 and bufftimeR(盾墙F) > 0 and 技能CD(盾压)==1  and 目标ID() ~= 友方ID and 进战()==1 and bufftimeR(10212)<0 then --and 友方HP <65
+	    记录的ID =目标ID()
+    end 
+    if 友方距离<20  and f免伤_全局友方 < -500 and f减伤_全局友方< 3000 and bufftimeR(盾墙F) > 0 and 技能CD(盾压)==1 and 技能GCD(盾压)==1 and f不可选_全局友方<-500 and 进战()==1 and bufftimeR(10212)<0 then --and 友方HP <65
+	    选择目标(友方ID)
+    end  
+    if SkillAfter(盾压) >300 and SkillAfter(盾压) <1700 and 目标ID() == 友方ID  and bufftimeR(盾墙F) > 0 and 进战()==1 and bufftimeR(10212)<0 then   
+        选择目标(记录的ID)
+    end
+end
+--------------------------------------------------------------------------------------------	
+	是否敌对()
+	
+    if 目标解控技能在CD中估算()==1 and 可控前置()==1 and (技能CD时间(盾猛)<5 or 技能CD时间(撼地)<5 ) then --V
+		--MessageYellow("该目标大概率可被控死")
+	end
+	
+	if bufftimeR(16586)>0 then --吃鸡回血
+		if 自身存在无敌类BUFF()==0 and 进战()==1 and bufftimeR(9175)<0 and bufftimeR(6223)<0 and bufftimeR(18105)<0 then
+		
+		    if  Distance<29 and 玩家.nHP<=40 and bufftimeR(13074)<0 and 金疮药state==2049 and 吃鸡自动大药==1 and SkillAfter(盾壁)>1000 then
+			    使用物品("金疮药")
+			end
+		
+		end
+	end
+	
+	连局规避()
+	
+	if t免控<0 and 可攻击()==1 then
+	    释放惊沙()
+	end
+	
+	if bufftimeR(8483)>0 and bufftimeR(8440)<0 and t免控<0 and SkillAfter(惊沙)>1500 and Distance<8 and t倒地<0 and buffisme_t(8467)>-500 then --给惊沙留时间
+	    return 
+	end
+
+	
+	if 满足释放预判盾立条件()~=0 and bufftimeR(盾飞F)<0 then
+		if cn盾立> 2 then 
+			    释放盾立()
+		end 
+		if 满足释放预判盾立条件()==2 and 充能盾立>0 and SkillAfter(盾立)>1000 and bufftimeR(盾立F)<0 then
+		    return
+		end
+	end
+	
+
+
+	盾墙盾立斩绝绝抽刀()
+
+		怒涌隐刀()
+
+	--续免控
+	盾墙模块()
+
+	
+	 血魄补刀()
+	
+	盾回补减疗()
+	if 奶妈ID> 0  and ftm盾击<2000 and cftm盾击 >0   then 
+				   释放盾击()
+	end
+	控制目标()
+
+	AOE伤害回避()
+	怒涌盾回()
+	续免控()
+    if  m免控<0  and Distance<28 and 自身存在无敌类BUFF()==0 and SkillAfter(13067--[[盾立]])>1000 and  SkillAfter(13152--[[隐刀]])>900 and SkillAfter(无惧)>1000 and bufftimeR(盾飞F)<-500 and bufftimeR(隐F)<500 and 进战()==1 then 
+	    if 自身存在封轻功类BUFF()==1 or nC七星拱瑞==1 then
+            if  SkillAfter(血怒)>2000 then 释放(血怒,1) end
+		end
+    end
+
+	if 可攻击()==1 and V可释放重要技能()==1 then
+	    if bufftimeR(22977)>0 and Distance>9 and bufftimeR(盾飞F)>0 then --V
+	        --释放(30856,0,15,1)
+	    end
+	    --斩绝第四刀()
+	end
+	
+	if 可攻击()==1 then
+	    释放阵云结晦() --强行拉高优先级，有待观察
+	end
+
+	血魄追击()
+	花间爆发规避()
+	冰心爆发规避()
+	乱天狼规避()
+	
+
+
+	矿车点水枪()
+	
+	if 可攻击()==1 then
+	    斩绝绝补血怒()
+    end
+	
+	缴械规避()
+	
+	
+	if 可攻击()==1 then
+        盾姿态DPS()
+	    刀姿态DPS()
+	end
+	if  bufftimeR(22976)<0 and bufftimeR(22977)<0 and cf阵云<4 and SkillAfter(斩刀)>2000 then
+	    刀切盾()
+	end
+	额外盾切刀()	
+	盾切刀()
+
+end
+
+
+
+function  释放隐刀()
+	
+	
+	if  释放R(13152,0,12,1) ==  1 then 
+			开启连招(1300)
+			
+			AddFud(
+			function ()
+				释放(斩刀,0,20,1)
+				if q绝返==1 then 
+					释放绝刀()
+				end 
+				
+				释放(劫刀,0,4,1)
+			end
+				)
+
+			ErrorRet()
+	end 
+end 
+
+function  怒涌盾回()
+	if f怒涌 <1000 and GCD ==1 and 玩家.怒气<=5 and  技能CD时间(盾刀)>0.7 and f怒涌监控<-500 then 
+			释放(盾回)
+	end 
+		
+
+	if 玩家.怒气<15 and 技能CD(斩刀) == 0  and Distance <15 and 技能CD(盾猛) ==1  and f怒涌监控<-500 and f怒涌 <2000   then
+		控制(盾回,倒地,1000)
+	end 
+end
+	
+	
+
+function 怒涌隐刀()
+	if f仇飞 > 0 then 
+		return
+	end 
+	if not 可追击() then 
+		return
+	end
+	
+	if 技能等级 (28514) == 0 then 
+			return 
+	end
+	if  玩家.姿态 == 2 and 技能CD(斩刀)  == 1 and 玩家.怒气>15 and  技能GCD(斩刀)  ==1 and cn盾飞 >1 then 
+
+	开启连招(1000)
+		AddSkill(盾飞) 
+		AddFud(
+			function ()
+
+				释放绝刀()
+				释放(斩刀,0,8,1)
+			end 
+		)
+		ErrorRet()
+	end  
+end 
+
+function 释放绝刀()
+	
+	if  bufftimeR(8451) >-500  then
+		if  t减伤<0 and t免伤<0 and SkillAfter(血怒) > 1000 and 玩家.怒气<20 and   m免控<500 then 	
+				释放(血怒)
+		end
+					释放(绝刀,0,8,1)
+
+	end 
+	
+	if 技能等级( 13090) == 1 and bufftimeR(8451) <-500 and 玩家.怒气>45 and SkillAfter(斩刀) >2000 and b绝返 then 
+		释放(斩刀,0,20,1)
+	end 
+	if 技能等级( 13090) == 1 and  b绝返 and bufftimeR(8451) <-500 and 玩家.怒气>25 and 技能等级(28514--[[怒涌--]]) ==1 and SkillAfter(斩刀) >2000 then 
+		释放(斩刀,0,20,1)
+	end 	
+	
+	if  技能等级 (28514) ==1 and 玩家 .怒气>=20 and  not b绝返 then 
+
+		释放(绝刀,0,8,1)
+	end 
+	if not b绝返 and q绝返 ==1 then 
+			释放(绝刀,0,8,1)
+
+	end 
+end 
+
+
+
+function 投掷_面向(技能,距离,最小距离, 高度容错值)
+	if   技能CD时间(技能) ~= 0 then
+		return
+	end
+	if  SkillAfter(技能) < 200   then
+		return
+	end
+	local 高度 = me:GetZ()+256
+	for nDis=距离 , 最小距离 ,-1  do
+		for  nH = 0  ,   高度容错值 , 2 do
+			for nV = 0 , 15 , 2 do
+				
+				repeat
+					
+					local   xx,yy,zz =	计算面向距离坐标(nDis,nV,nH)
+					local pp = GetPoint(  xx,yy,zz )
+					if not 	me:InViewPTP(xx,yy,zz) then
+						break
+					end
+					
+					local  两点距离= 	GetTowPointDis(me:GetPlayerPoint(),pp )
+					--		dbg("自身的坐标", me:GetX(), me:GetY(),me:GetZ() ,两点距离 )
+					
+					if   两点距离 < 距离   and 两点距离 > 最小距离   then
+						if 	SkillXYZ(技能 ,xx,yy,zz   ) ==1 then
+							ErrorRet ()
+						end
+					end
+					
+					break
+				until true
+				
+			end
+		end
+	end
+end
+function 奇穴定义 ()
+	q血魄 =技能等级(21281)
+	q绝返 =技能等级(13090)
+end 
+
+
+
+function 绝返记录()
+	
+    if	q绝返 == 0 then 
+			b绝返 = false
+	end
+	if  SkillAfter(盾飞) < 100 then 
+		b绝返 = true
+	end 
+	
+	if  SkillAfter(斩刀) < 100 then 
+	b绝返 =false
+	end 
+end 
+
+
